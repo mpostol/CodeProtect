@@ -1,22 +1,13 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CAS.Lib.CodeProtect.EnvironmentAccess;
-using System.Diagnostics;
-using System.Reflection;
+﻿using CAS.Lib.CodeProtect.EnvironmentAccess;
 using Microsoft.Build.Tasks.Deployment.ManifestUtilities;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Reflection;
 
 namespace CAS.Lib.CodeProtect.Tests
 {
   [TestClass]
   public class ManifestManagementUnitTest
   {
-    [TestMethod]
-    [TestCategory("CAS Core")]
-    public void FileNamesManifestFileNameTestMethod()
-    {
-      Debug.WriteLine(String.Format("Manifest File Name {0}", FileNames.ManifestFileName));
-      Assert.IsTrue(FileNames.ManifestFileName.Contains(@"PR36-CAS_MAIN_CORE_PCKG\UT\CodeProtect\CodeProtectTests\bin\Debug"));
-    }
     [TestMethod]
     [TestCategory("CAS Core")]
     public void ManifestManagementWriteReadTestMethod()

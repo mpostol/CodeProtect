@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>CAS.CodeProtect</id>
+    <version>5.0.2 </version>
+    <title>CAS.CodeProtect</title>
+    <authors>CAS</authors>
+    <owners>commsvr.com</owners>
+    <projectUrl>svn://svnserver.hq.cas.com.pl/VS/trunk/CAS.CodeProtect</projectUrl>
+	  <licenseUrl>http://www.cas.internetdsl.pl/commserver/P_DowloadCenter/Lic-09000401EN_License_Agreement.pdf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>false</developmentDependency>
+    <description>
+	    Helper library supporting licenses creation and validation.
+    </description>
+    <summary>
+	    Licenses management support library.
+    </summary>
+    <releaseNotes>
+       Contains previously released component. 
+	  </releaseNotes>
+    <copyright>Copyright (c) 2000-2016 CAS LODZ POLAND</copyright>
+    <tags>CAS Software, CAS Framework, CAS Library, Licensing.</tags>
+  </metadata>
+  <files>
+  </files>
+</package>
+

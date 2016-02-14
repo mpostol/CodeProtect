@@ -1,5 +1,5 @@
 ﻿//<summary>
-//  Title   : Assembly info for: CodeProtect Class Library
+//  Title   : Assembly info for: CAS.CodeProtect
 //  System  : Microsoft Visual C# .NET
 //  $LastChangedDate$
 //  $Rev$
@@ -7,7 +7,7 @@
 //  $URL$
 //  $Id$
 //
-//  Copyright (c) 2000-2015 CAS LODZ POLAND
+//  Copyright (c) 2000-2016 CAS LODZ POLAND
 //  +48 (42) 686 25 47
 //  techsupp@cas.eu
 //  www.cas.eu
@@ -17,23 +17,23 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("CodeProtect Class Library")]
-[assembly: AssemblyDescription("CAS Framework Core: CodeProtect Class Library")]
+[assembly: AssemblyTitle("CAS.CodeProtect")]
+[assembly: AssemblyDescription("CAS Framework Core: CAS.CodeProtect")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("CAS")]
 [assembly: AssemblyProduct("CAS Framework Core")]
-[assembly: AssemblyCopyright("Copyright (c) 2000-2015 CAS LODZ POLAND")]
+[assembly: AssemblyCopyright("Copyright (c) 2000-2016 CAS LODZ POLAND")]
 [assembly: AssemblyTrademark("CAS Framework")]
 [assembly: AssemblyCulture("")]
 
 [assembly: ComVisible(false)]
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("5160a380-4fa0-4dd7-9242-1a55c295f3ed")]
-[assembly: AssemblyVersion("5.00.02.*")]
-[assembly: AssemblyFileVersion("5.00.02")]
+[assembly: AssemblyVersion("5.0.2.*")]
+[assembly: AssemblyFileVersion("5.0.2")]
 
 [assembly: System.CLSCompliantAttribute(true)]
-[assembly: System.Runtime.CompilerServices.InternalsVisibleTo( "CAS.LibCodeProtectTests, " +  
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo( "CAS.Lib.CodeProtect.Tests, " +  
   "PublicKey=0024000004800000940000000602000000240000525341310004000001000100b3cff1bec656a6"+
             "e3784c75cacce8ee3bc695d0ce135d820c86465eb49b2353f0438d28ad9a458e5350c0c141393d"+
              "d9ad606bd9f4e0a8e1b0c49fa37835630b16798ece56df81c756f4c6bd37f07d68cc91ebfa7be7"+
