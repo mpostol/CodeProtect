@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Package xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper" Culture ="Culture" Name="DisplayName">
+  <Strings >
+    <String Name ="Culture">en</String>
+    <String Name="DisplayName">CodeProtect</String>
+    <String Name="AdminRequired">Administrator permissions are required to install the .NET Framework 2.0. Contact your administrator.</String>
+    <String Name="GeneralFailure">A failure occurred attempting to install the CodeProtect</String>
+  </Strings>
+</Package> 

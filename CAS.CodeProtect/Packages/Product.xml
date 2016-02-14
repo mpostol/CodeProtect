@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Product xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper"
+         ProductCode="CAS.CodeProtect">
+  <PackageFiles >
+    <PackageFile Name="CodeProtectSDK.msi" />
+  </PackageFiles>
+  <InstallChecks>
+    <AssemblyCheck Property ="Installed" Name="CAS.CodeProtect" Version="2.3.2752.33487" Culture="neutral"
+                   PublicKeyToken="8832ff1a67ea61a3" ProcessorArchitecture="msil"  />
+  </InstallChecks>
+  <Commands Reboot="Defer">
+    <Command PackageFile ="CodeProtectSDK.msi" EstimatedInstalledBytes="220000" EstimatedInstallSeconds="10" Log ="CodeProtect.Log" >
+      <InstallConditions >
+        <BypassIf Compare ="ValueExists" Property ="Installed" />
+        <!-- Block install if user does not have admin privileges -->
+        <FailIf Property="AdminUser" Compare="ValueEqualTo" Value="false" String="AdminRequired"/>
+      </InstallConditions>
+      <ExitCodes >
+        <ExitCode Value="0" Result="Success" />
+        <ExitCode Value="4097" Result="Fail" String="AdminRequired" />
+        <DefaultExitCode Result ="Fail" String ="GeneralFailure" FormatMessageFromSystem ="true"/>
+      </ExitCodes>
+    </Command>
+  </Commands>
+</Product>

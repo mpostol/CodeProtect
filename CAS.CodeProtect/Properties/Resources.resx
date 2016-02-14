@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ErrStr_OpenLicense_Signature" xml:space="preserve">
+    <value>the license signature is wrong.</value>
+    <comment>License error message</comment>
+  </data>
+  <data name="ErrStr_UpgardeData_HardwareKeyToken" xml:space="preserve">
+    <value>HardwareKeyToken do not match</value>
+    <comment>UpgardeData exception message</comment>
+  </data>
+  <data name="ErrStr_UpgardeData_Issuer" xml:space="preserve">
+    <value>Unable to upgrade Issuer information</value>
+    <comment>UpgardeData exception message</comment>
+  </data>
+  <data name="ErrStr_UpgardeData_LicenseKeyToken" xml:space="preserve">
+    <value>LicenseKeyToken do not match</value>
+    <comment>UpgardeData exception message</comment>
+  </data>
+  <data name="ErrStr_UpgardeData_LicenseUID" xml:space="preserve">
+    <value>LicenseUID in the upgrade is empty.</value>
+    <comment>UpgardeData exception message</comment>
+  </data>
+  <data name="ErrStr_UpgardeData_Overupgrade" xml:space="preserve">
+    <value>This license has been previously used to upgrade, but can be used only once for this purpose.</value>
+    <comment>UpgardeData exception message</comment>
+  </data>
+  <data name="ErrStr_UpgardeData_Product" xml:space="preserve">
+    <value>Unable to upgrade Product information: </value>
+    <comment>UpgardeData exception message</comment>
+  </data>
+  <data name="ErrStr_UpgardeData_Product_Name" xml:space="preserve">
+    <value>the new license and product name does not match.</value>
+    <comment>UpgardeData exception message</comment>
+  </data>
+  <data name="ErrStr_UpgardeData_Product_Version" xml:space="preserve">
+    <value> the version of new license does not allow you upgrade the current product license.</value>
+    <comment>UpgardeData exception message</comment>
+  </data>
+  <data name="ErrStr_UpgardeData_User" xml:space="preserve">
+    <value>Unable to upgrade User information: </value>
+    <comment>UpgardeData exception message</comment>
+  </data>
+  <data name="FunctionConstraintDescriptor" xml:space="preserve">
+    <value>This item constrains the user to use a selected function. It also has the ability to show the user a link to purchase extended license.</value>
+    <comment>CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.FunctionConstraint(CAS.Lib.CodeProtect.LicenseDsc.LicenseFile)</comment>
+  </data>
+  <data name="LicenseFileError" xml:space="preserve">
+    <value>License file error:</value>
+    <comment>CAS.Lib.CodeProtect.CodeProtectLP.CodeProtectLP()</comment>
+  </data>
+  <data name="LicenseFileErrorAssembly" xml:space="preserve">
+    <value>Cannot get the currently loaded assembly in which the specified {0} class is defined.</value>
+    <comment>CAS.Lib.CodeProtect.CodeProtectLP.CodeProtectLP()</comment>
+  </data>
+  <data name="LicenseFileErrorContext" xml:space="preserve">
+    <value>"context" parameter  cannot be null.</value>
+    <comment>CAS.Lib.CodeProtect.CodeProtectLP.CodeProtectLP()</comment>
+  </data>
+  <data name="LicenseFileErrorRSA" xml:space="preserve">
+    <value>It is unable to get RSA keys to check license file digital signature.</value>
+    <comment>CAS.Lib.CodeProtect.CodeProtectLP.CodeProtectLP()</comment>
+  </data>
+  <data name="LicenseFileErrorType" xml:space="preserve">
+    <value>"type" parameter cannot be null.</value>
+    <comment>CAS.Lib.CodeProtect.CodeProtectLP.CodeProtectLP()</comment>
+  </data>
+  <data name="LicMessageFunctionNotAllowed" xml:space="preserve">
+    <value>This license does not allow you to execute the functionality:
+&#x1F;{0}.
+You may get an upgrade at: {1}</value>
+    <comment>CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint</comment>
+  </data>
+  <data name="Tx_LicCap" xml:space="preserve">
+    <value>License failure</value>
+    <comment>License error message</comment>
+  </data>
+  <data name="Tx_LicDemoModeInfo" xml:space="preserve">
+    <value>Program will run in demo version.</value>
+    <comment>License error message</comment>
+  </data>
+  <data name="Tx_LicDemoWriteErr" xml:space="preserve">
+    <value>You are working in demo version - save comand  is not allowed.</value>
+    <comment>License error message</comment>
+  </data>
+  <data name="Tx_LicNoFileErr" xml:space="preserve">
+    <value>A suitable license file couldn't be found.</value>
+    <comment>License error message</comment>
+  </data>
+  <data name="Tx_LicValidationErr" xml:space="preserve">
+    <value>Unable to validate the license.</value>
+    <comment>License error message</comment>
+  </data>
+  <data name="Tx_LicVolumeConstrainErr" xml:space="preserve">
+    <value> the license volume constrain has been exceeded</value>
+    <comment>License error message</comment>
+  </data>
+  <data name="LicMessageFunctionDataTime" xml:space="preserve">
+    <value>It appears that the date on the computer was changed since the last use of this license. 
+The licensing scheme does not allow this.</value>
+    <comment>CAS.Lib.CodeProtect.CodeProtectLP.CodeProtectLP()</comment>
+  </data>
+  <data name="LicMessageFunctionNoReason" xml:space="preserve">
+    <value>The failure reason is not provided by the validation process.</value>
+    <comment>CAS.Lib.CodeProtect.CodeProtectLP.CodeProtectLP()</comment>
+  </data>
+  <data name="AssemblyHelperToString" xml:space="preserve">
+    <value>"Contact {0} {1} {2} {3} for more information"</value>
+    <comment>CAS.Lib.CodeProtect.AssemblyHelperAttribute.ToString(System.Type)</comment>
+  </data>
+  <data name="LicenseFileErrorAValidLicense" xml:space="preserve">
+    <value>A valid license cannot be granted for the type of {0} in the product: </value>
+    <comment>CAS.Lib.CodeProtect.CodeProtectLP.BuildExceptionString(System.Type, System.Reflection.Assembly, System.Exception)</comment>
+  </data>
+  <data name="LicenseFileErrorContactManufacturer" xml:space="preserve">
+    <value>"Contact the manufacturer of the component for more information."</value>
+    <comment>CAS.Lib.CodeProtect.CodeProtectLP.BuildExceptionString(System.Type, System.Reflection.Assembly, System.Exception)</comment>
+  </data>
+  <data name="LicenseFileErrorIntro" xml:space="preserve">
+    <value>Because of:</value>
+    <comment>CAS.Lib.CodeProtect.CodeProtectLP.BuildExceptionString(System.Type, System.Reflection.Assembly, System.Exception)</comment>
+  </data>
+  <data name="LicenseFileErrorTypeUnknown" xml:space="preserve">
+    <value>Type unknown</value>
+    <comment>CAS.Lib.CodeProtect.CodeProtectLP.BuildExceptionString(System.Type, System.Reflection.Assembly, System.Exception)</comment>
+  </data>
+  <data name="ErrStr_GetLicensee_UnableToGetLicenseFrom_default" xml:space="preserve">
+    <value>Unable to get license from default location, reason:</value>
+    <comment>CAS.Lib.CodeProtect.CodeProtectLP</comment>
+  </data>
+  <data name="ErrStr_GetLicensee_UnableToGetLicenseFrom_isolatedstorage" xml:space="preserve">
+    <value>Unable to get license from alternate location, reason:</value>
+    <comment>CAS.Lib.CodeProtect.CodeProtectLP</comment>
+  </data>
+  <data name="ErrStr_GetLicensee_UnableToGetLicenseFrom_web" xml:space="preserve">
+    <value>Unable to get license for the application, reason:</value>
+    <comment>CAS.Lib.CodeProtect.CodeProtectLP</comment>
+  </data>
+  <data name="ErrStr_SaveLicense_UnableToSaveLicense" xml:space="preserve">
+    <value>Unable to save license in default location, because of</value>
+    <comment>CAS.Lib.CodeProtect.CodeProtectLP</comment>
+  </data>
+  <data name="FunctionConstraintName" xml:space="preserve">
+    <value>Function Constraint</value>
+    <comment>CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.FunctionConstraint(CAS.Lib.CodeProtect.LicenseDsc.LicenseFile)</comment>
+  </data>
+  <data name="UnlockFindingLicenseFailureMessage" xml:space="preserve">
+    <value>Unable to unlock the software, correct the key and try again.</value>
+    <comment>CAS.Lib.CodeProtect.Controls.UlockKeyDialog</comment>
+  </data>
+  <data name="UnlockInalationFailureCaption" xml:space="preserve">
+    <value>Unlock failure</value>
+    <comment>CAS.Lib.CodeProtect.Controls.UlockKeyDialog</comment>
+  </data>
+  <data name="UnlockSuccessCaption" xml:space="preserve">
+    <value>Unlock software</value>
+    <comment>CAS.Lib.CodeProtect.Controls.UlockKeyDialog</comment>
+  </data>
+  <data name="UnlockSuccessMessge" xml:space="preserve">
+    <value>The software has been unlocked successfully. 
+Restart the application to activate it.</value>
+    <comment>CAS.Lib.CodeProtect.Controls.UlockKeyDialog</comment>
+  </data>
+  <data name="License_request_message" xml:space="preserve">
+    <value>Hi,
+I am interested in a new licence, below are my current licensing details:</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="keys" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>keys.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="HowToUlock_docx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HowToUlock.docx.rtf;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="MenuItemText" xml:space="preserve">
+    <value>Enter Key...</value>
+    <comment>CAS.Lib.CodeProtect.Controls.UlockKeyDialog</comment>
+  </data>
+  <data name="MenuItemToolTipText" xml:space="preserve">
+    <value>Shows the dialog Unlock key to enter 
+the key and unlock the software.</value>
+  </data>
+  <data name="SecurityUnlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SecurityUnlock.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Icone used by the user dialog</comment>
+  </data>
+  <data name="CASCommonResources" xml:space="preserve">
+    <value>CAS.CommonResources</value>
+    <comment>CAS.Lib.CodeProtect.Controls.UlockKeyDialog</comment>
+  </data>
+  <data name="CaptionUpgardeLicense" xml:space="preserve">
+    <value>Upgarde license</value>
+    <comment>CAS.Lib.ControlLibrary.Licences</comment>
+  </data>
+  <data name="ErrorStringUnableToUpgradeLicense" xml:space="preserve">
+    <value>Unable to upgrade license:</value>
+    <comment>CAS.Lib.CodeProtect.LicenseDsc.LicenseFile</comment>
+  </data>
+  <data name="UnlockFailureMessge" xml:space="preserve">
+    <value>Unable to unlock the software because:  </value>
+    <comment>CAS.Lib.CodeProtect.Controls.UlockKeyDialog</comment>
+  </data>
+  <data name="DefaultUnlockCode" xml:space="preserve">
+    <value>DefaultDemo</value>
+    <comment>CAS.Lib.CodeProtect.LicenseDsc.LiceseFile</comment>
+  </data>
+  <data name="ProductUnlockCodeStringToRemove" xml:space="preserve">
+    <value>CAS.</value>
+    <comment>CAS.Lib.CodeProtect.Controls.UlockKeyDialog</comment>
+  </data>
+  <data name="ErrStr_InstallLicense_NoContainer" xml:space="preserve">
+    <value>No license container is available.</value>
+    <comment>CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer</comment>
+  </data>
+  <data name="ErrStr_InstallLicense_NoLicenseFound" xml:space="preserve">
+    <value>There is no license with the following path available in the container.</value>
+    <comment>CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer</comment>
+  </data>
+  <data name="ErrStr_InstallLicense_NoPath" xml:space="preserve">
+    <value>No valid path of license is available for opening in container.</value>
+    <comment>CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer</comment>
+  </data>
+  <data name="ErrStr_InstallLicense_CannotLoadContainer" xml:space="preserve">
+    <value>Cannot load the license container ({0}).</value>
+    <comment>CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer</comment>
+  </data>
+  <data name="ErrStr_InstallLicense_NoLicForProductInContainer" xml:space="preserve">
+    <value>There is no license for product: {0} in the license container.</value>
+    <comment>CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer</comment>
+  </data>
+  <data name="SplashScreenDefaultAppMissing" xml:space="preserve">
+    <value>The default application that opens:
+{0} 
+may be mis-configured 
+(details: {1}). 
+Please navigate to: {0} manually.</value>
+    <comment>CAS.Lib.CodeProtect.Controls.SplashScreen</comment>
+  </data>
+  <data name="SplashScreenStartASMDButtonText" xml:space="preserve">
+    <value>Start</value>
+    <comment>CAS.Lib.CodeProtect.Controls.SplashScreen</comment>
+  </data>
+  <data name="SplashScreenStartButtonFormat" xml:space="preserve">
+    <value>Wait {0}s</value>
+    <comment>CAS.Lib.CodeProtect.Controls.SplashScreen</comment>
+  </data>
+  <data name="SplashScreenWaitMessage" xml:space="preserve">
+    <value>Please wait while starting {0}. It may take a few seconds.</value>
+    <comment>CAS.Lib.CodeProtect.Controls.SplashScreen</comment>
+  </data>
+  <data name="SplashScreenStoreUrl" xml:space="preserve">
+    <value>http://store.commsvr.com/</value>
+    <comment>CAS.Lib.CodeProtect.Controls.SplashScreen</comment>
+  </data>
+  <data name="UAASMDInstallbanner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\commserver_software_family_700x98.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FunctionConstraint_Allowed" xml:space="preserve">
+    <value>This functionality is ENABLED.</value>
+    <comment>CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.FunctionConstraint</comment>
+  </data>
+  <data name="FunctionConstraint_NOTAllowed" xml:space="preserve">
+    <value>This functionality is DISABLED.</value>
+    <comment>CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.FunctionConstraint</comment>
+  </data>
+  <data name="UsageConstraint_Days" xml:space="preserve">
+    <value>Day counter {0} (maximum allowed: {1})</value>
+    <comment>CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint</comment>
+  </data>
+  <data name="UsageConstraint_Hit" xml:space="preserve">
+    <value>Hit counter {0} (maximum allowed: {1})</value>
+    <comment>CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint</comment>
+  </data>
+  <data name="UsageConstraint_Usage" xml:space="preserve">
+    <value>Usage counter {0} (maximum allowed: {1})</value>
+    <comment>CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint</comment>
+  </data>
+  <data name="ErrStr_InstallLicense_NoManifest" xml:space="preserve">
+    <value>There is no valid product manifest - the product name is unavailable.</value>
+    <comment>CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer</comment>
+  </data>
+</root>

@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CAS.Lib.CodeProtect</RootNamespace>
+    <AssemblyName>CAS.CodeProtect</AssemblyName>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5E8D8581-87ED-4F5A-BDEB-09A01E45D3CC}</ProjectGuid>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>cas.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>False</DelaySign>
+    <AssemblyOriginatorKeyMode>File</AssemblyOriginatorKeyMode>
+    <NoStdLib>False</NoStdLib>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <FileAlignment>4096</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>http://localhost/CAS.CodeProtect/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <Optimize>False</Optimize>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DocumentationFile>bin\Debug\CAS.CodeProtect.XML</DocumentationFile>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <Optimize>True</Optimize>
+    <DefineConstants>TRACE</DefineConstants>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>None</DebugType>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <DocumentationFile>bin\Release\CAS.CodeProtect.XML</DocumentationFile>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Build.Tasks.v3.5" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyHelperAttribute.cs" />
+    <Compile Include="AssemblyKeyAttribute.cs" />
+    <Compile Include="Controls\Licences.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Licences.Designer.cs">
+      <DependentUpon>Licences.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UlockKeyDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\UlockKeyDialog.Designer.cs">
+      <DependentUpon>UlockKeyDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnvironmentAccess\UnlockKeyAssemblyContainer.cs" />
+    <Compile Include="EnvironmentAccess\CodeProtectHelpers.cs" />
+    <Compile Include="EnvironmentAccess\FileNames.cs" />
+    <Compile Include="EnvironmentAccess\IsolatedStorageAccess.cs" />
+    <Compile Include="EnvironmentAccess\LicenseTraceSource.cs" />
+    <Compile Include="EnvironmentAccess\ManifestManagement.cs" />
+    <Compile Include="EnvironmentAccess\WebApplicationLicenseCollector.cs" />
+    <Compile Include="EnvironmentAccess\WMIAccess.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="InstallContextNames.cs" />
+    <Compile Include="IsLicensed.cs" />
+    <Compile Include="LibInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LibInstaller.Designer.cs">
+      <DependentUpon>LibInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LicenseDsc\AbstractUpgradeableData.cs" />
+    <Compile Include="LicenseDsc\Constraints\FunctionConstraint.cs" />
+    <Compile Include="LicenseDsc\IConstraintItemProvider.cs" />
+    <Compile Include="LicenseDsc\LicenseFileException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CodeProtectLP.cs" />
+    <Compile Include="MaintenanceControlComponent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaintenanceControlComponent.Designer.cs">
+      <DependentUpon>MaintenanceControlComponent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LicenseDsc\CustomData.cs" />
+    <Compile Include="LicenseDsc\Issuer.cs" />
+    <Compile Include="LicenseDsc\LicenseFile.cs" />
+    <Compile Include="LicenseDsc\Product.cs" />
+    <Compile Include="LicenseDsc\Statistics.cs" />
+    <Compile Include="LicenseDsc\User.cs" />
+    <Compile Include="LicenseDsc\Constraints\AndConstraint.cs" />
+    <Compile Include="LicenseDsc\Constraints\BetaConstraint.cs" />
+    <Compile Include="LicenseDsc\Constraints\DayTimeConstraint.cs" />
+    <Compile Include="LicenseDsc\Constraints\DemoConstraint.cs" />
+    <Compile Include="LicenseDsc\Constraints\DesignTimeConstraint.cs" />
+    <Compile Include="LicenseDsc\Constraints\DomainConstraint.cs" />
+    <Compile Include="LicenseDsc\Constraints\OrConstraint.cs" />
+    <Compile Include="LicenseDsc\Constraints\RuntimeConstraint.cs" />
+    <Compile Include="LicenseDsc\Constraints\UsageConstraint.cs" />
+    <Compile Include="LicenseDsc\Constraints\VersionConstraint.cs" />
+    <Compile Include="LicenseDsc\AbstractConstraint.cs" />
+    <Compile Include="LicenseDsc\AbstractContainerConstraint.cs" />
+    <Compile Include="LicenseDsc\AbstractLicenseData.cs" />
+    <Compile Include="LicenseDsc\IConstraint.cs" />
+    <Compile Include="LicenseDsc\ILicenseData.cs" />
+    <None Include="cas.snk" />
+    <Compile Include="LicenseDsc\Constraints\ProcessorConstraint.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AssemblyInfo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagrams\XData.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LicenseDsc\AddResources\LicensrSyntax.xml" />
+    <None Include="LicenseDsc\AddResources\LicensrSyntax.xsd">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="LicenseDsc\AddResources\LicensrSyntax.xsx">
+      <DependentUpon>LicensrSyntax.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\Licences.resx">
+      <DependentUpon>Licences.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UlockKeyDialog.resx">
+      <DependentUpon>UlockKeyDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibInstaller.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LibInstaller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AssemblyInfo.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>AssemblyInfo.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\keys.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Packages\EN\package.xml" />
+    <Content Include="Packages\Product.xml" />
+    <Content Include="Properties\keys.xml" />
+    <Content Include="RedistList\CAS.CodeProtect.RedistList.xml" />
+    <None Include="Resources\commserver_software_family_700x98.jpg" />
+    <None Include="Resources\HowToUlock.docx.rtf" />
+    <None Include="Resources\SecurityUnlock.ico" />
+    <None Include="security.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
