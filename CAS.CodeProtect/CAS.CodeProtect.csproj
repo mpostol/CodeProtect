@@ -212,7 +212,9 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>CodeProtect.Nuget.nuspec</LastGenOutput>
     </Content>
-    <Content Include="Packages\EN\package.xml" />
+    <Content Include="Packages\EN\package.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Packages\Product.xml" />
     <Content Include="Properties\keys.xml" />
     <Content Include="RedistList\CAS.CodeProtect.RedistList.xml" />

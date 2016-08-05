@@ -20,17 +20,19 @@ namespace CAS.Lib.CodeProtect
   /// <summary>
   /// Context keys used to get property form the insaller CustomActionData and additional important instalation information
   /// </summary>
-  /// <remarks>To get description of properties provided by the installer visit the msdn page:
+  /// <remarks>
+  /// 
+  /// To get description of properties provided by the installer visit the msdn page:
   /// http://msdn.microsoft.com/en-us/library/aa370905(v=VS.85).aspx
   /// </remarks>
   public static class InstallContextNames
   {
     #region internal
-    //Propierties defined by the user.
+    //Properties defined by the user - dilog boxes.
     internal const string User = "ca_user";
     internal const string Company = "ca_company";
     internal const string Email = "ca_email";
-    //Installer properties 
+    //Installer properties setup on the Properties window of the Commit custom action as the CustomActionData value. 
     internal const string Productname = "ca_productname";
     internal const string Version = "ca_version";
     internal const string Allusers = "ca_allusers";

@@ -1,5 +1,5 @@
 ﻿
-namespace CAS.Lib.CodeProtect.Tests
+namespace CAS.CodeProtect.UnitTests
 {
   internal static class CommonDefinitions
   {

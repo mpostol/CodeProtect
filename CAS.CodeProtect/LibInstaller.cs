@@ -32,7 +32,7 @@ namespace CAS.Lib.CodeProtect
   /// <summary>
   /// Provides the foundation for custom installations.
   /// </summary>
-  /// <remarks>It instals manifest and signed by the application a demo license file</remarks>
+  /// <remarks>It installs manifest and signed by the application a demo license file</remarks>
   [RunInstaller( true )]
   public partial class LibInstaller: Installer
   {
