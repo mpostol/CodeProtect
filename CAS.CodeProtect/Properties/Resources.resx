@@ -395,4 +395,8 @@ Please navigate to: {0} manually.</value>
     <value>There is no valid product manifest - the product name is unavailable.</value>
     <comment>CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer</comment>
   </data>
+  <data name="SourceAssemblyFailedMessage" xml:space="preserve">
+    <value>It is impossible for this environment to get source assembly and install license.</value>
+    <comment>CAS.Lib.CodeProtect.LibInstaller</comment>
+  </data>
 </root>

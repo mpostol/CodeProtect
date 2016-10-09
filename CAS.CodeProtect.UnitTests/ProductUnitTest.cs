@@ -1,6 +1,7 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿
 using CAS.Lib.CodeProtect.LicenseDsc;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using System.Reflection;
 
 namespace CAS.CodeProtect.UnitTests
@@ -48,7 +49,7 @@ namespace CAS.CodeProtect.UnitTests
       Assert.AreEqual<string>(_existingProduct.Version, _upgradeProduct.Version);
     }
     [TestMethod]
-    public void VersionGreaderUpgradeTestMethod()
+    public void VersionGreaterUpgradeTestMethod()
     {
       Assembly _expectedProduct = Assembly.GetExecutingAssembly();
       Product _existingProduct = new Product(_expectedProduct);

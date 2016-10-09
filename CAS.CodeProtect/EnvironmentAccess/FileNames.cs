@@ -27,7 +27,7 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
   public static class FileNames
   {
     #region internal
-    internal static string ConstructApplicationDataFolder(  string Manufacturer,string ProductName )
+    internal static string ConstructApplicationDataFolder(string Manufacturer, string ProductName)
     {
       // the folowing directory construction must match Application Data Folder in deployment project
       StringBuilder sb = new StringBuilder();
@@ -60,7 +60,7 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
     /// <returns></returns>
     internal static string KeysFilePath()
     {
-      return Path.Combine( TargetDir, m_ParKeysFileName);
+      return Path.Combine(TargetDir, m_ParKeysFileName);
     }
     /// <summary>
     /// Gets the license file name with full path.
@@ -68,18 +68,18 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
     /// <value>The license file path.</value>
     internal static string LicenseFilePath
     {
-      get { return Path.Combine( ApplicationDataPath, LicenseFileName ); }
+      get { return Path.Combine(ApplicationDataPath, LicenseFileName); }
     }
     /// <summary>
     /// If exists removes keys file 
     /// </summary>
     internal static void DeleteKeys()
     {
-      if ( !File.Exists( KeysFilePath() ) )
+      if (!File.Exists(KeysFilePath()))
         return;
-      FileInfo keysFileInfo = new FileInfo( FileNames.KeysFilePath() );
+      FileInfo keysFileInfo = new FileInfo(FileNames.KeysFilePath());
       keysFileInfo.Attributes = FileAttributes.Normal;
-      File.Delete( KeysFilePath() );
+      File.Delete(KeysFilePath());
     }
     /// <summary>
     /// Creates the license file stream.
@@ -93,10 +93,10 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
     /// already exist in these modes.</exception>
     /// <exception cref="System.Security.SecurityException">The caller does not have the required permission.</exception>
     /// <exception cref="System.IO.DirectoryNotFoundException">The specified path is invalid, such as being on an unmapped drive.</exception>
-    internal static Stream CreateLicenseFileStream( FileMode fileMode, FileAccess fileAccess, FileShare fileShare )
+    internal static Stream CreateLicenseFileStream(FileMode fileMode, FileAccess fileAccess, FileShare fileShare)
     {
-      string filePath = Path.Combine( ApplicationDataPath, LicenseFileName );
-      return new FileStream( filePath, fileMode, fileAccess, fileShare );
+      string filePath = Path.Combine(ApplicationDataPath, LicenseFileName);
+      return new FileStream(filePath, fileMode, fileAccess, fileShare);
     }
     /// <summary>
     /// This products manifest.
@@ -127,8 +127,8 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
     #region private
     static FileNames()
     {
-      TargetDir = Path.GetDirectoryName( Assembly.GetExecutingAssembly().Location );
-      ManifestFileName = Path.Combine( FileNames.TargetDir, m_ManifestFileName );
+      TargetDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+      ManifestFileName = Path.Combine(FileNames.TargetDir, m_ManifestFileName);
     }
     private const string m_ParKeysFileName = "CAS.Product.ppk";
     private const string m_ManifestFileName = "CAS.Product.xml";
@@ -139,14 +139,14 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
       {
         get
         {
-          if ( mDeployManifest == null )
+          if (mDeployManifest == null)
             Initialization();
           return mDeployManifest;
         }
       }
       internal static void UnloadManifest()
       {
-        mDeployManifest=null;
+        mDeployManifest = null;
       }
       #region private
       private static DeployManifest mDeployManifest;
@@ -166,14 +166,14 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
       private static string GetApplicationData()
       {
         string path;
-        if ( mDeployManifest == null )
+        if (mDeployManifest == null)
         {
           // there is no valid manifest we have to return folder where application executables are stored.
           // this may happened during DEBUG session or when sb. delete or destroy the manifest
           path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
         }
         else
-          path = DeployManifest.FileReferences[ 0 ].TargetPath;
+          path = DeployManifest.FileReferences[0].TargetPath;
         return path;
       }
       #endregion private

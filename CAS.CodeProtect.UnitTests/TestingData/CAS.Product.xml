@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <assemblyIdentity name="Name, Version=1.2.3, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3" version="1.2.3" publicKeyToken="8832FF1A67EA61A3" type="SingleUser" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <description asmv2:publisher="publisher" asmv2:product="Name" asmv2:supportUrl="http://www.commsvr.eu/" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <deployment install="true">
+    <deploymentProvider codebase="http://www.commsvr.eu/" />
+  </deployment>
+  <file name="TestApplicationDataPath\0D42ACCD-BBE0-4F79-9307-B746E6E09937" size="" group="license" writeableType="applicationData" />
+</asmv1:assembly>
