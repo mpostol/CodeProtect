@@ -13,14 +13,16 @@
 //  http://www.cas.eu
 //</summary>
 
+using CAS.Lib.CodeProtect.EnvironmentAccess;
+using CAS.Lib.CodeProtect.Properties;
 using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Reflection;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
-using CAS.Lib.CodeProtect.Properties;
 
 namespace CAS.Lib.CodeProtect.Controls
 {
@@ -38,8 +40,8 @@ namespace CAS.Lib.CodeProtect.Controls
     {
       /// <summary>
       /// It is called by the constructor at the end of the license validation process if a proper license file can be opened
-      /// but the license is invalid for the provided <typeparamref name="type"/>.
-      /// By default it traces the information about the problem to the <see cref="CAS.Lib.CodeProtect.EnvironmentAccess.LicenseTraceSource"/> as warning message.
+      /// but the license is invalid for the provided <typeparamref name="type"/>. 
+      /// By default it traces the information about the problem to the <see cref="LicenseTraceSource"/> as warning message.
       /// If implemented by the derived class
       /// allows caller to write license failure reason to a log.
       /// </summary>
@@ -51,11 +53,11 @@ namespace CAS.Lib.CodeProtect.Controls
       }
       /// <summary>
       /// It is called by the constructor if a warning appears after reading a license
-      /// By default it traces the information about the warnings to the <see cref="CAS.Lib.CodeProtect.EnvironmentAccess.LicenseTraceSource"/> as information message.
+      /// By default it traces the information about the warnings to the <see cref="LicenseTraceSource"/> as information message.
       /// If implemented by the derived class allows caller to show warning or write it to a log.
       /// </summary>
       /// <param name="warning"></param>
-      protected override void TraceWarning( System.Collections.Generic.List<string> warning )
+      protected override void TraceWarning( List<string> warning )
       {
         StringBuilder sb = new StringBuilder();
         foreach ( var item in warning )
@@ -67,8 +69,8 @@ namespace CAS.Lib.CodeProtect.Controls
     /// <summary>
     /// Initializes a new instance of the <see cref="SplashScreen"/> class.
     /// </summary>
-    /// <param name="showSplashScreen">If set to <c>true</c> <see cref="Show"/> method show splash screen, othervise it is hiden . .</param>
-    /// <param name="maintenancePeriodWarning">If set to <c>true</c> maintenance period warning has alraedy been issed.</param>
+    /// <param name="showSplashScreen">If set to <c>true</c> <see cref="Show"/> method show splash screen, otherwise it is hidden . .</param>
+    /// <param name="maintenancePeriodWarning">If set to <c>true</c> maintenance period warning has already been issued.</param>
     public SplashScreen( bool showSplashScreen, bool maintenancePeriodWarning )
       : this()
     {
@@ -207,7 +209,7 @@ namespace CAS.Lib.CodeProtect.Controls
       }
     }
     /// <summary>
-    /// Occurs when show splash screen at startup check box is changed. It could be used to preseve the value
+    /// Occurs when show splash screen at startup check box is changed. It could be used to preserve the value
     /// </summary>
     public event EventHandler<BoolEventArg> OnShowSplashScreenChanged;
     /// <summary>

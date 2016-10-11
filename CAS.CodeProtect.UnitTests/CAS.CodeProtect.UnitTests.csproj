@@ -88,6 +88,8 @@
     <Compile Include="ProductUnitTest.cs" />
     <Compile Include="FileNamesUnitTest.cs" />
     <Compile Include="LibInstallerUnitTest.cs" />
+    <Compile Include="IsLicensedUnitTest.cs" />
+    <Compile Include="CodeProtectHelpersUnitTest.cs" />
     <Compile Include="UnlockKeyAssemblyContainerUnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -99,8 +101,12 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="cas.snk" />
-    <Fakes Include="Fakes\System.fakes" />
-    <Fakes Include="Fakes\mscorlib.fakes" />
+    <Fakes Include="Fakes\System.fakes">
+      <SubType>Designer</SubType>
+    </Fakes>
+    <Fakes Include="Fakes\mscorlib.fakes">
+      <SubType>Designer</SubType>
+    </Fakes>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

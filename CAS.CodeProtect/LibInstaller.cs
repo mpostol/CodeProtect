@@ -87,15 +87,15 @@ namespace CAS.Lib.CodeProtect
     internal static void InstallLicense(string user, string company, string email, bool LoadLicenseFromDefaultContainer, string AlternativeProductName, string LicenseUnlockCode, Assembly assembly)
     {
       ManifestManagement.WriteDeployManifest(assembly, AlternativeProductName);
-      LicenseFile.Instal(user, company, email, FileNames.LicenseFilePath, LoadLicenseFromDefaultContainer, LicenseUnlockCode);
+      LicenseFile.Install(user, company, email, FileNames.LicenseFilePath, LoadLicenseFromDefaultContainer, LicenseUnlockCode);
     }
     /// <summary>
-    /// Instals the license fro the <see cref="Stream"/>.
+    /// Installs the license fro the <see cref="Stream"/>.
     /// </summary>
     /// <param name="license">The license available as the <see cref="Stream"/>.</param>
     public static void InstallLicense(Stream license)
     {
-      LicenseFile.Instal(license);
+      LicenseFile.Install(license);
     }
     #endregion
 
@@ -133,7 +133,7 @@ namespace CAS.Lib.CodeProtect
       try
       {
         ManifestManagement.WriteDeployManifest(_Context);
-        LicenseFile.Instal(_Context.Parameters[InstallContextNames.User], _Context.Parameters[InstallContextNames.Company], _Context.Parameters[InstallContextNames.Email], FileNames.LicenseFilePath, true, null);
+        LicenseFile.Install(_Context.Parameters[InstallContextNames.User], _Context.Parameters[InstallContextNames.Company], _Context.Parameters[InstallContextNames.Email], FileNames.LicenseFilePath, true, null);
       }
       catch (Exception ex)
       {

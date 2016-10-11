@@ -20,6 +20,7 @@ using CAS.Lib.CodeProtect.Properties;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Globalization;
 using System.IO;
@@ -40,7 +41,7 @@ namespace CAS.Lib.CodeProtect.LicenseDsc
   /// constraints are used to determine if the license may be used.
   /// </summary>
   [Serializable]
-  public class LicenseFile : System.ComponentModel.License, IConstraintItemProvider
+  public class LicenseFile : License, IConstraintItemProvider
   {
 
     #region private
@@ -97,7 +98,7 @@ namespace CAS.Lib.CodeProtect.LicenseDsc
         license = LoadFile(licenseStream, RSA4Iss);
       return license;
     }
-    private static void UpgardeLicense(LicenseFile newLicense)
+    private static void UpgradeLicense(LicenseFile newLicense)
     {
       LicenseFile oldLicense = null;
       try
@@ -414,9 +415,9 @@ namespace CAS.Lib.CodeProtect.LicenseDsc
     /// Loads the specified file to create an LicenseFile
     /// </summary>
     /// <param name="stream">The stream to use to open the file.</param>
-    /// <param name="key">The encryption key to be used to digitaly sign the file.</param>
+    /// <param name="key">The encryption key to be used to digitally sign the file.</param>
     /// <param name="checkSignature">if true checks signature using given key</param>
-    /// <returns>An instance of <see cref="LicenseFile"/> if found, othervise null.</returns>
+    /// <returns>An instance of <see cref="LicenseFile"/> if found, otherwise null.</returns>
     public static LicenseFile LoadFile(Stream stream, RSACryptoServiceProvider key, bool checkSignature)
     {
       if (stream == null)
@@ -441,7 +442,7 @@ namespace CAS.Lib.CodeProtect.LicenseDsc
     /// The stream to use to open the file.
     /// </param>
     /// <param name="key">
-    /// The encryption key to be used to digitaly sign the file.
+    /// The encryption key to be used to digitally sign the file.
     /// </param>
     /// <returns>new license object or null if stream == null </returns>
     public static LicenseFile LoadFile(Stream stream, RSACryptoServiceProvider key)
@@ -465,12 +466,12 @@ namespace CAS.Lib.CodeProtect.LicenseDsc
     /// Upgrades the license.
     /// </summary>
     /// <param name="license">The license to be used.</param>
-    internal static void UpgardeLicense(Stream license)
+    internal static void UpgradeLicense(Stream license)
     {
       try
       {
         LicenseFile newLicense = LoadFile(license);
-        UpgardeLicense(newLicense);
+        UpgradeLicense(newLicense);
       }
       catch (Exception ex)
       {
@@ -485,7 +486,7 @@ namespace CAS.Lib.CodeProtect.LicenseDsc
     /// The <see cref="LicenseFileException"/> object with a specified error message and 
     /// a reference to the inner exception that is the cause of this exception.
     /// </exception>
-    internal static void UpgardeLicense(string newLicFName)
+    internal static void UpgradeLicense(string newLicFName)
     {
       FileInfo licInfo = new FileInfo(newLicFName);
       if (!licInfo.Exists)
@@ -501,7 +502,7 @@ namespace CAS.Lib.CodeProtect.LicenseDsc
         {
           throw new LicenseFileException("Cannot open new license: ", ex);
         }
-        UpgardeLicense(newLicense);
+        UpgradeLicense(newLicense);
       }
       catch (Exception ex)
       {
@@ -509,11 +510,11 @@ namespace CAS.Lib.CodeProtect.LicenseDsc
       }
     }
     /// <summary>
-    /// Instals the specified license that is loaded using issuer public keys embeded in the resource. 
+    /// Installs the specified license that is loaded using issuer public keys embedded in the resource. 
     /// </summary>
-    /// <param name="license">The license taht is to be installed. It must be signed by the issuer private key.</param>
-    /// <exception cref="LicenseFileException">Cannot instal license from the provided stream.</exception>
-    internal static void Instal(Stream license)
+    /// <param name="license">The license that is to be installed. It must be signed by the issuer private key.</param>
+    /// <exception cref="LicenseFileException">Cannot install license from the provided stream.</exception>
+    internal static void Install(Stream license)
     {
       LicenseFile oldLicense = null;
       try
@@ -523,12 +524,12 @@ namespace CAS.Lib.CodeProtect.LicenseDsc
           using (Stream stream = FileNames.CreateLicenseFileStream(FileMode.Open, FileAccess.Read, FileShare.Read))
             oldLicense = LicenseFile.LoadFile(stream, rsa, true);
           //Load license using issuer public keys
-          using (LicenseFile newLivcence = LicenseFile.LoadFile(license))
+          using (LicenseFile _newLicense = LicenseFile.LoadFile(license))
           {
-            newLivcence.InitializeLicense(oldLicense);
+            _newLicense.InitializeLicense(oldLicense);
             RemoveAllLicenses();
             using (Stream stream = FileNames.CreateLicenseFileStream(FileMode.Create, FileAccess.Write, FileShare.None))
-              newLivcence.SaveFile(stream, rsa);
+              _newLicense.SaveFile(stream, rsa);
           }
         }
       }
@@ -552,7 +553,7 @@ namespace CAS.Lib.CodeProtect.LicenseDsc
     /// <param name="licenseFileName">Full path name of the license file.</param>
     /// <param name="LoadLicenseFromDefaultContainer">if set to <c>true</c> license is loaded from default container.</param>
     /// <param name="LicenseUnlockCode">The license unlock code.</param>
-    internal static void Instal(string ca_user, string ca_companay, string ca_email, string licenseFileName, bool LoadLicenseFromDefaultContainer, string LicenseUnlockCode)
+    internal static void Install(string ca_user, string ca_companay, string ca_email, string licenseFileName, bool LoadLicenseFromDefaultContainer, string LicenseUnlockCode)
     {
       //Open old keys pair if exist ( useful in debug mode )
       RSACryptoServiceProvider rsa = CodeProtectHelpers.TryReadKeysFromProtectedArea(CodeProtectHelpers.GetEntropy());

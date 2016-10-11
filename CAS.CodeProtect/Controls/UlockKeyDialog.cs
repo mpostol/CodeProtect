@@ -170,8 +170,8 @@ namespace CAS.Lib.CodeProtect.Controls
       }
       try
       {
-        using ( Stream strm = m_Container.GetManifestResourceStream( path ) )
-          LicenseFile.UpgardeLicense( strm );
+        using ( Stream _stream = m_Container.GetManifestResourceStream( path ) )
+          LicenseFile.UpgradeLicense( _stream );
         MessageBox.Show
           (
             Resources.UnlockSuccessMessge,

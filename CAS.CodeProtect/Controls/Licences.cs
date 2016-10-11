@@ -136,12 +136,12 @@ namespace CAS.Lib.CodeProtect.Controls
         return;
       try 
       { 
-        CodeProtect.LicenseDsc.LicenseFile.UpgardeLicense( m_OpenFileDialog.FileName );
-        MessageBox.Show( "License upgrade has been successfully installed", "Upgarde license", MessageBoxButtons.OK, MessageBoxIcon.Information );
+        CodeProtect.LicenseDsc.LicenseFile.UpgradeLicense( m_OpenFileDialog.FileName );
+        MessageBox.Show( "License upgrade has been successfully installed", "Upgrade license", MessageBoxButtons.OK, MessageBoxIcon.Information );
       }
       catch ( Exception ex )
       {
-        string mess = "Instalationlicense failure: ";
+        string mess = "Installation license failure: ";
         mess = LicenseFileException.TraceInnerExceptions( ex, mess );
         MessageBox.Show( mess, Resources.CaptionUpgardeLicense, MessageBoxButtons.OK, MessageBoxIcon.Error );
       }
@@ -152,9 +152,9 @@ namespace CAS.Lib.CodeProtect.Controls
       {
         if ( m_saveFileDialog.ShowDialog() == DialogResult.OK )
         {
-          FileInfo finfo = new FileInfo( m_saveFileDialog.FileName );
-          if ( finfo.Exists )
-            finfo.Delete();
+          FileInfo _fileInfo = new FileInfo( m_saveFileDialog.FileName );
+          if ( _fileInfo.Exists )
+            _fileInfo.Delete();
           using ( StreamWriter file = new StreamWriter( m_saveFileDialog.FileName ) )
           {
             file.Write( m_textBoxLIcDescriptor.Text );
@@ -172,6 +172,7 @@ namespace CAS.Lib.CodeProtect.Controls
       OpenLicense();
     }
     #endregion event handlers
+
     #endregion private
   }
 }
