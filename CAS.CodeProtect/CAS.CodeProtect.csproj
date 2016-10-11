@@ -77,29 +77,10 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
     <Reference Include="System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-    <Reference Include="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyHelperAttribute.cs" />
     <Compile Include="AssemblyKeyAttribute.cs" />
-    <Compile Include="Controls\Licences.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Controls\Licences.Designer.cs">
-      <DependentUpon>Licences.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Controls\SplashScreen.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Controls\SplashScreen.Designer.cs">
-      <DependentUpon>SplashScreen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Controls\UlockKeyDialog.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Controls\UlockKeyDialog.Designer.cs">
-      <DependentUpon>UlockKeyDialog.cs</DependentUpon>
-    </Compile>
     <Compile Include="EnvironmentAccess\UnlockKeyAssemblyContainer.cs" />
     <Compile Include="EnvironmentAccess\CodeProtectHelpers.cs" />
     <Compile Include="EnvironmentAccess\FileNames.cs" />
@@ -178,16 +159,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Controls\Licences.resx">
-      <DependentUpon>Licences.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Controls\SplashScreen.resx">
-      <DependentUpon>SplashScreen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Controls\UlockKeyDialog.resx">
-      <DependentUpon>UlockKeyDialog.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="LibInstaller.resx">
       <SubType>Designer</SubType>
       <DependentUpon>LibInstaller.cs</DependentUpon>
