@@ -49,7 +49,7 @@
       <HintPath>..\packages\CAS.Licenses.Container.2.00.02\lib\net451\CAS.CommonResources.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.Build.Tasks.v3.5" />
+    <Reference Include="Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
@@ -95,7 +95,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CAS.CodeProtect\CAS.CodeProtect.csproj">
       <Project>{5e8d8581-87ed-4f5a-bdeb-09a01e45d3cc}</Project>
-      <Name>BK.CodeProtect</Name>
+      <Name>CAS.CodeProtect</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

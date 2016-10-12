@@ -25,7 +25,12 @@
     <tags>CAS Software, CAS Framework, CAS Library, Licensing.</tags>
   </metadata>
   <files>
+    <file src="bin\Release\CAS.CodeProtect.dll" target="lib\net451\CAS.CodeProtect.dll" />
+    <file src="bin\Release\CAS.CodeProtect.XML" target="lib\net451\CAS.CodeProtect.XML" />
+    <file src="bin\Release\Microsoft.Build.Framework.dll" target="lib\net451\Microsoft.Build.Framework.dll" />
+    <file src="bin\Release\Microsoft.Build.Tasks.Core.dll" target="lib\net451\Microsoft.Build.Tasks.Core.dll" />
+    <file src="bin\Release\Microsoft.Build.Utilities.Core.dll" target="lib\net451\Microsoft.Build.Utilities.Core.dll" />
   </files>
 </package>
 
-<#@ include file = "..\..\..\PR39-CommonResources\T4Definitions\CAS.OPC.t4" #>
+<#@ include file = "..\..\PR39-CommonResources\T4Definitions\CAS.OPC.t4" #>

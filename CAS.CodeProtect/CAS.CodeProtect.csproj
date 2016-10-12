@@ -41,7 +41,7 @@
     <IsWebBootstrapper>true</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -56,6 +56,7 @@
     <UseVSHostingProcess>true</UseVSHostingProcess>
     <ErrorReport>prompt</ErrorReport>
     <NoWarn>IDE0001,IDE0002,IDE0003</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -66,17 +67,18 @@
     <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
     <DocumentationFile>bin\Release\CAS.CodeProtect.XML</DocumentationFile>
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.Build.Tasks.v3.5" />
+    <Reference Include="Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Management" />
     <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-    <Reference Include="System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyHelperAttribute.cs" />
@@ -173,17 +175,19 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>AssemblyInfo.cs</LastGenOutput>
     </None>
-    <None Include="Properties\CodeProtect.Nuget.nuspec">
+    <None Include="CAS.CodeProtect.nuspec">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>CodeProtect.Nuget.tt</DependentUpon>
+      <DependentUpon>CAS.CodeProtect.tt</DependentUpon>
+      <SubType>Designer</SubType>
     </None>
     <None Include="Resources\keys.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Properties\CodeProtect.Nuget.tt">
+    <Content Include="CAS.CodeProtect.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>CodeProtect.Nuget.nuspec</LastGenOutput>
+      <LastGenOutput>CAS.CodeProtect.nuspec</LastGenOutput>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Packages\EN\package.xml">
       <SubType>Designer</SubType>
