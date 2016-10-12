@@ -6,8 +6,8 @@
     <title>CAS.CodeProtect</title>
     <authors>CAS</authors>
     <owners>commsvr.com</owners>
-    <projectUrl>svn://svnserver.hq.cas.com.pl/VS/trunk/CAS.CodeProtect</projectUrl>
-	  <licenseUrl>http://www.cas.internetdsl.pl/commserver/P_DowloadCenter/Lic-09000401EN_License_Agreement.pdf</licenseUrl>
+    <projectUrl>svn://svnserver.hq.cas.com.pl/Products/CAS.CodeProtect</projectUrl>
+	  <licenseUrl>http://www.commsvr.com/DownloadCenter/ProductSoftware/LicenseAgreement.aspx</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <developmentDependency>false</developmentDependency>
     <description>
