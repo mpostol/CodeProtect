@@ -466,7 +466,7 @@ namespace CAS.Lib.CodeProtect.LicenseDsc
     /// Upgrades the license.
     /// </summary>
     /// <param name="license">The license to be used.</param>
-    internal static void UpgradeLicense(Stream license)
+    public static void UpgradeLicense(Stream license)
     {
       try
       {
@@ -486,7 +486,7 @@ namespace CAS.Lib.CodeProtect.LicenseDsc
     /// The <see cref="LicenseFileException"/> object with a specified error message and 
     /// a reference to the inner exception that is the cause of this exception.
     /// </exception>
-    internal static void UpgradeLicense(string newLicFName)
+    public static void UpgradeLicense(string newLicFName)
     {
       FileInfo licInfo = new FileInfo(newLicFName);
       if (!licInfo.Exists)

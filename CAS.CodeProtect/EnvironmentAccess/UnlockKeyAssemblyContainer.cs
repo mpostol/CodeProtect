@@ -13,17 +13,21 @@
 //  http://www.cas.eu
 //</summary>
 
+using CAS.Lib.CodeProtect.LicenseDsc;
+using CAS.Lib.CodeProtect.Properties;
 using System;
 using System.IO;
 using System.Reflection;
 using System.Text;
-using CAS.Lib.CodeProtect.LicenseDsc;
-using CAS.Lib.CodeProtect.Properties;
 
 namespace CAS.Lib.CodeProtect.EnvironmentAccess
 {
-  internal class UnlockKeyAssemblyContainer
+  /// <summary>
+  /// Class UnlockKeyAssemblyContainer - Unlock Key Assembly Container
+  /// </summary>
+  public class UnlockKeyAssemblyContainer
   {
+    #region private
     private const ushort minCodeLength = 5;
     private const string CodeSurroundString = "__";// code in filename has to be surrounded by two underscores
     private Assembly m_Container;
@@ -40,7 +44,17 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
         return null;
       }
     }
-    internal Stream GetManifestResourceStream(string path)
+    #endregion
+
+    #region API
+    /// <summary>
+    /// Gets the manifest resource stream.
+    /// </summary>
+    /// <param name="path">The path.</param>
+    /// <returns>Stream.</returns>
+    /// <exception cref="CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException">
+    /// </exception>
+    public Stream GetManifestResourceStream(string path)
     {
       if (LastErrorMessage.Length > 0)
         throw new LicenseFileException(LastErrorMessage.ToString());
@@ -57,7 +71,12 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
         throw new LicenseFileException(Resources.ErrStr_InstallLicense_NoLicenseFound, ex);
       }
     }
-    internal string GetManifestResourcePath(string EnteredCode)
+    /// <summary>
+    /// Gets the manifest resource path.
+    /// </summary>
+    /// <param name="EnteredCode">The entered code.</param>
+    /// <returns>System.String.</returns>
+    public string GetManifestResourcePath(string EnteredCode)
     {
       if (m_Container == null)
         LastErrorMessage.AppendLine(Resources.ErrStr_InstallLicense_NoContainer);
@@ -94,16 +113,29 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
         LastErrorMessage.AppendLine(string.Format(Resources.ErrStr_InstallLicense_NoLicForProductInContainer, productName));
       return path;
     }
-    internal UnlockKeyAssemblyContainer()
+    /// <summary>
+    /// Initializes a new instance of the <see cref="UnlockKeyAssemblyContainer"/> class.
+    /// </summary>
+    public UnlockKeyAssemblyContainer()
       : this(Resources.CASCommonResources)
     { }
-    internal UnlockKeyAssemblyContainer(Assembly assembly)
+    /// <summary>
+    /// Initializes a new instance of the <see cref="UnlockKeyAssemblyContainer"/> class.
+    /// </summary>
+    /// <param name="assembly">The assembly.</param>
+    public UnlockKeyAssemblyContainer(Assembly assembly)
     {
       m_Container = assembly;
     }
-    internal UnlockKeyAssemblyContainer(string assemblyName)
+    /// <summary>
+    /// Initializes a new instance of the <see cref="UnlockKeyAssemblyContainer"/> class.
+    /// </summary>
+    /// <param name="assemblyName">Name of the assembly.</param>
+    public UnlockKeyAssemblyContainer(string assemblyName)
     {
       m_Container = LoadContainer(assemblyName);
     }
+    #endregion
+
   }
 }

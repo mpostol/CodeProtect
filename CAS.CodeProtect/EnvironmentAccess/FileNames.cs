@@ -93,7 +93,7 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
     /// already exist in these modes.</exception>
     /// <exception cref="System.Security.SecurityException">The caller does not have the required permission.</exception>
     /// <exception cref="System.IO.DirectoryNotFoundException">The specified path is invalid, such as being on an unmapped drive.</exception>
-    internal static Stream CreateLicenseFileStream(FileMode fileMode, FileAccess fileAccess, FileShare fileShare)
+    public static Stream CreateLicenseFileStream(FileMode fileMode, FileAccess fileAccess, FileShare fileShare)
     {
       string filePath = Path.Combine(ApplicationDataPath, LicenseFileName);
       return new FileStream(filePath, fileMode, fileAccess, fileShare);

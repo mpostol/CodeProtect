@@ -44,7 +44,7 @@ namespace CAS.Lib.CodeProtect.LicenseDsc
     /// <param name="ex">The exception.</param>
     /// <param name="message">The message.</param>
     /// <returns>The expanded message.</returns>
-    internal static string TraceInnerExceptions( Exception ex, string message )
+    public static string TraceInnerExceptions( Exception ex, string message )
     {
       Exception cex = ex;
       while ( cex != null )
