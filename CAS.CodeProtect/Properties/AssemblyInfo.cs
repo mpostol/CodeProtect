@@ -29,8 +29,8 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("5160a380-4fa0-4dd7-9242-1a55c295f3ed")]
-[assembly: AssemblyVersion("6.0.0.*")]
-[assembly: AssemblyFileVersion("6.0.0")]
+[assembly: AssemblyVersion("6.0.1.*")]
+[assembly: AssemblyFileVersion("6.0.1")]
 
 [assembly: System.CLSCompliantAttribute(true)]
 [assembly: System.Runtime.CompilerServices.InternalsVisibleTo( "CAS.CodeProtect.UnitTests, " +  

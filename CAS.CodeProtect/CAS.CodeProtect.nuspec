@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>CAS.CodeProtect</id>
-    <version>6.0.0-Charlie </version>
+    <version>6.0.1 </version>
     <title>CAS.CodeProtect</title>
     <authors>CAS</authors>
     <owners>commsvr.com</owners>
