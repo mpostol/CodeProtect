@@ -13,16 +13,16 @@
 //  http://www.cas.eu
 //</summary>
 
+using CAS.Lib.CodeProtect.Properties;
 using System;
 using System.Diagnostics;
-using System.Reflection;
 
 namespace CAS.Lib.CodeProtect.EnvironmentAccess
 {
   /// <summary>
   /// Local trace source to provide all problems with obtaining the license.
   /// </summary>
-  internal class LicenseTraceSource: TraceSource, IDisposable
+  internal class LicenseTraceSource: TraceSource
   {
     #region internal
     /// <summary>
@@ -68,28 +68,14 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
     internal static LicenseTraceSource This { get { return m_Source; } }
     #endregion
 
-    #region IDisposable Members
-    public void Dispose()
-    {
-      try
-      {
-        m_Source.Flush();
-        m_Source.Close();
-      }
-      catch ( Exception ) { }
-      finally { m_Source = null; }
-    }
-    #endregion
-
     #region private
     private LicenseTraceSource()
-      : base( Assembly.GetCallingAssembly().GetName().Name ) { }
+      : base( Settings.Default.TraceSourceName ) { }
     private static void PrivateTrace( TraceEventType type, int id, string message )
     {
       try
       {
         m_Source.TraceEvent( type, id, message );
-        m_Source.Flush();
       }
       catch ( Exception ) { }
     }

@@ -14,6 +14,7 @@ namespace CAS.CodeProtect.UnitTests
     public void PropertiesTest()
     {
       Assert.AreEqual<string>(FileNames.TargetDir, FileNames.ApplicationDataPath);
+      Assert.IsTrue(FileNames.ApplicationDataPath.LastIndexOf(Path.PathSeparator) < FileNames.ApplicationDataPath.Length);
       Assert.AreEqual<string>("CAS.Product.xml", Path.GetFileName(FileNames.ManifestFileName));
       Assert.AreEqual<string>("lic", Path.GetFileName(FileNames.LicExtension));
       Assert.AreEqual<string>(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), FileNames.TargetDir);

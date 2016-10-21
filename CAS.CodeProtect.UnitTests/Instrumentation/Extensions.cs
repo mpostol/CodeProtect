@@ -1,14 +1,13 @@
-﻿
-using CAS.Lib.RTLib.Diagnostics;
+﻿using CAS.Lib.CodeProtect.EnvironmentAccess;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Diagnostics;
 using System.Reflection;
 
-namespace CAS.RealTime.UnitTests.Instrumentation
+namespace CAS.CodeProtect.UnitTests.Instrumentation
 {
   internal static class Extensions
   {
-    internal static string GetFileNAme(this AdvancedDelimitedListTraceListener _listener)
+    internal static string GetFileName(this AdvancedDelimitedListTraceListener _listener)
     {
       FieldInfo fi = typeof(TextWriterTraceListener).GetField("fileName", BindingFlags.NonPublic | BindingFlags.Instance);
       Assert.IsNotNull(fi);
