@@ -20,6 +20,7 @@ using Microsoft.Build.Tasks.Deployment.ManifestUtilities;
 using System.Configuration.Install;
 using System.Security.AccessControl;
 using System.Security.Principal;
+using System.Globalization;
 
 namespace CAS.Lib.CodeProtect.EnvironmentAccess
 {
@@ -55,22 +56,22 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
       string productName = m_Cnt.Parameters[InstallContextNames.Productname];
       Version version = new Version(m_Cnt.Parameters[InstallContextNames.Version]);
       string allUsers = m_Cnt.Parameters[InstallContextNames.Allusers];
-      AssemblyName an = new AssemblyName(productName)
+      AssemblyName _AssemblyName = new AssemblyName(productName)
       {
         Version = version,
         Flags = AssemblyNameFlags.None,
-        CultureInfo = System.Globalization.CultureInfo.InvariantCulture
+        CultureInfo = CultureInfo.InvariantCulture
       };
       //it is public token from cas.snk
-      an.SetPublicKeyToken(new byte[] { 0x88, 0x32, 0xff, 0x1a, 0x67, 0xea, 0x61, 0xa3 });
-      ManifestManagement.ProductType type = String.Compare(allUsers, "1") == 0 ? ManifestManagement.ProductType.AllUsers : ManifestManagement.ProductType.SingleUser;
+      _AssemblyName.SetPublicKeyToken(new byte[] { 0x88, 0x32, 0xff, 0x1a, 0x67, 0xea, 0x61, 0xa3 });
+      ManifestManagement.ProductType _type = String.Compare(allUsers, "1") == 0 ? ManifestManagement.ProductType.AllUsers : ManifestManagement.ProductType.SingleUser;
       string publisher = m_Cnt.Parameters[InstallContextNames.Manufacturer];
       Uri supportUrl = new Uri(m_Cnt.Parameters[InstallContextNames.Arphelplink]);
       string _applicationDataFolder = FileNames.ConstructApplicationDataFolder(publisher, productName);
       if (!(new DirectoryInfo(_applicationDataFolder)).Exists)
         throw new InstallException(_applicationDataFolder + " - the directory for application data does not exists");
       m_SetModifyRights(_applicationDataFolder);
-      ManifestManagement.WriteDeployManifest(an, type, publisher, supportUrl, supportUrl, _applicationDataFolder);
+      ManifestManagement.WriteDeployManifest(_AssemblyName, _type, publisher, supportUrl, supportUrl, _applicationDataFolder);
     }
     /// <summary>
     /// Reads the deploy manifest using default file name

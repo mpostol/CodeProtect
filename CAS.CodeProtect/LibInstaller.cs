@@ -84,10 +84,13 @@ namespace CAS.Lib.CodeProtect
         throw new ArgumentOutOfRangeException("Source Assembly", Properties.Resources.SourceAssemblyFailedMessage);
       InstallLicense(user, company, email, LoadLicenseFromDefaultContainer, null, null, assembly);
     }
-    internal static void InstallLicense(string user, string company, string email, bool LoadLicenseFromDefaultContainer, string AlternativeProductName, string LicenseUnlockCode, Assembly assembly)
+    internal static void InstallLicense(string user, string company, string email, bool loadLicenseFromDefaultContainer, string alternativeProductName, string licenseUnlockCode, Assembly assembly)
     {
-      ManifestManagement.WriteDeployManifest(assembly, AlternativeProductName);
-      LicenseFile.Install(user, company, email, FileNames.LicenseFilePath, LoadLicenseFromDefaultContainer, LicenseUnlockCode);
+      if (assembly == null)
+        throw new ArgumentNullException(nameof(assembly), $"Entring {nameof(InstallLicense)} with null argument.");
+      LicenseTraceSource.TraceVerbose(39, $"Entering InstallLicense {user}, {company}, {email}");
+      ManifestManagement.WriteDeployManifest(assembly, alternativeProductName);
+      LicenseFile.Install(user, company, email, FileNames.LicenseFilePath, loadLicenseFromDefaultContainer, licenseUnlockCode);
     }
     /// <summary>
     /// Installs the license fro the <see cref="Stream"/>.
@@ -156,7 +159,7 @@ namespace CAS.Lib.CodeProtect
     /// </exception>
     public override void Rollback(IDictionary savedState)
     {
-      LicenseFile.Uninstal();
+      LicenseFile.Uninstall();
       FileNames.DeleteKeys();
       ManifestManagement.DeleteDeployManifest();
       base.Rollback(savedState);
@@ -169,7 +172,7 @@ namespace CAS.Lib.CodeProtect
     /// </param>
     public override void Uninstall(System.Collections.IDictionary savedState)
     {
-      LicenseFile.Uninstal();
+      LicenseFile.Uninstall();
       FileNames.DeleteKeys();
       ManifestManagement.DeleteDeployManifest();
       base.Uninstall(savedState);

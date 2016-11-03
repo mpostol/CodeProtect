@@ -547,14 +547,15 @@ namespace CAS.Lib.CodeProtect.LicenseDsc
     /// Performs the installation. Reads license using issuer public key and after instance modification writes
     /// it back using new generated private key.
     /// </summary>
-    /// <param name="ca_user">User information for the new license file.</param>
-    /// <param name="ca_companay">Company information for the new license file.</param>
-    /// <param name="ca_email">Email information for the new license file.</param>
+    /// <param name="user">User information for the new license file.</param>
+    /// <param name="company">Company information for the new license file.</param>
+    /// <param name="email">Email information for the new license file.</param>
     /// <param name="licenseFileName">Full path name of the license file.</param>
-    /// <param name="LoadLicenseFromDefaultContainer">if set to <c>true</c> license is loaded from default container.</param>
-    /// <param name="LicenseUnlockCode">The license unlock code.</param>
-    internal static void Install(string ca_user, string ca_companay, string ca_email, string licenseFileName, bool LoadLicenseFromDefaultContainer, string LicenseUnlockCode)
+    /// <param name="loadLicenseFromDefaultContainer">if set to <c>true</c> license is loaded from default container.</param>
+    /// <param name="licenseUnlockCode">The license unlock code.</param>
+    internal static void Install(string user, string company, string email, string licenseFileName, bool loadLicenseFromDefaultContainer, string licenseUnlockCode)
     {
+      LicenseTraceSource.TraceVerbose(39, $"Entering {nameof(LicenseFile)}.{nameof(Install)} {nameof(licenseFileName)}: {licenseFileName}");
       //Open old keys pair if exist ( useful in debug mode )
       RSACryptoServiceProvider rsa = CodeProtectHelpers.TryReadKeysFromProtectedArea(CodeProtectHelpers.GetEntropy());
       try
@@ -567,7 +568,7 @@ namespace CAS.Lib.CodeProtect.LicenseDsc
         }
         else
         {
-          if (!LoadLicenseFromDefaultContainer)
+          if (!loadLicenseFromDefaultContainer)
           {
             //try to open license using old keys - useful in the debug mode.
             using (Stream str = FileNames.CreateLicenseFileStream(FileMode.Open, FileAccess.Read, FileShare.None))
@@ -583,21 +584,23 @@ namespace CAS.Lib.CodeProtect.LicenseDsc
           }
         }
         //Load license using issuer public keys
-        LicenseFile my_lic = null;
-        if (LoadLicenseFromDefaultContainer)
+        LicenseFile _lic = null;
+        if (loadLicenseFromDefaultContainer)
         {
-          UnlockKeyAssemblyContainer ukac = new UnlockKeyAssemblyContainer();
-          if (string.IsNullOrEmpty(LicenseUnlockCode))
-            LicenseUnlockCode = Resources.DefaultUnlockCode;
-          string path = ukac.GetManifestResourcePath(LicenseUnlockCode);
-          my_lic = LicenseFile.LoadFile(ukac.GetManifestResourceStream(path));
+          UnlockKeyAssemblyContainer _container = new UnlockKeyAssemblyContainer();
+          if (string.IsNullOrEmpty(licenseUnlockCode))
+            licenseUnlockCode = Resources.DefaultUnlockCode;
+          string _path = _container.GetManifestResourcePath(licenseUnlockCode);
+          LicenseTraceSource.TraceVerbose(594, $"Loading license from {_path} for unlock key {licenseUnlockCode}");
+          _lic = LicenseFile.LoadFile(_container.GetManifestResourceStream(_path));
         }
         else
         {
-          my_lic = LicenseFile.LoadFile(licenseFileName);
+          LicenseTraceSource.TraceVerbose(594, $"Loading license from from file {licenseFileName}");
+          _lic = LicenseFile.LoadFile(licenseFileName);
         }
-        my_lic.InitializeLicense(ca_user, ca_companay, ca_email);
-        my_lic.SaveFile(licenseFileName, rsa);
+        _lic.InitializeLicense(user, company, email);
+        _lic.SaveFile(licenseFileName, rsa);
       }
       finally
       {
@@ -605,10 +608,9 @@ namespace CAS.Lib.CodeProtect.LicenseDsc
           rsa.Clear();
       }
     }
-    internal static void Uninstal()
+    internal static void Uninstall()
     {
       RemoveAllLicenses();
-
     }
     #endregion
 
