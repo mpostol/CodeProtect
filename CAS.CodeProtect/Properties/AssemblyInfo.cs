@@ -1,13 +1,13 @@
 ﻿//<summary>
 //  Title   : Assembly info for: CAS.CodeProtect
 //  System  : Microsoft Visual C# .NET
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+//  $LastChangedDate: 2014-10-17 23:06:15 +0200 (Pt, 17 paź 2014) $
+//  $Rev:  $
+//  $LastChangedBy:  $
+//  $URL:  $
+//  $Id:  $
 //
-//  Copyright (c) 2000-2016 CAS LODZ POLAND
+//  Copyright (c) 2017 CAS LODZ POLAND
 //  +48 (42) 686 25 47
 //  techsupp@cas.eu
 //  www.cas.eu
@@ -22,7 +22,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("CAS")]
 [assembly: AssemblyProduct("CAS Framework Core")]
-[assembly: AssemblyCopyright("Copyright (c) 2000-2016 CAS LODZ POLAND")]
+[assembly: AssemblyCopyright("Copyright (c) 2017 CAS LODZ POLAND")]
 [assembly: AssemblyTrademark("CAS Framework")]
 [assembly: AssemblyCulture("")]
 

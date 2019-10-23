@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAS.CodeProtect", "CAS.CodeProtect\CAS.CodeProtect.csproj", "{5E8D8581-87ED-4F5A-BDEB-09A01E45D3CC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAS.CodeProtect.UnitTests", "CAS.CodeProtect.UnitTests\CAS.CodeProtect.UnitTests.csproj", "{29C1EAE8-85A5-4E80-8783-ACA4EC24B862}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T4Definitions", "..\PR39-CommonResources\T4Definitions\T4Definitions.csproj", "{D506423B-BA21-49E6-8C3B-88A771CA444E}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solution Items", "{A272E3E5-A735-4D40-9AC0-5266ACBB7051}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAS.CodeProtect.ScriptsUnitTest", "CAS.CodeProtect.ScriptsUnitTest\CAS.CodeProtect.ScriptsUnitTest.csproj", "{9980473B-E30A-4DD9-91FC-15126D050E68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T4Definitions", "CommonResources\T4Definitions\T4Definitions.csproj", "{D506423B-BA21-49E6-8C3B-88A771CA444E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,14 +37,6 @@ Global
 		{29C1EAE8-85A5-4E80-8783-ACA4EC24B862}.Release|Any CPU.Build.0 = Release|Any CPU
 		{29C1EAE8-85A5-4E80-8783-ACA4EC24B862}.Release|x64.ActiveCfg = Release|Any CPU
 		{29C1EAE8-85A5-4E80-8783-ACA4EC24B862}.Release|x64.Build.0 = Release|Any CPU
-		{D506423B-BA21-49E6-8C3B-88A771CA444E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D506423B-BA21-49E6-8C3B-88A771CA444E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D506423B-BA21-49E6-8C3B-88A771CA444E}.Debug|x64.ActiveCfg = Debug|x64
-		{D506423B-BA21-49E6-8C3B-88A771CA444E}.Debug|x64.Build.0 = Debug|x64
-		{D506423B-BA21-49E6-8C3B-88A771CA444E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D506423B-BA21-49E6-8C3B-88A771CA444E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D506423B-BA21-49E6-8C3B-88A771CA444E}.Release|x64.ActiveCfg = Release|x64
-		{D506423B-BA21-49E6-8C3B-88A771CA444E}.Release|x64.Build.0 = Release|x64
 		{9980473B-E30A-4DD9-91FC-15126D050E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9980473B-E30A-4DD9-91FC-15126D050E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9980473B-E30A-4DD9-91FC-15126D050E68}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -53,11 +45,22 @@ Global
 		{9980473B-E30A-4DD9-91FC-15126D050E68}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9980473B-E30A-4DD9-91FC-15126D050E68}.Release|x64.ActiveCfg = Release|Any CPU
 		{9980473B-E30A-4DD9-91FC-15126D050E68}.Release|x64.Build.0 = Release|Any CPU
+		{D506423B-BA21-49E6-8C3B-88A771CA444E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D506423B-BA21-49E6-8C3B-88A771CA444E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D506423B-BA21-49E6-8C3B-88A771CA444E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D506423B-BA21-49E6-8C3B-88A771CA444E}.Debug|x64.Build.0 = Debug|Any CPU
+		{D506423B-BA21-49E6-8C3B-88A771CA444E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D506423B-BA21-49E6-8C3B-88A771CA444E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D506423B-BA21-49E6-8C3B-88A771CA444E}.Release|x64.ActiveCfg = Release|Any CPU
+		{D506423B-BA21-49E6-8C3B-88A771CA444E}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D506423B-BA21-49E6-8C3B-88A771CA444E} = {A272E3E5-A735-4D40-9AC0-5266ACBB7051}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85B79525-D542-4E42-93FD-B5FCE99BA06A}
 	EndGlobalSection
 EndGlobal

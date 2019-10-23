@@ -8,7 +8,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CAS.CodeProtect.UnitTests</RootNamespace>
     <AssemblyName>CAS.CodeProtect.UnitTests</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -46,21 +46,11 @@
     <AssemblyOriginatorKeyFile>cas.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CAS.CommonResources, Version=2.0.2.16456, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\CAS.Licenses.Container.2.00.02\lib\net451\CAS.CommonResources.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Build.Tasks.v4.0" />
     <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="mscorlib.4.0.0.0.Fakes">
-      <HintPath>FakesAssemblies\mscorlib.4.0.0.0.Fakes.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.4.0.0.0.Fakes">
-      <HintPath>FakesAssemblies\System.4.0.0.0.Fakes.dll</HintPath>
-    </Reference>
     <Reference Include="System.Configuration.Install" />
   </ItemGroup>
   <Choose>
@@ -100,6 +90,10 @@
     <ProjectReference Include="..\CAS.CodeProtect\CAS.CodeProtect.csproj">
       <Project>{5e8d8581-87ed-4f5a-bdeb-09a01e45d3cc}</Project>
       <Name>CAS.CodeProtect</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonResources\T4Definitions\T4Definitions.csproj">
+      <Project>{d506423b-ba21-49e6-8c3b-88a771ca444e}</Project>
+      <Name>T4Definitions</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
