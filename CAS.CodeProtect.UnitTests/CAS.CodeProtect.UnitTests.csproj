@@ -46,6 +46,9 @@
     <AssemblyOriginatorKeyFile>cas.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CAS.CommonResources, Version=2.0.6.27320, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CAS.Licenses.Container.2.00.06\lib\net451\CAS.CommonResources.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Build.Tasks.v4.0" />
     <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -91,20 +94,12 @@
       <Project>{5e8d8581-87ed-4f5a-bdeb-09a01e45d3cc}</Project>
       <Name>CAS.CodeProtect</Name>
     </ProjectReference>
-    <ProjectReference Include="..\CommonResources\T4Definitions\T4Definitions.csproj">
-      <Project>{d506423b-ba21-49e6-8c3b-88a771ca444e}</Project>
-      <Name>T4Definitions</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="cas.snk" />
-    <Fakes Include="Fakes\System.fakes">
-      <SubType>Designer</SubType>
-    </Fakes>
-    <Fakes Include="Fakes\mscorlib.fakes">
-      <SubType>Designer</SubType>
-    </Fakes>
+    <Fakes Include="Fakes\System.fakes" />
+    <Fakes Include="Fakes\mscorlib.fakes" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

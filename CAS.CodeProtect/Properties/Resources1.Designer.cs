@@ -452,9 +452,8 @@ namespace CAS.Lib.CodeProtect.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This license does not allow you to execute the functionality:
-        ///{0}.
-        ///You may get an upgrade at: {1}.
+        ///  Looks up a localized string similar to This license does not allow you to execute the functionality: {0}.
+        ///  You may get an upgrade at: {1}.
         /// </summary>
         public static string LicMessageFunctionNotAllowed {
             get {
