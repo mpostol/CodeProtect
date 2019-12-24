@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAS.CodeProtect.UnitTests", "CAS.CodeProtect.UnitTests\CAS.CodeProtect.UnitTests.csproj", "{29C1EAE8-85A5-4E80-8783-ACA4EC24B862}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solution Items", "{A272E3E5-A735-4D40-9AC0-5266ACBB7051}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAS.CodeProtect.ScriptsUnitTest", "CAS.CodeProtect.ScriptsUnitTest\CAS.CodeProtect.ScriptsUnitTest.csproj", "{9980473B-E30A-4DD9-91FC-15126D050E68}"
 EndProject
