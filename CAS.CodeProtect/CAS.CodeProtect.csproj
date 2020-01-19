@@ -85,6 +85,7 @@
     <Compile Include="AssemblyHelperAttribute.cs" />
     <Compile Include="AssemblyKeyAttribute.cs" />
     <Compile Include="EnvironmentAccess\AdvancedDelimitedListTraceListener.cs" />
+    <Compile Include="RelativeFilePathsCalculator.cs" />
     <Compile Include="EnvironmentAccess\UnlockKeyAssemblyContainer.cs" />
     <Compile Include="EnvironmentAccess\CodeProtectHelpers.cs" />
     <Compile Include="EnvironmentAccess\FileNames.cs" />
