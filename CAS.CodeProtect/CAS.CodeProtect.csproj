@@ -85,6 +85,7 @@
     <Compile Include="AssemblyHelperAttribute.cs" />
     <Compile Include="AssemblyKeyAttribute.cs" />
     <Compile Include="EnvironmentAccess\AdvancedDelimitedListTraceListener.cs" />
+    <Compile Include="RelativeFilePathsCalculator.cs" />
     <Compile Include="EnvironmentAccess\UnlockKeyAssemblyContainer.cs" />
     <Compile Include="EnvironmentAccess\CodeProtectHelpers.cs" />
     <Compile Include="EnvironmentAccess\FileNames.cs" />
@@ -142,6 +143,11 @@
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <None Include="app.config" />
+    <None Include="CAS.CodeProtect.nuspec">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CAS.CodeProtect.tt</DependentUpon>
+    </None>
     <None Include="cas.snk" />
     <Compile Include="LicenseDsc\Constraints\ProcessorConstraint.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -183,12 +189,6 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>AssemblyInfo.cs</LastGenOutput>
     </None>
-    <None Include="CAS.CodeProtect.nuspec">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CAS.CodeProtect.tt</DependentUpon>
-      <SubType>Designer</SubType>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -198,8 +198,8 @@
   <ItemGroup>
     <Content Include="CAS.CodeProtect.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>CAS.CodeProtect.nuspec</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>CAS.CodeProtect.nuspec</LastGenOutput>
     </Content>
     <Content Include="Packages\EN\package.xml">
       <SubType>Designer</SubType>

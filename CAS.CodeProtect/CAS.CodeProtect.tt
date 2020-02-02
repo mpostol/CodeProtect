@@ -3,24 +3,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id><#=CASCodeProtectProductName#></id>
+    <id><#=Id#></id>
     <version><#= CASCodeProtectProductVersion #><#= CASCodeProtectProductPreRelease #> </version>
-    <title><#=CASCodeProtectProductName#></title>
+    <title><#= Title #></title>
     <authors><#=AssemblyCompany#></authors>
     <owners><#=Owner#></owners>
-    <projectUrl>svn://svnserver.hq.cas.com.pl/Products/CAS.CodeProtect</projectUrl>
+    <projectUrl><#= repositoryUrl #></projectUrl>
 	  <licenseUrl>http://www.commsvr.com/DownloadCenter/ProductSoftware/LicenseAgreement.aspx</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <developmentDependency>false</developmentDependency>
     <description>
-	    Helper library supporting licenses creation and validation.
+	    <#= Description #>
     </description>
     <summary>
 	    Licenses management support library.
     </summary>
     <releaseNotes>
-       Contains previously released component. 
-	  </releaseNotes>
+       Porting to <#=CASCodeProtectProductTrademark#> <#=CASCodeProtectProductName#>.
+    </releaseNotes>
     <copyright><#=AssemblyCopyright#></copyright>
     <tags>CAS Software, CAS Framework, CAS Library, Licensing.</tags>
   </metadata>
@@ -34,4 +34,4 @@
   </files>
 </package>
 
-<#@ include file = "..\..\CommonResources\T4Definitions\CAS.OPC.t4" #>
+<#@ include file = "..\SolutionMetadataTemplate.t4" #>
