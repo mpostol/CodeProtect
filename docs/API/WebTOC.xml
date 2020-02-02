@@ -1,0 +1,752 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="3fbb749d-dfae-47cf-b544-51de067aed13" Title="CAS.Lib.CodeProtect Namespace" Url="html/N-CAS.Lib.CodeProtect.htm">
+    <HelpTOCNode Id="22476383-0f05-4652-b7ce-3c540523704c" Title="AssemblyHelperAttribute Class" Url="html/T-CAS.Lib.CodeProtect.AssemblyHelperAttribute.htm">
+      <HelpTOCNode Title="AssemblyHelperAttribute Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.AssemblyHelperAttribute.htm" />
+      <HelpTOCNode Id="2e0ce063-6f83-4068-a049-0712a54e6efd" Title="AssemblyHelperAttribute Constructor " Url="html/Overload-CAS.Lib.CodeProtect.AssemblyHelperAttribute.-ctor.htm">
+        <HelpTOCNode Title="AssemblyHelperAttribute Constructor " Url="html/M-CAS.Lib.CodeProtect.AssemblyHelperAttribute.-ctor.htm" />
+        <HelpTOCNode Title="AssemblyHelperAttribute Constructor (String)" Url="html/M-CAS.Lib.CodeProtect.AssemblyHelperAttribute.-ctor_1.htm" />
+        <HelpTOCNode Title="AssemblyHelperAttribute Constructor (String, String)" Url="html/M-CAS.Lib.CodeProtect.AssemblyHelperAttribute.-ctor_2.htm" />
+        <HelpTOCNode Title="AssemblyHelperAttribute Constructor (String, String, String)" Url="html/M-CAS.Lib.CodeProtect.AssemblyHelperAttribute.-ctor_3.htm" />
+        <HelpTOCNode Title="AssemblyHelperAttribute Constructor (String, String, String, String)" Url="html/M-CAS.Lib.CodeProtect.AssemblyHelperAttribute.-ctor_4.htm" />
+        <HelpTOCNode Title="AssemblyHelperAttribute Constructor (String, String, String, String, String)" Url="html/M-CAS.Lib.CodeProtect.AssemblyHelperAttribute.-ctor_5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d08641ca-782a-4e89-8e87-43a177d2dae0" Title="AssemblyHelperAttribute Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.AssemblyHelperAttribute.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/M-CAS.Lib.CodeProtect.AssemblyHelperAttribute.ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fe544db2-be34-4fef-96c6-8859c06c79a5" Title="AssemblyHelperAttribute Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.AssemblyHelperAttribute.htm">
+        <HelpTOCNode Title="Company Property " Url="html/P-CAS.Lib.CodeProtect.AssemblyHelperAttribute.Company.htm" />
+        <HelpTOCNode Title="Email Property " Url="html/P-CAS.Lib.CodeProtect.AssemblyHelperAttribute.Email.htm" />
+        <HelpTOCNode Title="Phone Property " Url="html/P-CAS.Lib.CodeProtect.AssemblyHelperAttribute.Phone.htm" />
+        <HelpTOCNode Title="Product Property " Url="html/P-CAS.Lib.CodeProtect.AssemblyHelperAttribute.Product.htm" />
+        <HelpTOCNode Title="Url Property " Url="html/P-CAS.Lib.CodeProtect.AssemblyHelperAttribute.Url.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5f1de582-0ffd-4630-9c33-74bb609edd80" Title="AssemblyKeyAttribute Class" Url="html/T-CAS.Lib.CodeProtect.AssemblyKeyAttribute.htm">
+      <HelpTOCNode Title="AssemblyKeyAttribute Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.AssemblyKeyAttribute.htm" />
+      <HelpTOCNode Id="a42c6016-f5fc-4d04-9f77-b2ada81042da" Title="AssemblyKeyAttribute Constructor " Url="html/Overload-CAS.Lib.CodeProtect.AssemblyKeyAttribute.-ctor.htm">
+        <HelpTOCNode Title="AssemblyKeyAttribute Constructor " Url="html/M-CAS.Lib.CodeProtect.AssemblyKeyAttribute.-ctor.htm" />
+        <HelpTOCNode Title="AssemblyKeyAttribute Constructor (String)" Url="html/M-CAS.Lib.CodeProtect.AssemblyKeyAttribute.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2036ccd3-6c20-4b2b-8b04-2d984e52e8cd" Title="AssemblyKeyAttribute Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.AssemblyKeyAttribute.htm">
+        <HelpTOCNode Title="GetEncryptionKeyAttribute Method " Url="html/M-CAS.Lib.CodeProtect.AssemblyKeyAttribute.GetEncryptionKeyAttribute.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="854a69b4-02e0-4907-9f7f-4ab631792896" Title="AssemblyKeyAttribute Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.AssemblyKeyAttribute.htm">
+        <HelpTOCNode Title="EncryptionKey Property " Url="html/P-CAS.Lib.CodeProtect.AssemblyKeyAttribute.EncryptionKey.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6dd8fd9b-63ef-4be8-89fb-9c082fbe0d2b" Title="CodeProtectLP Class" Url="html/T-CAS.Lib.CodeProtect.CodeProtectLP.htm">
+      <HelpTOCNode Title="CodeProtectLP Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.CodeProtectLP.htm" />
+      <HelpTOCNode Title="CodeProtectLP Constructor " Url="html/M-CAS.Lib.CodeProtect.CodeProtectLP.-ctor.htm" />
+      <HelpTOCNode Id="a230dab6-9625-4154-b2b4-b8208f576ace" Title="CodeProtectLP Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.CodeProtectLP.htm">
+        <HelpTOCNode Id="672ef24d-b0eb-4956-93b7-19b7650c50af" Title="GetLicense Method " Url="html/Overload-CAS.Lib.CodeProtect.CodeProtectLP.GetLicense.htm">
+          <HelpTOCNode Title="GetLicense Method (LicenseContext, Type, Object, Boolean)" Url="html/M-CAS.Lib.CodeProtect.CodeProtectLP.GetLicense.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ReadDeployManifest Method " Url="html/M-CAS.Lib.CodeProtect.CodeProtectLP.ReadDeployManifest.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="59df9a47-ed22-4f60-94c4-d2b30207b1a1" Title="CodeProtectLP Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.CodeProtectLP.htm">
+        <HelpTOCNode Title="OpeningError Property " Url="html/P-CAS.Lib.CodeProtect.CodeProtectLP.OpeningError.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="874aabbe-b260-4355-b3d8-9680af3186f4" Title="IIsLicensed Interface" Url="html/T-CAS.Lib.CodeProtect.IIsLicensed.htm">
+      <HelpTOCNode Title="IIsLicensed Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.IIsLicensed.htm" />
+      <HelpTOCNode Title="IIsLicensed Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.IIsLicensed.htm" />
+      <HelpTOCNode Id="ff070078-70bf-470d-ba67-c4af6ec0ec07" Title="IIsLicensed Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.IIsLicensed.htm">
+        <HelpTOCNode Title="Licensed Property " Url="html/P-CAS.Lib.CodeProtect.IIsLicensed.Licensed.htm" />
+        <HelpTOCNode Title="RunTime Property " Url="html/P-CAS.Lib.CodeProtect.IIsLicensed.RunTime.htm" />
+        <HelpTOCNode Title="Volume Property " Url="html/P-CAS.Lib.CodeProtect.IIsLicensed.Volume.htm" />
+        <HelpTOCNode Title="Warning Property " Url="html/P-CAS.Lib.CodeProtect.IIsLicensed.Warning.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b149fc9a-59a2-46bc-b3ab-1b21ae186851" Title="InstallContextNames Class" Url="html/T-CAS.Lib.CodeProtect.InstallContextNames.htm">
+      <HelpTOCNode Title="InstallContextNames Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.InstallContextNames.htm" />
+      <HelpTOCNode Title="InstallContextNames Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.InstallContextNames.htm" />
+      <HelpTOCNode Id="42fd646b-af49-4b8b-bcc5-43ca361d4e56" Title="InstallContextNames Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.InstallContextNames.htm">
+        <HelpTOCNode Title="ApplicationDataPath Property " Url="html/P-CAS.Lib.CodeProtect.InstallContextNames.ApplicationDataPath.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d8abcbee-c0c1-4bc4-a656-de3b14662a75" Title="IsLicensed(type) Class" Url="html/T-CAS.Lib.CodeProtect.IsLicensed-1.htm">
+      <HelpTOCNode Title="IsLicensed(type) Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.IsLicensed-1.htm" />
+      <HelpTOCNode Id="792aceb3-54c7-4c46-8d77-39aef99f4e1a" Title="IsLicensed(type) Constructor " Url="html/Overload-CAS.Lib.CodeProtect.IsLicensed-1.-ctor.htm">
+        <HelpTOCNode Title="IsLicensed(type) Constructor " Url="html/M-CAS.Lib.CodeProtect.IsLicensed-1.-ctor.htm" />
+        <HelpTOCNode Title="IsLicensed(type) Constructor (Nullable(Int32), Nullable(TimeSpan))" Url="html/M-CAS.Lib.CodeProtect.IsLicensed-1.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IsLicensed(type) Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.IsLicensed-1.htm" />
+      <HelpTOCNode Id="25e92578-8085-43e7-b76f-ab41287d440b" Title="IsLicensed(type) Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.IsLicensed-1.htm">
+        <HelpTOCNode Title="Licensed Property " Url="html/P-CAS.Lib.CodeProtect.IsLicensed-1.Licensed.htm" />
+        <HelpTOCNode Title="RunTime Property " Url="html/P-CAS.Lib.CodeProtect.IsLicensed-1.RunTime.htm" />
+        <HelpTOCNode Title="Volume Property " Url="html/P-CAS.Lib.CodeProtect.IsLicensed-1.Volume.htm" />
+        <HelpTOCNode Title="Warning Property " Url="html/P-CAS.Lib.CodeProtect.IsLicensed-1.Warning.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="028f6c2c-9361-44a5-9a73-b904ca624d7c" Title="LibInstaller Class" Url="html/T-CAS.Lib.CodeProtect.LibInstaller.htm">
+      <HelpTOCNode Title="LibInstaller Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LibInstaller.htm" />
+      <HelpTOCNode Title="LibInstaller Constructor " Url="html/M-CAS.Lib.CodeProtect.LibInstaller.-ctor.htm" />
+      <HelpTOCNode Id="f46bb865-9609-4336-8aa4-53f26ef8b23d" Title="LibInstaller Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LibInstaller.htm">
+        <HelpTOCNode Id="8b93305c-8d16-4ecf-94f9-9439c705a115" Title="Commit Method " Url="html/Overload-CAS.Lib.CodeProtect.LibInstaller.Commit.htm">
+          <HelpTOCNode Title="Commit Method " Url="html/M-CAS.Lib.CodeProtect.LibInstaller.Commit.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c2d3c105-c5cc-45bb-a6d4-f5ef4ae50b3c" Title="Install Method " Url="html/Overload-CAS.Lib.CodeProtect.LibInstaller.Install.htm">
+          <HelpTOCNode Title="Install Method " Url="html/M-CAS.Lib.CodeProtect.LibInstaller.Install.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="30a60df7-683a-4a92-a621-1109df813b7e" Title="InstallLicense Method " Url="html/Overload-CAS.Lib.CodeProtect.LibInstaller.InstallLicense.htm">
+          <HelpTOCNode Title="InstallLicense Method (Boolean)" Url="html/M-CAS.Lib.CodeProtect.LibInstaller.InstallLicense.htm" />
+          <HelpTOCNode Title="InstallLicense Method (String, String, String, Boolean)" Url="html/M-CAS.Lib.CodeProtect.LibInstaller.InstallLicense_1.htm" />
+          <HelpTOCNode Title="InstallLicense Method (Stream)" Url="html/M-CAS.Lib.CodeProtect.LibInstaller.InstallLicense_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="fc4244f8-2e62-4b91-8c81-52e8062cb76a" Title="Rollback Method " Url="html/Overload-CAS.Lib.CodeProtect.LibInstaller.Rollback.htm">
+          <HelpTOCNode Title="Rollback Method " Url="html/M-CAS.Lib.CodeProtect.LibInstaller.Rollback.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Uninstall Method " Url="html/M-CAS.Lib.CodeProtect.LibInstaller.Uninstall.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="LibInstaller Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LibInstaller.htm" />
+      <HelpTOCNode Title="LibInstaller Events" Url="html/Events.T-CAS.Lib.CodeProtect.LibInstaller.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="24c57992-cbcb-4aac-8a36-fc7feb9193b3" Title="MaintenanceControl Class" Url="html/T-CAS.Lib.CodeProtect.MaintenanceControl.htm">
+      <HelpTOCNode Title="MaintenanceControl Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.MaintenanceControl.htm" />
+      <HelpTOCNode Title="MaintenanceControl Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.MaintenanceControl.htm" />
+      <HelpTOCNode Id="900064ae-2d3e-484f-8253-123934675e62" Title="MaintenanceControl Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.MaintenanceControl.htm">
+        <HelpTOCNode Title="MaintenanceControlWarning Property " Url="html/P-CAS.Lib.CodeProtect.MaintenanceControl.MaintenanceControlWarning.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="15e2696a-101e-4dfc-abcb-25fd907d34a8" Title="MaintenanceControlComponent Class" Url="html/T-CAS.Lib.CodeProtect.MaintenanceControlComponent.htm">
+      <HelpTOCNode Title="MaintenanceControlComponent Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.MaintenanceControlComponent.htm" />
+      <HelpTOCNode Id="34200486-4e0f-4c78-987a-f083cc96123a" Title="MaintenanceControlComponent Constructor " Url="html/Overload-CAS.Lib.CodeProtect.MaintenanceControlComponent.-ctor.htm">
+        <HelpTOCNode Title="MaintenanceControlComponent Constructor " Url="html/M-CAS.Lib.CodeProtect.MaintenanceControlComponent.-ctor.htm" />
+        <HelpTOCNode Title="MaintenanceControlComponent Constructor (IContainer)" Url="html/M-CAS.Lib.CodeProtect.MaintenanceControlComponent.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="MaintenanceControlComponent Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.MaintenanceControlComponent.htm" />
+      <HelpTOCNode Id="44b78ed1-cba1-47ed-b920-8eb81f0be400" Title="MaintenanceControlComponent Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.MaintenanceControlComponent.htm">
+        <HelpTOCNode Title="Licensed Property " Url="html/P-CAS.Lib.CodeProtect.MaintenanceControlComponent.Licensed.htm" />
+        <HelpTOCNode Title="Warning Property " Url="html/P-CAS.Lib.CodeProtect.MaintenanceControlComponent.Warning.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="MaintenanceControlComponent Events" Url="html/Events.T-CAS.Lib.CodeProtect.MaintenanceControlComponent.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="06335b98-b317-4617-aeca-82cc4d8added" Title="RelativeFilePathsCalculator Class" Url="html/T-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.htm">
+      <HelpTOCNode Title="RelativeFilePathsCalculator Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.htm" />
+      <HelpTOCNode Id="e8d44865-1a69-4aaf-af9c-5665d053bd58" Title="RelativeFilePathsCalculator Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.htm">
+        <HelpTOCNode Title="GetAbsolutePathToFileInApplicationDataFolder Method " Url="html/M-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.GetAbsolutePathToFileInApplicationDataFolder.htm" />
+        <HelpTOCNode Title="TestIfPathIsAbsolute Method " Url="html/M-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.TestIfPathIsAbsolute.htm" />
+        <HelpTOCNode Title="TryComputeRelativePath Method " Url="html/M-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.TryComputeRelativePath.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="43489972-310c-448a-a8f1-2cbaa11c461f" Title="CAS.Lib.CodeProtect.EnvironmentAccess Namespace" Url="html/N-CAS.Lib.CodeProtect.EnvironmentAccess.htm">
+    <HelpTOCNode Id="61281e23-b5cf-4901-bcc1-c363c3a79377" Title="AdvancedDelimitedListTraceListener Class" Url="html/T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedDelimitedListTraceListener.htm">
+      <HelpTOCNode Title="AdvancedDelimitedListTraceListener Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedDelimitedListTraceListener.htm" />
+      <HelpTOCNode Title="AdvancedDelimitedListTraceListener Constructor " Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedDelimitedListTraceListener.-ctor.htm" />
+      <HelpTOCNode Title="AdvancedDelimitedListTraceListener Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedDelimitedListTraceListener.htm" />
+      <HelpTOCNode Title="AdvancedDelimitedListTraceListener Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedDelimitedListTraceListener.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="706211f9-6a5b-48a9-9d62-ca71f8ff6858" Title="AdvancedXmlWriterTraceListener Class" Url="html/T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedXmlWriterTraceListener.htm">
+      <HelpTOCNode Title="AdvancedXmlWriterTraceListener Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedXmlWriterTraceListener.htm" />
+      <HelpTOCNode Title="AdvancedXmlWriterTraceListener Constructor " Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedXmlWriterTraceListener.-ctor.htm" />
+      <HelpTOCNode Title="AdvancedXmlWriterTraceListener Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedXmlWriterTraceListener.htm" />
+      <HelpTOCNode Title="AdvancedXmlWriterTraceListener Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedXmlWriterTraceListener.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="52b00b83-3cd7-4f41-be06-11febb4d8e6b" Title="CodeProtectHelpers Class" Url="html/T-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.htm">
+      <HelpTOCNode Title="CodeProtectHelpers Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.htm" />
+      <HelpTOCNode Id="459c69a9-4ca2-4f00-b012-6ed7114ea2b8" Title="CodeProtectHelpers Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.htm">
+        <HelpTOCNode Title="CreateRSA Method " Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.CreateRSA.htm" />
+        <HelpTOCNode Title="GetArguments Method " Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.GetArguments.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c8b9aedf-cbb6-4af4-bf0a-e0a0ef5e025a" Title="FileNames Class" Url="html/T-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.htm">
+      <HelpTOCNode Title="FileNames Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.htm" />
+      <HelpTOCNode Id="9f43d7a1-5a13-4b4c-8a1f-be04acb0d564" Title="FileNames Fields" Url="html/Fields.T-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.htm">
+        <HelpTOCNode Title="LicExtension Field" Url="html/F-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.LicExtension.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="85a6e88f-3bae-4263-9d72-e4dde15efc7e" Title="FileNames Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.htm">
+        <HelpTOCNode Title="CreateLicenseFileStream Method " Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.CreateLicenseFileStream.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="31c59c95-3132-4ed9-8f6d-41d39d68a8d4" Title="FileNames Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.htm">
+        <HelpTOCNode Title="LicenseFileName Property " Url="html/P-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.LicenseFileName.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fad892f3-5b32-49ae-9eb9-6b27496e43de" Title="UnlockKeyAssemblyContainer Class" Url="html/T-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.htm">
+      <HelpTOCNode Title="UnlockKeyAssemblyContainer Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.htm" />
+      <HelpTOCNode Id="4b93a8b5-1da6-45fe-b5a3-0e3f4801231a" Title="UnlockKeyAssemblyContainer Constructor " Url="html/Overload-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.-ctor.htm">
+        <HelpTOCNode Title="UnlockKeyAssemblyContainer Constructor " Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.-ctor.htm" />
+        <HelpTOCNode Title="UnlockKeyAssemblyContainer Constructor (Assembly)" Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.-ctor_1.htm" />
+        <HelpTOCNode Title="UnlockKeyAssemblyContainer Constructor (String)" Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.-ctor_2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ebbd4d18-f9dc-409b-af7f-9047372891db" Title="UnlockKeyAssemblyContainer Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.htm">
+        <HelpTOCNode Title="GetManifestResourcePath Method " Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.GetManifestResourcePath.htm" />
+        <HelpTOCNode Title="GetManifestResourceStream Method " Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.GetManifestResourceStream.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="c7081d5d-ee14-4157-9656-53db84ae43dd" Title="CAS.Lib.CodeProtect.LicenseDsc Namespace" Url="html/N-CAS.Lib.CodeProtect.LicenseDsc.htm">
+    <HelpTOCNode Id="f0275439-6a3e-4607-8d3a-82ec3a9f734b" Title="AbstractConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.htm">
+      <HelpTOCNode Title="AbstractConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.htm" />
+      <HelpTOCNode Id="dad5afc7-4af1-485d-b9a9-32bf6c7be3ee" Title="AbstractConstraint Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.htm">
+        <HelpTOCNode Title="Dispose Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Dispose.htm" />
+        <HelpTOCNode Id="a5679689-84d4-46a0-8ff2-5beeb9466492" Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.FromXml.htm">
+          <HelpTOCNode Title="FromXml Method (String)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.FromXml.htm" />
+          <HelpTOCNode Title="FromXml Method (XmlNode)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.FromXml_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ToString Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.ToString.htm" />
+        <HelpTOCNode Title="ToXmlString Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.ToXmlString.htm" />
+        <HelpTOCNode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Validate.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2fa88ff6-fe56-4816-854c-4e79364d3c7f" Title="AbstractConstraint Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.htm">
+        <HelpTOCNode Title="ConstraintType Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.ConstraintType.htm" />
+        <HelpTOCNode Title="Description Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Description.htm" />
+        <HelpTOCNode Title="GUID Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.GUID.htm" />
+        <HelpTOCNode Title="Icon Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Icon.htm" />
+        <HelpTOCNode Title="License Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.License.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Name.htm" />
+        <HelpTOCNode Title="RunTimeConstrain Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.RunTimeConstrain.htm" />
+        <HelpTOCNode Title="VolumeConstrain Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.VolumeConstrain.htm" />
+        <HelpTOCNode Title="Warning Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Warning.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="681bcfc7-56fb-4cd0-94fb-7ef3d44647d0" Title="AbstractContainerConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.htm">
+      <HelpTOCNode Title="AbstractContainerConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.htm" />
+      <HelpTOCNode Id="fda770bc-a368-4216-a915-12af47322c39" Title="AbstractContainerConstraint Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.htm">
+        <HelpTOCNode Id="99e66c2b-bb4d-4efd-aefa-437fcc53c051" Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.FromXml.htm">
+          <HelpTOCNode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.FromXml.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ToXmlString Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.ToXmlString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ad7250f6-dd14-43de-b5ed-a173b0cff9a8" Title="AbstractContainerConstraint Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.htm">
+        <HelpTOCNode Title="Items Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.Items.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ada9176f-cb9a-4edf-946b-2c12a8098031" Title="AbstractLicenseData Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.htm">
+      <HelpTOCNode Title="AbstractLicenseData Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.htm" />
+      <HelpTOCNode Id="54b8ce21-a821-4102-869a-e6a4cd160ae1" Title="AbstractLicenseData Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.htm">
+        <HelpTOCNode Title="Saved Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.Saved.htm" />
+        <HelpTOCNode Title="ToXmlString Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.ToXmlString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="97496e71-2ba1-44c4-b086-40836761e6d2" Title="AbstractLicenseData Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.htm">
+        <HelpTOCNode Title="IsDirty Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.IsDirty.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6ca07fef-5ab7-41e6-a2a2-8040cb03f419" Title="AbstractUpgradeableData(Type) Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm">
+      <HelpTOCNode Title="AbstractUpgradeableData(Type) Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm" />
+      <HelpTOCNode Id="77eee5eb-ea04-4836-a1f8-2fd23063f983" Title="AbstractUpgradeableData(Type) Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm">
+        <HelpTOCNode Title="UpgardeData Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.UpgardeData.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AbstractUpgradeableData(Type) Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b9678b07-31df-4e55-b0cf-07993c499205" Title="CustomData Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.CustomData.htm">
+      <HelpTOCNode Title="CustomData Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.CustomData.htm" />
+      <HelpTOCNode Title="CustomData Constructor " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.CustomData.-ctor.htm" />
+      <HelpTOCNode Id="06f8ecb1-1b96-4531-8c01-a473c73a4d64" Title="CustomData Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.CustomData.htm">
+        <HelpTOCNode Title="ToXmlString Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.CustomData.ToXmlString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="316449cc-808d-4e93-b595-985c2947332f" Title="CustomData Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.CustomData.htm">
+        <HelpTOCNode Title="Items Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.CustomData.Items.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="eef2dd05-3513-4197-b345-c264a05a7a65" Title="IConstraint Interface" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.htm">
+      <HelpTOCNode Title="IConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.htm" />
+      <HelpTOCNode Id="d6c6587a-46e7-4045-ad0e-79862da16310" Title="IConstraint Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.htm">
+        <HelpTOCNode Title="Dispose Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Dispose.htm" />
+        <HelpTOCNode Id="e0f73692-340b-482b-a337-8a4fcbc86dd1" Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.FromXml.htm">
+          <HelpTOCNode Title="FromXml Method (String)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.FromXml.htm" />
+          <HelpTOCNode Title="FromXml Method (XmlNode)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.FromXml_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Saved Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Saved.htm" />
+        <HelpTOCNode Title="ToXmlString Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.ToXmlString.htm" />
+        <HelpTOCNode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Validate.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2b40d578-87c2-4580-909a-097ae4145f21" Title="IConstraint Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.htm">
+        <HelpTOCNode Title="Description Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Description.htm" />
+        <HelpTOCNode Title="Icon Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Icon.htm" />
+        <HelpTOCNode Title="IsDirty Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.IsDirty.htm" />
+        <HelpTOCNode Title="License Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.License.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Name.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4ecc71e5-a001-48bc-804f-7d9794c351a0" Title="IConstraintItemProvider Interface" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.IConstraintItemProvider.htm">
+      <HelpTOCNode Title="IConstraintItemProvider Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.IConstraintItemProvider.htm" />
+      <HelpTOCNode Title="IConstraintItemProvider Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.IConstraintItemProvider.htm" />
+      <HelpTOCNode Id="4c365e96-a2ce-4692-8b0e-ade4a75c7e9a" Title="IConstraintItemProvider Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.IConstraintItemProvider.htm">
+        <HelpTOCNode Title="Items Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.IConstraintItemProvider.Items.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d8c4dcb0-7e5c-4318-ade7-6638cf9997d7" Title="ILicenseData Interface" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.htm">
+      <HelpTOCNode Title="ILicenseData Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.htm" />
+      <HelpTOCNode Id="69c5a195-e7ae-49de-8e11-59e6e4b955f4" Title="ILicenseData Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.htm">
+        <HelpTOCNode Title="Saved Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.Saved.htm" />
+        <HelpTOCNode Title="ToXmlString Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.ToXmlString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="df302917-5c9d-47ee-9c55-ee4b95bc8b03" Title="ILicenseData Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.htm">
+        <HelpTOCNode Title="IsDirty Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.IsDirty.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4a5aebc6-e5d4-4976-83e7-674624e8241b" Title="Issuer Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Issuer.htm">
+      <HelpTOCNode Title="Issuer Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Issuer.htm" />
+      <HelpTOCNode Id="6f4fcd98-f531-426a-8e24-6e4f20c68e98" Title="Issuer Constructor " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Issuer.-ctor.htm">
+        <HelpTOCNode Title="Issuer Constructor " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Issuer.-ctor.htm" />
+        <HelpTOCNode Title="Issuer Constructor (String, String, String)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Issuer.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="cd13c824-7461-4e51-885e-46f422e6b255" Title="Issuer Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Issuer.htm">
+        <HelpTOCNode Title="ToXmlString Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Issuer.ToXmlString.htm" />
+        <HelpTOCNode Id="2ab559f7-ad4a-4f11-b80a-908671f97d77" Title="UpgardeData Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Issuer.UpgardeData.htm">
+          <HelpTOCNode Title="UpgardeData Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Issuer.UpgardeData.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ef126a05-075a-41bf-a7da-3b19aeaaa5ec" Title="Issuer Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Issuer.htm">
+        <HelpTOCNode Title="Email Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Issuer.Email.htm" />
+        <HelpTOCNode Title="FullName Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Issuer.FullName.htm" />
+        <HelpTOCNode Title="Url Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Issuer.Url.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2ce72b96-4c80-44da-8459-37388e3971f4" Title="LicenseFile Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.htm">
+      <HelpTOCNode Title="LicenseFile Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.htm" />
+      <HelpTOCNode Title="LicenseFile Constructor " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.-ctor.htm" />
+      <HelpTOCNode Id="5474947b-990d-48f5-a4ac-fc8916d6f148" Title="LicenseFile Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.htm">
+        <HelpTOCNode Title="Dispose Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Dispose.htm" />
+        <HelpTOCNode Title="GetCustomFieldValue Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.GetCustomFieldValue.htm" />
+        <HelpTOCNode Id="4163bdb4-d555-4bd7-84f6-0e3fcda337fa" Title="LoadFile Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LoadFile.htm">
+          <HelpTOCNode Title="LoadFile Method (Stream, RSACryptoServiceProvider, Boolean)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LoadFile.htm" />
+          <HelpTOCNode Title="LoadFile Method (Stream, RSACryptoServiceProvider)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LoadFile_1.htm" />
+          <HelpTOCNode Title="LoadFile Method (FileInfo, RSACryptoServiceProvider, Boolean)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LoadFile_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ResetCreationStatistics Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.ResetCreationStatistics.htm" />
+        <HelpTOCNode Title="SaveFile Method (Stream, RSA)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.SaveFile.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.ToString.htm" />
+        <HelpTOCNode Title="ToXmlSignedXmlDocument Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.ToXmlSignedXmlDocument.htm" />
+        <HelpTOCNode Id="eb6fc05e-afd5-46a1-9deb-feb9fafd4351" Title="UpgradeLicense Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.UpgradeLicense.htm">
+          <HelpTOCNode Title="UpgradeLicense Method (Stream)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.UpgradeLicense.htm" />
+          <HelpTOCNode Title="UpgradeLicense Method (String)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.UpgradeLicense_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ValidateLicense Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.ValidateLicense.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="13166927-df77-402e-9ca2-c02ed4888b0e" Title="LicenseFile Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.htm">
+        <HelpTOCNode Title="Constraints Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Constraints.htm" />
+        <HelpTOCNode Title="CreationDate Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.CreationDate.htm" />
+        <HelpTOCNode Title="CustomData Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.CustomData.htm" />
+        <HelpTOCNode Title="FailureReason Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.FailureReason.htm" />
+        <HelpTOCNode Title="FirstUsesDate Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.FirstUsesDate.htm" />
+        <HelpTOCNode Title="HardwareKeyToken Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.HardwareKeyToken.htm" />
+        <HelpTOCNode Title="HardwareKeyTokenBasedOnDevice Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.HardwareKeyTokenBasedOnDevice.htm" />
+        <HelpTOCNode Title="InstallationInstanceGUID Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.InstallationInstanceGUID.htm" />
+        <HelpTOCNode Title="IsDirty Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.IsDirty.htm" />
+        <HelpTOCNode Title="IsReadOnly Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.IsReadOnly.htm" />
+        <HelpTOCNode Title="Issuer Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Issuer.htm" />
+        <HelpTOCNode Title="LicenseKey Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LicenseKey.htm" />
+        <HelpTOCNode Title="LicenseKeyToken Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LicenseKeyToken.htm" />
+        <HelpTOCNode Title="LicenseUID Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LicenseUID.htm" />
+        <HelpTOCNode Title="LicModificationUID Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LicModificationUID.htm" />
+        <HelpTOCNode Title="ModificationDate Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.ModificationDate.htm" />
+        <HelpTOCNode Title="Product Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Product.htm" />
+        <HelpTOCNode Title="RunTimeConstrain Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.RunTimeConstrain.htm" />
+        <HelpTOCNode Title="Statistics Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Statistics.htm" />
+        <HelpTOCNode Title="User Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.User.htm" />
+        <HelpTOCNode Title="VolumeConstrain Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.VolumeConstrain.htm" />
+        <HelpTOCNode Title="Warnings Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Warnings.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="21ad568d-f158-4a1f-a69f-f18de8882486" Title="LicenseFileException Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException.htm">
+      <HelpTOCNode Title="LicenseFileException Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException.htm" />
+      <HelpTOCNode Id="504940df-4d26-48a0-aac5-9108c1fd27a3" Title="LicenseFileException Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException.htm">
+        <HelpTOCNode Title="TraceInnerExceptions Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException.TraceInnerExceptions.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="LicenseFileException Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c1c46a0f-9821-4026-bf6e-1c595d57ea0a" Title="Product Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Product.htm">
+      <HelpTOCNode Title="Product Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Product.htm" />
+      <HelpTOCNode Id="bba21be1-cea4-4a86-87b0-3941a071a65d" Title="Product Constructor " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Product.-ctor.htm">
+        <HelpTOCNode Title="Product Constructor (Assembly)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Product.-ctor.htm" />
+        <HelpTOCNode Title="Product Constructor (DeployManifest)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Product.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="beb0b629-5de6-4f40-9a76-115266f80aaa" Title="Product Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Product.htm">
+        <HelpTOCNode Title="ToXmlString Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Product.ToXmlString.htm" />
+        <HelpTOCNode Id="304cca7e-6988-47e8-868f-45c6fd57e873" Title="UpgardeData Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Product.UpgardeData.htm">
+          <HelpTOCNode Title="UpgardeData Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Product.UpgardeData.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="b4b444a4-d70a-4391-aec8-79bd0fbaeeaa" Title="Product Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Product.htm">
+        <HelpTOCNode Title="Description Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.Description.htm" />
+        <HelpTOCNode Title="Developer Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.Developer.htm" />
+        <HelpTOCNode Title="FilePath Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.FilePath.htm" />
+        <HelpTOCNode Title="FullName Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.FullName.htm" />
+        <HelpTOCNode Title="IsInGAC Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.IsInGAC.htm" />
+        <HelpTOCNode Title="IsLicensed Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.IsLicensed.htm" />
+        <HelpTOCNode Title="LicFileName Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.LicFileName.htm" />
+        <HelpTOCNode Title="ShortName Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.ShortName.htm" />
+        <HelpTOCNode Title="Version Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.Version.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="035d0696-7e7b-48eb-8fa8-354cdd226149" Title="Statistics Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Statistics.htm">
+      <HelpTOCNode Title="Statistics Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Statistics.htm" />
+      <HelpTOCNode Id="7ff67078-9d5f-4c01-9284-07088c7f4ee0" Title="Statistics Constructor " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Statistics.-ctor.htm">
+        <HelpTOCNode Title="Statistics Constructor " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Statistics.-ctor.htm" />
+        <HelpTOCNode Title="Statistics Constructor (Int32)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Statistics.-ctor_1.htm" />
+        <HelpTOCNode Title="Statistics Constructor (Int32, Int32)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Statistics.-ctor_2.htm" />
+        <HelpTOCNode Title="Statistics Constructor (Int32, Int32, Int32)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Statistics.-ctor_3.htm" />
+        <HelpTOCNode Title="Statistics Constructor (Int32, Int32, Int32, Int32)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Statistics.-ctor_4.htm" />
+        <HelpTOCNode Title="Statistics Constructor (Int32, Int32, Int32, Int32, DateTime)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Statistics.-ctor_5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8cde7775-14bc-433e-99bf-17ad381e6d01" Title="Statistics Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Statistics.htm">
+        <HelpTOCNode Title="ToXmlString Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Statistics.ToXmlString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="aaba5d4c-627d-4b0e-be05-237ce45f45e3" Title="Statistics Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Statistics.htm">
+        <HelpTOCNode Title="AccessCount Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Statistics.AccessCount.htm" />
+        <HelpTOCNode Title="DateTimeLastAccessed Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Statistics.DateTimeLastAccessed.htm" />
+        <HelpTOCNode Title="DaysCount Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Statistics.DaysCount.htm" />
+        <HelpTOCNode Title="HitCount Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Statistics.HitCount.htm" />
+        <HelpTOCNode Title="UsageCount Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Statistics.UsageCount.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="49407d3e-90b5-44d8-bf14-85188234fd93" Title="User Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.User.htm">
+      <HelpTOCNode Title="User Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.User.htm" />
+      <HelpTOCNode Id="20977d3d-5146-4fe6-9b64-76612a42545a" Title="User Constructor " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.User.-ctor.htm">
+        <HelpTOCNode Title="User Constructor " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.User.-ctor.htm" />
+        <HelpTOCNode Title="User Constructor (String)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.User.-ctor_1.htm" />
+        <HelpTOCNode Title="User Constructor (String, String)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.User.-ctor_2.htm" />
+        <HelpTOCNode Title="User Constructor (String, String, String)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.User.-ctor_3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ca0f313f-edef-4f88-bc12-dbee7868f4a9" Title="User Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.User.htm">
+        <HelpTOCNode Title="ToXmlString Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.User.ToXmlString.htm" />
+        <HelpTOCNode Id="9ad25fdb-4b85-4635-93f5-fdb12a882f3a" Title="UpgardeData Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.User.UpgardeData.htm">
+          <HelpTOCNode Title="UpgardeData Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.User.UpgardeData.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="c24ce332-2deb-4d49-9f07-4f3f000034c1" Title="User Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.User.htm">
+        <HelpTOCNode Title="Email Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.User.Email.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.User.Name.htm" />
+        <HelpTOCNode Title="Organization Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.User.Organization.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="46ce2d27-dbda-45dc-81dd-b993e8e5f842" Title="CAS.Lib.CodeProtect.LicenseDsc.Constraints Namespace" Url="html/N-CAS.Lib.CodeProtect.LicenseDsc.Constraints.htm">
+    <HelpTOCNode Id="8050726c-95c2-434b-bb7e-616a718b10a8" Title="AndConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.htm">
+      <HelpTOCNode Title="AndConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.htm" />
+      <HelpTOCNode Id="40460083-a6d6-4607-bfbb-4a8feb081564" Title="AndConstraint Constructor " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.-ctor.htm">
+        <HelpTOCNode Title="AndConstraint Constructor " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.-ctor.htm" />
+        <HelpTOCNode Title="AndConstraint Constructor (LicenseFile)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7799d527-6610-4226-a14a-4a3eaa570ec6" Title="AndConstraint Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.htm">
+        <HelpTOCNode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.Validate.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AndConstraint Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="60723ffb-2a0e-469d-8aef-56349e130353" Title="BetaConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.htm">
+      <HelpTOCNode Title="BetaConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.htm" />
+      <HelpTOCNode Id="abf7f894-c26b-4472-87b3-fca2e88e62b6" Title="BetaConstraint Constructor " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.-ctor.htm">
+        <HelpTOCNode Title="BetaConstraint Constructor " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.-ctor.htm" />
+        <HelpTOCNode Title="BetaConstraint Constructor (LicenseFile)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fb1c2768-a5d8-4133-9457-fa524ecb5fd9" Title="BetaConstraint Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.htm">
+        <HelpTOCNode Id="033ab236-5f9d-45e6-967e-da2f1e61765b" Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.FromXml.htm">
+          <HelpTOCNode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.FromXml.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.Validate.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="65957b19-a71c-4c3f-9c5e-4e42c54d7006" Title="BetaConstraint Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.htm">
+        <HelpTOCNode Title="EndDate Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.EndDate.htm" />
+        <HelpTOCNode Title="UpdateURL Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.UpdateURL.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="806a71c2-b41e-4dcd-9161-9b20b69020dc" Title="DayTimeConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.htm">
+      <HelpTOCNode Title="DayTimeConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.htm" />
+      <HelpTOCNode Id="a44c8c75-39f1-492c-b935-6f5123dead93" Title="DayTimeConstraint Constructor " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.-ctor.htm">
+        <HelpTOCNode Title="DayTimeConstraint Constructor " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.-ctor.htm" />
+        <HelpTOCNode Title="DayTimeConstraint Constructor (LicenseFile)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="47bd38f6-9b46-4e4a-b5f7-13e1020d7d15" Title="DayTimeConstraint Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.htm">
+        <HelpTOCNode Id="322ce0a2-7e3a-47c0-873c-498a538d6c41" Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.FromXml.htm">
+          <HelpTOCNode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.FromXml.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.Validate.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="dedd5cf5-4b3b-4bb2-a2db-ae878f046162" Title="DayTimeConstraint Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.htm">
+        <HelpTOCNode Title="Items Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.Items.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="01520c70-260c-40c2-9ecc-33002e6f973a" Title="DemoConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.htm">
+      <HelpTOCNode Title="DemoConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.htm" />
+      <HelpTOCNode Id="d7bdf801-f1ff-46ee-b2f6-f527dcee0a69" Title="DemoConstraint Constructor " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.-ctor.htm">
+        <HelpTOCNode Title="DemoConstraint Constructor " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.-ctor.htm" />
+        <HelpTOCNode Title="DemoConstraint Constructor (LicenseFile)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="456cb693-84cf-4a37-950d-4fff5b215b15" Title="DemoConstraint Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.htm">
+        <HelpTOCNode Id="a19c60f2-485d-4b21-84a4-dbe33764a70a" Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.FromXml.htm">
+          <HelpTOCNode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.FromXml.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.Validate.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="76561879-46a4-45a3-b61c-7c791f41e1af" Title="DemoConstraint Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.htm">
+        <HelpTOCNode Title="Condition Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.Condition.htm" />
+        <HelpTOCNode Title="Duration Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.Duration.htm" />
+        <HelpTOCNode Title="EndDate Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.EndDate.htm" />
+        <HelpTOCNode Title="InfoURL Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.InfoURL.htm" />
+        <HelpTOCNode Title="PurchaseURL Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.PurchaseURL.htm" />
+        <HelpTOCNode Title="StartDate Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.StartDate.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="001994f6-deb6-40a1-b489-5725c096a583" Title="DesigntimeConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.htm">
+      <HelpTOCNode Title="DesigntimeConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.htm" />
+      <HelpTOCNode Id="64b04430-43e9-4a29-86ef-21e489113161" Title="DesigntimeConstraint Constructor " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.-ctor.htm">
+        <HelpTOCNode Title="DesigntimeConstraint Constructor " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.-ctor.htm" />
+        <HelpTOCNode Title="DesigntimeConstraint Constructor (LicenseFile)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a98de47a-b436-4e78-9ba2-4de168cba8c7" Title="DesigntimeConstraint Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.htm">
+        <HelpTOCNode Id="1ddc560c-fb77-49d3-963d-24b01ab025d8" Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.FromXml.htm">
+          <HelpTOCNode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.FromXml.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.Validate.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="DesigntimeConstraint Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="97ee087f-cc51-4dd5-a8ad-ad58faead79f" Title="DomainConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.htm">
+      <HelpTOCNode Title="DomainConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.htm" />
+      <HelpTOCNode Id="1fe0cc5d-fe1b-4e58-ac85-695a58c5991c" Title="DomainConstraint Constructor " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.-ctor.htm">
+        <HelpTOCNode Title="DomainConstraint Constructor " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.-ctor.htm" />
+        <HelpTOCNode Title="DomainConstraint Constructor (LicenseFile)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="48d0314f-b40c-4e36-b204-a19e545286d0" Title="DomainConstraint Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.htm">
+        <HelpTOCNode Id="83924c1b-6c0d-438e-8e1a-9761c84fe1d3" Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.FromXml.htm">
+          <HelpTOCNode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.FromXml.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.Validate.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="375401cb-1c42-4ec9-93ab-6a1c05a00549" Title="DomainConstraint Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.htm">
+        <HelpTOCNode Title="CurrentDomain Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.CurrentDomain.htm" />
+        <HelpTOCNode Title="Domains Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.Domains.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="55483f6b-1a41-4889-8fc0-633021816f6b" Title="FunctionConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.htm">
+      <HelpTOCNode Title="FunctionConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.htm" />
+      <HelpTOCNode Id="6caa33c7-7532-43c4-b23f-f44bb32d83e2" Title="FunctionConstraint Constructor " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.-ctor.htm">
+        <HelpTOCNode Title="FunctionConstraint Constructor " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.-ctor.htm" />
+        <HelpTOCNode Title="FunctionConstraint Constructor (LicenseFile)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fef688db-af25-4634-888e-8fad5017a721" Title="FunctionConstraint Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.htm">
+        <HelpTOCNode Id="61ae4a5f-0118-4edd-b9ba-fee6f0fc9fa5" Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.FromXml.htm">
+          <HelpTOCNode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.FromXml.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.Validate.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9fd9cb90-379c-4bb4-8dd8-7070bc16c55a" Title="FunctionConstraint Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.htm">
+        <HelpTOCNode Title="Allow Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.Allow.htm" />
+        <HelpTOCNode Title="UpdateURL Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.UpdateURL.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3df0fe9c-9fbb-4335-9a24-606e0ee10e7c" Title="OrConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.htm">
+      <HelpTOCNode Title="OrConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.htm" />
+      <HelpTOCNode Id="6d2c387a-49bd-4339-8171-e1895535890a" Title="OrConstraint Constructor " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.-ctor.htm">
+        <HelpTOCNode Title="OrConstraint Constructor " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.-ctor.htm" />
+        <HelpTOCNode Title="OrConstraint Constructor (LicenseFile)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1168bc46-d6ae-4cd3-b38a-a9ba6c47ee04" Title="OrConstraint Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.htm">
+        <HelpTOCNode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.Validate.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="OrConstraint Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="19585997-e29d-4744-acd0-c30cca9784e9" Title="ProcessorConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.htm">
+      <HelpTOCNode Title="ProcessorConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.htm" />
+      <HelpTOCNode Id="26c03033-7898-4fa9-9dbd-e594a61bd646" Title="ProcessorConstraint Constructor " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.-ctor.htm">
+        <HelpTOCNode Title="ProcessorConstraint Constructor " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.-ctor.htm" />
+        <HelpTOCNode Title="ProcessorConstraint Constructor (LicenseFile)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d241b480-5cf6-486f-9278-97cd01f76c54" Title="ProcessorConstraint Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.htm">
+        <HelpTOCNode Id="3733cff1-f0ed-410a-8e35-60ccbe5b657d" Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.FromXml.htm">
+          <HelpTOCNode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.FromXml.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.Validate.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a4dede52-ef12-402d-8b39-c0e921707c55" Title="ProcessorConstraint Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.htm">
+        <HelpTOCNode Title="OS Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.OS.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9246e5b3-a4db-481f-bcfb-0db144d01f5d" Title="RuntimeConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.htm">
+      <HelpTOCNode Title="RuntimeConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.htm" />
+      <HelpTOCNode Id="46bd2c8f-10ec-42c9-af89-4a9827eafc27" Title="RuntimeConstraint Constructor " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.-ctor.htm">
+        <HelpTOCNode Title="RuntimeConstraint Constructor " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.-ctor.htm" />
+        <HelpTOCNode Title="RuntimeConstraint Constructor (LicenseFile)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="792a9543-93dd-4428-8bd0-8ebd329c3797" Title="RuntimeConstraint Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.htm">
+        <HelpTOCNode Id="7335ef26-1e42-4d50-8194-9068dadbae28" Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.FromXml.htm">
+          <HelpTOCNode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.FromXml.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.Validate.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="RuntimeConstraint Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="84d73149-1ab7-4fc6-b253-298de868ee2f" Title="Time Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.htm">
+      <HelpTOCNode Title="Time Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.htm" />
+      <HelpTOCNode Id="aa69e54d-c66e-49f7-be11-691da0312237" Title="Time Constructor " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.-ctor.htm">
+        <HelpTOCNode Title="Time Constructor " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.-ctor.htm" />
+        <HelpTOCNode Title="Time Constructor (Int32)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9a4cd53d-b1ec-45f0-aa6c-a07c51c907c2" Title="Time Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.htm">
+        <HelpTOCNode Title="Now Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.Now.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c8c48138-ff52-4a12-a0e1-cb6257d5e0d4" Title="Time Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.htm">
+        <HelpTOCNode Title="MilitaryTime Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.MilitaryTime.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="57d6b37d-e09e-4f4a-b011-2a2cae8dae5e" Title="TimeRange Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.htm">
+      <HelpTOCNode Title="TimeRange Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.htm" />
+      <HelpTOCNode Id="af9a9bd2-4386-437f-bda5-ea05ef70be7a" Title="TimeRange Constructor " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.-ctor.htm">
+        <HelpTOCNode Title="TimeRange Constructor " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.-ctor.htm" />
+        <HelpTOCNode Title="TimeRange Constructor (Time)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.-ctor_1.htm" />
+        <HelpTOCNode Title="TimeRange Constructor (Time, Time)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.-ctor_2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TimeRange Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.htm" />
+      <HelpTOCNode Id="efdb95f6-dd29-409e-9b81-efd52c713e31" Title="TimeRange Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.htm">
+        <HelpTOCNode Title="End Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.End.htm" />
+        <HelpTOCNode Title="Start Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.Start.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="eb27994f-5663-4402-a82a-18c61da6e7b2" Title="TimeRangeCollection Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.htm">
+      <HelpTOCNode Title="TimeRangeCollection Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.htm" />
+      <HelpTOCNode Id="346e256f-8a60-47bc-9c99-604b592bb2bc" Title="TimeRangeCollection Constructor " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.-ctor.htm">
+        <HelpTOCNode Title="TimeRangeCollection Constructor " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.-ctor.htm" />
+        <HelpTOCNode Title="TimeRangeCollection Constructor (TimeRangeCollection)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.-ctor_1.htm" />
+        <HelpTOCNode Title="TimeRangeCollection Constructor (TimeRange[])" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.-ctor_2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bdb7ae22-18e7-410d-a80f-12af305fd9d8" Title="TimeRangeCollection Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.htm">
+        <HelpTOCNode Title="Add Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.Add.htm" />
+        <HelpTOCNode Id="c971ef6e-081d-4b58-a218-a8edb07359bc" Title="AddRange Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.AddRange.htm">
+          <HelpTOCNode Title="AddRange Method (TimeRange[])" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.AddRange.htm" />
+          <HelpTOCNode Title="AddRange Method (TimeRangeCollection)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.AddRange_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Contains Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.Contains.htm" />
+        <HelpTOCNode Title="CopyTo Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.CopyTo.htm" />
+        <HelpTOCNode Title="GetEnumerator Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.GetEnumerator.htm" />
+        <HelpTOCNode Title="IndexOf Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.IndexOf.htm" />
+        <HelpTOCNode Title="Insert Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.Insert.htm" />
+        <HelpTOCNode Title="Remove Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.Remove.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4ae8276e-d494-4be6-a384-790016439ac7" Title="TimeRangeCollection Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.htm">
+        <HelpTOCNode Title="Item Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.Item-System.Int32-.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0a06679d-7ee0-4cfe-8a71-0fed42a8c14c" Title="TimeRangeCollection.TimeRangeEnumerator Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.htm">
+      <HelpTOCNode Title="TimeRangeCollection.TimeRangeEnumerator Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.htm" />
+      <HelpTOCNode Title="TimeRangeEnumerator Constructor " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.-ctor.htm" />
+      <HelpTOCNode Id="9640440b-1eb2-40af-aeb1-7eb9bcbf7cd3" Title="TimeRangeCollection.TimeRangeEnumerator Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.htm">
+        <HelpTOCNode Title="MoveNext Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.MoveNext.htm" />
+        <HelpTOCNode Title="Reset Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.Reset.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="59f7ff7f-8516-4b63-8320-44b2c11c861e" Title="TimeRangeCollection.TimeRangeEnumerator Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.htm">
+        <HelpTOCNode Title="Current Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.Current.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="15079ea8-a6f6-440a-87a5-3192877e3fa4" Title="UsageConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.htm">
+      <HelpTOCNode Title="UsageConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.htm" />
+      <HelpTOCNode Id="66b4aae8-6d77-4318-9711-416c851035e4" Title="UsageConstraint Constructor " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.-ctor.htm">
+        <HelpTOCNode Title="UsageConstraint Constructor " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.-ctor.htm" />
+        <HelpTOCNode Title="UsageConstraint Constructor (LicenseFile)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c426309f-3a76-4890-a2d4-a4b5fff1d4db" Title="UsageConstraint Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.htm">
+        <HelpTOCNode Id="827e22a9-c2ed-44c9-b777-f0193ba84965" Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.FromXml.htm">
+          <HelpTOCNode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.FromXml.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.Validate.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e02d4826-ad5b-4493-b85a-0379b98a1833" Title="UsageConstraint Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.htm">
+        <HelpTOCNode Title="CurrentDays Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.CurrentDays.htm" />
+        <HelpTOCNode Title="CurrentHitCount Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.CurrentHitCount.htm" />
+        <HelpTOCNode Title="CurrentUsageCount Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.CurrentUsageCount.htm" />
+        <HelpTOCNode Title="MaxDays Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.MaxDays.htm" />
+        <HelpTOCNode Title="MaxHitCount Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.MaxHitCount.htm" />
+        <HelpTOCNode Title="MaxUsageCount Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.MaxUsageCount.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c07a761c-feba-46cc-8da2-5e3b1706b51d" Title="VersionConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.htm">
+      <HelpTOCNode Title="VersionConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.htm" />
+      <HelpTOCNode Id="8d0276aa-285e-464f-b33e-5da30e23963d" Title="VersionConstraint Constructor " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.-ctor.htm">
+        <HelpTOCNode Title="VersionConstraint Constructor " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.-ctor.htm" />
+        <HelpTOCNode Title="VersionConstraint Constructor (LicenseFile)" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f29a837d-6b38-46ab-a615-48826a29ff07" Title="VersionConstraint Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.htm">
+        <HelpTOCNode Id="b1c5a689-a5fc-4525-bc9c-699ebdab6d70" Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.FromXml.htm">
+          <HelpTOCNode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.FromXml.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.Validate.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6206a5a9-8473-4050-a469-cdffc453c2e7" Title="VersionConstraint Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.htm">
+        <HelpTOCNode Title="Maximum Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.Maximum.htm" />
+        <HelpTOCNode Title="Minimum Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.Minimum.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="5f2e10c0-f276-4f1b-a8e3-aa48f2c9fca2" Title="CAS.Lib.CodeProtect.Properties Namespace" Url="html/N-CAS.Lib.CodeProtect.Properties.htm">
+    <HelpTOCNode Id="124a2c5a-1a24-4c26-9d9b-5c991cb544dd" Title="Resources Class" Url="html/T-CAS.Lib.CodeProtect.Properties.Resources.htm">
+      <HelpTOCNode Title="Resources Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.Properties.Resources.htm" />
+      <HelpTOCNode Title="Resources Methods" Url="html/Methods.T-CAS.Lib.CodeProtect.Properties.Resources.htm" />
+      <HelpTOCNode Id="8f4b582e-edf7-4ab9-9f00-87e2d2be9a5f" Title="Resources Properties" Url="html/Properties.T-CAS.Lib.CodeProtect.Properties.Resources.htm">
+        <HelpTOCNode Title="AssemblyHelperToString Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.AssemblyHelperToString.htm" />
+        <HelpTOCNode Title="CaptionUpgardeLicense Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.CaptionUpgardeLicense.htm" />
+        <HelpTOCNode Title="CASCommonResources Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.CASCommonResources.htm" />
+        <HelpTOCNode Title="Culture Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.Culture.htm" />
+        <HelpTOCNode Title="DefaultUnlockCode Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.DefaultUnlockCode.htm" />
+        <HelpTOCNode Title="ErrorStringUnableToUpgradeLicense Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrorStringUnableToUpgradeLicense.htm" />
+        <HelpTOCNode Title="ErrStr_GetLicensee_UnableToGetLicenseFrom_default Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_GetLicensee_UnableToGetLicenseFrom_default.htm" />
+        <HelpTOCNode Title="ErrStr_GetLicensee_UnableToGetLicenseFrom_isolatedstorage Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_GetLicensee_UnableToGetLicenseFrom_isolatedstorage.htm" />
+        <HelpTOCNode Title="ErrStr_GetLicensee_UnableToGetLicenseFrom_web Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_GetLicensee_UnableToGetLicenseFrom_web.htm" />
+        <HelpTOCNode Title="ErrStr_InstallLicense_CannotLoadContainer Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_CannotLoadContainer.htm" />
+        <HelpTOCNode Title="ErrStr_InstallLicense_NoContainer Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_NoContainer.htm" />
+        <HelpTOCNode Title="ErrStr_InstallLicense_NoLicenseFound Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_NoLicenseFound.htm" />
+        <HelpTOCNode Title="ErrStr_InstallLicense_NoLicForProductInContainer Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_NoLicForProductInContainer.htm" />
+        <HelpTOCNode Title="ErrStr_InstallLicense_NoManifest Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_NoManifest.htm" />
+        <HelpTOCNode Title="ErrStr_InstallLicense_NoPath Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_NoPath.htm" />
+        <HelpTOCNode Title="ErrStr_OpenLicense_Signature Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_OpenLicense_Signature.htm" />
+        <HelpTOCNode Title="ErrStr_SaveLicense_UnableToSaveLicense Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_SaveLicense_UnableToSaveLicense.htm" />
+        <HelpTOCNode Title="ErrStr_UpgardeData_HardwareKeyToken Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_HardwareKeyToken.htm" />
+        <HelpTOCNode Title="ErrStr_UpgardeData_Issuer Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_Issuer.htm" />
+        <HelpTOCNode Title="ErrStr_UpgardeData_LicenseKeyToken Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_LicenseKeyToken.htm" />
+        <HelpTOCNode Title="ErrStr_UpgardeData_LicenseUID Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_LicenseUID.htm" />
+        <HelpTOCNode Title="ErrStr_UpgardeData_Overupgrade Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_Overupgrade.htm" />
+        <HelpTOCNode Title="ErrStr_UpgardeData_Product Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_Product.htm" />
+        <HelpTOCNode Title="ErrStr_UpgardeData_Product_Name Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_Product_Name.htm" />
+        <HelpTOCNode Title="ErrStr_UpgardeData_Product_Version Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_Product_Version.htm" />
+        <HelpTOCNode Title="ErrStr_UpgardeData_User Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_User.htm" />
+        <HelpTOCNode Title="FunctionConstraint_Allowed Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.FunctionConstraint_Allowed.htm" />
+        <HelpTOCNode Title="FunctionConstraint_NOTAllowed Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.FunctionConstraint_NOTAllowed.htm" />
+        <HelpTOCNode Title="FunctionConstraintDescriptor Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.FunctionConstraintDescriptor.htm" />
+        <HelpTOCNode Title="FunctionConstraintName Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.FunctionConstraintName.htm" />
+        <HelpTOCNode Title="HowToUlock_docx Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.HowToUlock_docx.htm" />
+        <HelpTOCNode Title="keys Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.keys.htm" />
+        <HelpTOCNode Title="License_request_message Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.License_request_message.htm" />
+        <HelpTOCNode Title="LicenseFileError Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileError.htm" />
+        <HelpTOCNode Title="LicenseFileErrorAssembly Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorAssembly.htm" />
+        <HelpTOCNode Title="LicenseFileErrorAValidLicense Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorAValidLicense.htm" />
+        <HelpTOCNode Title="LicenseFileErrorContactManufacturer Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorContactManufacturer.htm" />
+        <HelpTOCNode Title="LicenseFileErrorContext Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorContext.htm" />
+        <HelpTOCNode Title="LicenseFileErrorIntro Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorIntro.htm" />
+        <HelpTOCNode Title="LicenseFileErrorRSA Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorRSA.htm" />
+        <HelpTOCNode Title="LicenseFileErrorType Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorType.htm" />
+        <HelpTOCNode Title="LicenseFileErrorTypeUnknown Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorTypeUnknown.htm" />
+        <HelpTOCNode Title="LicMessageFunctionDataTime Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicMessageFunctionDataTime.htm" />
+        <HelpTOCNode Title="LicMessageFunctionNoReason Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicMessageFunctionNoReason.htm" />
+        <HelpTOCNode Title="LicMessageFunctionNotAllowed Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicMessageFunctionNotAllowed.htm" />
+        <HelpTOCNode Title="MenuItemText Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.MenuItemText.htm" />
+        <HelpTOCNode Title="MenuItemToolTipText Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.MenuItemToolTipText.htm" />
+        <HelpTOCNode Title="ProductUnlockCodeStringToRemove Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ProductUnlockCodeStringToRemove.htm" />
+        <HelpTOCNode Title="ResourceManager Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ResourceManager.htm" />
+        <HelpTOCNode Title="SecurityUnlock Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.SecurityUnlock.htm" />
+        <HelpTOCNode Title="SourceAssemblyFailedMessage Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.SourceAssemblyFailedMessage.htm" />
+        <HelpTOCNode Title="SplashScreenDefaultAppMissing Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.SplashScreenDefaultAppMissing.htm" />
+        <HelpTOCNode Title="SplashScreenStartASMDButtonText Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.SplashScreenStartASMDButtonText.htm" />
+        <HelpTOCNode Title="SplashScreenStartButtonFormat Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.SplashScreenStartButtonFormat.htm" />
+        <HelpTOCNode Title="SplashScreenStoreUrl Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.SplashScreenStoreUrl.htm" />
+        <HelpTOCNode Title="SplashScreenWaitMessage Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.SplashScreenWaitMessage.htm" />
+        <HelpTOCNode Title="Tx_LicCap Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicCap.htm" />
+        <HelpTOCNode Title="Tx_LicDemoModeInfo Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicDemoModeInfo.htm" />
+        <HelpTOCNode Title="Tx_LicDemoWriteErr Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicDemoWriteErr.htm" />
+        <HelpTOCNode Title="Tx_LicNoFileErr Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicNoFileErr.htm" />
+        <HelpTOCNode Title="Tx_LicValidationErr Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicValidationErr.htm" />
+        <HelpTOCNode Title="Tx_LicVolumeConstrainErr Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicVolumeConstrainErr.htm" />
+        <HelpTOCNode Title="UAASMDInstallbanner Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UAASMDInstallbanner.htm" />
+        <HelpTOCNode Title="UnlockFailureMessge Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UnlockFailureMessge.htm" />
+        <HelpTOCNode Title="UnlockFindingLicenseFailureMessage Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UnlockFindingLicenseFailureMessage.htm" />
+        <HelpTOCNode Title="UnlockInalationFailureCaption Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UnlockInalationFailureCaption.htm" />
+        <HelpTOCNode Title="UnlockSuccessCaption Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UnlockSuccessCaption.htm" />
+        <HelpTOCNode Title="UnlockSuccessMessge Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UnlockSuccessMessge.htm" />
+        <HelpTOCNode Title="UsageConstraint_Days Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UsageConstraint_Days.htm" />
+        <HelpTOCNode Title="UsageConstraint_Hit Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UsageConstraint_Hit.htm" />
+        <HelpTOCNode Title="UsageConstraint_Usage Property " Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UsageConstraint_Usage.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

@@ -1,0 +1,1297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AbstractConstraint class">
+    <HelpKINode Title="AbstractConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.htm" />
+    <HelpKINode Title="AbstractConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.htm" />
+    <HelpKINode Title="about AbstractConstraint class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractConstraint.ConstraintType property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.ConstraintType.htm" />
+  <HelpKINode Title="AbstractConstraint.Description property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Description.htm" />
+  <HelpKINode Title="AbstractConstraint.Dispose method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Dispose.htm" />
+  <HelpKINode Title="AbstractConstraint.FromXml method" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.FromXml.htm" />
+  <HelpKINode Title="AbstractConstraint.GUID property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.GUID.htm" />
+  <HelpKINode Title="AbstractConstraint.Icon property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Icon.htm" />
+  <HelpKINode Title="AbstractConstraint.License property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.License.htm" />
+  <HelpKINode Title="AbstractConstraint.Name property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Name.htm" />
+  <HelpKINode Title="AbstractConstraint.RunTimeConstrain property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.RunTimeConstrain.htm" />
+  <HelpKINode Title="AbstractConstraint.ToString method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.ToString.htm" />
+  <HelpKINode Title="AbstractConstraint.Validate method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Validate.htm" />
+  <HelpKINode Title="AbstractConstraint.VolumeConstrain property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.VolumeConstrain.htm" />
+  <HelpKINode Title="AbstractConstraint.Warning property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Warning.htm" />
+  <HelpKINode Title="AbstractContainerConstraint class">
+    <HelpKINode Title="AbstractContainerConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.htm" />
+    <HelpKINode Title="AbstractContainerConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.htm" />
+    <HelpKINode Title="about AbstractContainerConstraint class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractContainerConstraint.FromXml method">
+    <HelpKINode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.FromXml.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractContainerConstraint.Items property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.Items.htm" />
+  <HelpKINode Title="AbstractLicenseData class">
+    <HelpKINode Title="AbstractLicenseData Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.htm" />
+    <HelpKINode Title="AbstractLicenseData Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.htm" />
+    <HelpKINode Title="about AbstractLicenseData class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractLicenseData.IsDirty property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.IsDirty.htm" />
+  <HelpKINode Title="AbstractLicenseData.Saved method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.Saved.htm" />
+  <HelpKINode Title="AbstractLicenseData.ToXmlString method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.ToXmlString.htm" />
+  <HelpKINode Title="AbstractUpgradeableData(Of Type) class">
+    <HelpKINode Title="AbstractUpgradeableData(Type) Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm" />
+    <HelpKINode Title="AbstractUpgradeableData(Type) Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm" />
+    <HelpKINode Title="about AbstractUpgradeableData(Of Type) class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractUpgradeableData(Of Type).UpgardeData method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.UpgardeData.htm" />
+  <HelpKINode Title="AbstractUpgradeableData&lt;Type&gt; class">
+    <HelpKINode Title="AbstractUpgradeableData(Type) Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm" />
+    <HelpKINode Title="AbstractUpgradeableData(Type) Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm" />
+    <HelpKINode Title="about AbstractUpgradeableData&lt;Type&gt; class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractUpgradeableData&lt;Type&gt;.UpgardeData method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.UpgardeData.htm" />
+  <HelpKINode Title="AccessCount property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Statistics.AccessCount.htm" />
+  <HelpKINode Title="Add method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.Add.htm" />
+  <HelpKINode Title="AddRange method" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.AddRange.htm" />
+  <HelpKINode Title="AdvancedDelimitedListTraceListener class">
+    <HelpKINode Title="AdvancedDelimitedListTraceListener Class" Url="html/T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedDelimitedListTraceListener.htm" />
+    <HelpKINode Title="AdvancedDelimitedListTraceListener Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedDelimitedListTraceListener.htm" />
+    <HelpKINode Title="about AdvancedDelimitedListTraceListener class" Url="html/T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedDelimitedListTraceListener.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedDelimitedListTraceListener.htm" />
+    <HelpKINode Title="constructor" Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedDelimitedListTraceListener.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedDelimitedListTraceListener.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedDelimitedListTraceListener.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AdvancedDelimitedListTraceListener.AdvancedDelimitedListTraceListener constructor" Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedDelimitedListTraceListener.-ctor.htm" />
+  <HelpKINode Title="AdvancedXmlWriterTraceListener class">
+    <HelpKINode Title="AdvancedXmlWriterTraceListener Class" Url="html/T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedXmlWriterTraceListener.htm" />
+    <HelpKINode Title="AdvancedXmlWriterTraceListener Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedXmlWriterTraceListener.htm" />
+    <HelpKINode Title="about AdvancedXmlWriterTraceListener class" Url="html/T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedXmlWriterTraceListener.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedXmlWriterTraceListener.htm" />
+    <HelpKINode Title="constructor" Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedXmlWriterTraceListener.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedXmlWriterTraceListener.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedXmlWriterTraceListener.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AdvancedXmlWriterTraceListener.AdvancedXmlWriterTraceListener constructor" Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedXmlWriterTraceListener.-ctor.htm" />
+  <HelpKINode Title="Allow property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.Allow.htm" />
+  <HelpKINode Title="AndConstraint class">
+    <HelpKINode Title="AndConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.htm" />
+    <HelpKINode Title="AndConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.htm" />
+    <HelpKINode Title="about AndConstraint class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AndConstraint.AndConstraint constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.-ctor.htm" />
+  <HelpKINode Title="AndConstraint.Validate method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.Validate.htm" />
+  <HelpKINode Title="ApplicationDataPath property" Url="html/P-CAS.Lib.CodeProtect.InstallContextNames.ApplicationDataPath.htm" />
+  <HelpKINode Title="AssemblyHelperAttribute class">
+    <HelpKINode Title="AssemblyHelperAttribute Class" Url="html/T-CAS.Lib.CodeProtect.AssemblyHelperAttribute.htm" />
+    <HelpKINode Title="AssemblyHelperAttribute Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.AssemblyHelperAttribute.htm" />
+    <HelpKINode Title="about AssemblyHelperAttribute class" Url="html/T-CAS.Lib.CodeProtect.AssemblyHelperAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.AssemblyHelperAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.AssemblyHelperAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.AssemblyHelperAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.AssemblyHelperAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AssemblyHelperAttribute.AssemblyHelperAttribute constructor" Url="html/Overload-CAS.Lib.CodeProtect.AssemblyHelperAttribute.-ctor.htm" />
+  <HelpKINode Title="AssemblyHelperAttribute.Company property" Url="html/P-CAS.Lib.CodeProtect.AssemblyHelperAttribute.Company.htm" />
+  <HelpKINode Title="AssemblyHelperAttribute.Email property" Url="html/P-CAS.Lib.CodeProtect.AssemblyHelperAttribute.Email.htm" />
+  <HelpKINode Title="AssemblyHelperAttribute.Phone property" Url="html/P-CAS.Lib.CodeProtect.AssemblyHelperAttribute.Phone.htm" />
+  <HelpKINode Title="AssemblyHelperAttribute.Product property" Url="html/P-CAS.Lib.CodeProtect.AssemblyHelperAttribute.Product.htm" />
+  <HelpKINode Title="AssemblyHelperAttribute.ToString method" Url="html/M-CAS.Lib.CodeProtect.AssemblyHelperAttribute.ToString.htm" />
+  <HelpKINode Title="AssemblyHelperAttribute.Url property" Url="html/P-CAS.Lib.CodeProtect.AssemblyHelperAttribute.Url.htm" />
+  <HelpKINode Title="AssemblyHelperToString property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.AssemblyHelperToString.htm" />
+  <HelpKINode Title="AssemblyKeyAttribute class">
+    <HelpKINode Title="AssemblyKeyAttribute Class" Url="html/T-CAS.Lib.CodeProtect.AssemblyKeyAttribute.htm" />
+    <HelpKINode Title="AssemblyKeyAttribute Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.AssemblyKeyAttribute.htm" />
+    <HelpKINode Title="about AssemblyKeyAttribute class" Url="html/T-CAS.Lib.CodeProtect.AssemblyKeyAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.AssemblyKeyAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.AssemblyKeyAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.AssemblyKeyAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.AssemblyKeyAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AssemblyKeyAttribute.AssemblyKeyAttribute constructor" Url="html/Overload-CAS.Lib.CodeProtect.AssemblyKeyAttribute.-ctor.htm" />
+  <HelpKINode Title="AssemblyKeyAttribute.EncryptionKey property" Url="html/P-CAS.Lib.CodeProtect.AssemblyKeyAttribute.EncryptionKey.htm" />
+  <HelpKINode Title="AssemblyKeyAttribute.GetEncryptionKeyAttribute method" Url="html/M-CAS.Lib.CodeProtect.AssemblyKeyAttribute.GetEncryptionKeyAttribute.htm" />
+  <HelpKINode Title="BetaConstraint class">
+    <HelpKINode Title="BetaConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.htm" />
+    <HelpKINode Title="BetaConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.htm" />
+    <HelpKINode Title="about BetaConstraint class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BetaConstraint.BetaConstraint constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.-ctor.htm" />
+  <HelpKINode Title="BetaConstraint.EndDate property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.EndDate.htm" />
+  <HelpKINode Title="BetaConstraint.FromXml method">
+    <HelpKINode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.FromXml.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BetaConstraint.UpdateURL property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.UpdateURL.htm" />
+  <HelpKINode Title="BetaConstraint.Validate method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.Validate.htm" />
+  <HelpKINode Title="CaptionUpgardeLicense property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.CaptionUpgardeLicense.htm" />
+  <HelpKINode Title="CAS.Lib.CodeProtect namespace" Url="html/N-CAS.Lib.CodeProtect.htm" />
+  <HelpKINode Title="CAS.Lib.CodeProtect.AssemblyHelperAttribute class">
+    <HelpKINode Title="AssemblyHelperAttribute Class" Url="html/T-CAS.Lib.CodeProtect.AssemblyHelperAttribute.htm" />
+    <HelpKINode Title="AssemblyHelperAttribute Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.AssemblyHelperAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.AssemblyKeyAttribute class">
+    <HelpKINode Title="AssemblyKeyAttribute Class" Url="html/T-CAS.Lib.CodeProtect.AssemblyKeyAttribute.htm" />
+    <HelpKINode Title="AssemblyKeyAttribute Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.AssemblyKeyAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.CodeProtectLP class">
+    <HelpKINode Title="CodeProtectLP Class" Url="html/T-CAS.Lib.CodeProtect.CodeProtectLP.htm" />
+    <HelpKINode Title="CodeProtectLP Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.CodeProtectLP.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.EnvironmentAccess namespace" Url="html/N-CAS.Lib.CodeProtect.EnvironmentAccess.htm" />
+  <HelpKINode Title="CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedDelimitedListTraceListener class">
+    <HelpKINode Title="AdvancedDelimitedListTraceListener Class" Url="html/T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedDelimitedListTraceListener.htm" />
+    <HelpKINode Title="AdvancedDelimitedListTraceListener Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedDelimitedListTraceListener.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedXmlWriterTraceListener class">
+    <HelpKINode Title="AdvancedXmlWriterTraceListener Class" Url="html/T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedXmlWriterTraceListener.htm" />
+    <HelpKINode Title="AdvancedXmlWriterTraceListener Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedXmlWriterTraceListener.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers class">
+    <HelpKINode Title="CodeProtectHelpers Class" Url="html/T-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.htm" />
+    <HelpKINode Title="CodeProtectHelpers Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.EnvironmentAccess.FileNames class">
+    <HelpKINode Title="FileNames Class" Url="html/T-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.htm" />
+    <HelpKINode Title="FileNames Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer class">
+    <HelpKINode Title="UnlockKeyAssemblyContainer Class" Url="html/T-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.htm" />
+    <HelpKINode Title="UnlockKeyAssemblyContainer Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.IIsLicensed interface">
+    <HelpKINode Title="IIsLicensed Interface" Url="html/T-CAS.Lib.CodeProtect.IIsLicensed.htm" />
+    <HelpKINode Title="IIsLicensed Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.IIsLicensed.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.InstallContextNames class">
+    <HelpKINode Title="InstallContextNames Class" Url="html/T-CAS.Lib.CodeProtect.InstallContextNames.htm" />
+    <HelpKINode Title="InstallContextNames Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.InstallContextNames.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.IsLicensed(Of type) class">
+    <HelpKINode Title="IsLicensed(type) Class" Url="html/T-CAS.Lib.CodeProtect.IsLicensed-1.htm" />
+    <HelpKINode Title="IsLicensed(type) Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.IsLicensed-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.IsLicensed&lt;type&gt; class">
+    <HelpKINode Title="IsLicensed(type) Class" Url="html/T-CAS.Lib.CodeProtect.IsLicensed-1.htm" />
+    <HelpKINode Title="IsLicensed(type) Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.IsLicensed-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LibInstaller class">
+    <HelpKINode Title="LibInstaller Class" Url="html/T-CAS.Lib.CodeProtect.LibInstaller.htm" />
+    <HelpKINode Title="LibInstaller Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LibInstaller.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc namespace" Url="html/N-CAS.Lib.CodeProtect.LicenseDsc.htm" />
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint class">
+    <HelpKINode Title="AbstractConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.htm" />
+    <HelpKINode Title="AbstractConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint class">
+    <HelpKINode Title="AbstractContainerConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.htm" />
+    <HelpKINode Title="AbstractContainerConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData class">
+    <HelpKINode Title="AbstractLicenseData Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.htm" />
+    <HelpKINode Title="AbstractLicenseData Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData(Of Type) class">
+    <HelpKINode Title="AbstractUpgradeableData(Type) Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm" />
+    <HelpKINode Title="AbstractUpgradeableData(Type) Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData&lt;Type&gt; class">
+    <HelpKINode Title="AbstractUpgradeableData(Type) Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm" />
+    <HelpKINode Title="AbstractUpgradeableData(Type) Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.Constraints namespace" Url="html/N-CAS.Lib.CodeProtect.LicenseDsc.Constraints.htm" />
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint class">
+    <HelpKINode Title="AndConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.htm" />
+    <HelpKINode Title="AndConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint class">
+    <HelpKINode Title="BetaConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.htm" />
+    <HelpKINode Title="BetaConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint class">
+    <HelpKINode Title="DayTimeConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.htm" />
+    <HelpKINode Title="DayTimeConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint class">
+    <HelpKINode Title="DemoConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.htm" />
+    <HelpKINode Title="DemoConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint class">
+    <HelpKINode Title="DesigntimeConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.htm" />
+    <HelpKINode Title="DesigntimeConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint class">
+    <HelpKINode Title="DomainConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.htm" />
+    <HelpKINode Title="DomainConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint class">
+    <HelpKINode Title="FunctionConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.htm" />
+    <HelpKINode Title="FunctionConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint class">
+    <HelpKINode Title="OrConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.htm" />
+    <HelpKINode Title="OrConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint class">
+    <HelpKINode Title="ProcessorConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.htm" />
+    <HelpKINode Title="ProcessorConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint class">
+    <HelpKINode Title="RuntimeConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.htm" />
+    <HelpKINode Title="RuntimeConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time class">
+    <HelpKINode Title="Time Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.htm" />
+    <HelpKINode Title="Time Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange class">
+    <HelpKINode Title="TimeRange Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.htm" />
+    <HelpKINode Title="TimeRange Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection class">
+    <HelpKINode Title="TimeRangeCollection Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.htm" />
+    <HelpKINode Title="TimeRangeCollection Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator class">
+    <HelpKINode Title="TimeRangeCollection.TimeRangeEnumerator Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.htm" />
+    <HelpKINode Title="TimeRangeCollection.TimeRangeEnumerator Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint class">
+    <HelpKINode Title="UsageConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.htm" />
+    <HelpKINode Title="UsageConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint class">
+    <HelpKINode Title="VersionConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.htm" />
+    <HelpKINode Title="VersionConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.CustomData class">
+    <HelpKINode Title="CustomData Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.CustomData.htm" />
+    <HelpKINode Title="CustomData Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.CustomData.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.IConstraint interface">
+    <HelpKINode Title="IConstraint Interface" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.htm" />
+    <HelpKINode Title="IConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.IConstraintItemProvider interface">
+    <HelpKINode Title="IConstraintItemProvider Interface" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.IConstraintItemProvider.htm" />
+    <HelpKINode Title="IConstraintItemProvider Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.IConstraintItemProvider.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.ILicenseData interface">
+    <HelpKINode Title="ILicenseData Interface" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.htm" />
+    <HelpKINode Title="ILicenseData Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.Issuer class">
+    <HelpKINode Title="Issuer Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Issuer.htm" />
+    <HelpKINode Title="Issuer Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Issuer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.LicenseFile class">
+    <HelpKINode Title="LicenseFile Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.htm" />
+    <HelpKINode Title="LicenseFile Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException class">
+    <HelpKINode Title="LicenseFileException Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException.htm" />
+    <HelpKINode Title="LicenseFileException Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.Product class">
+    <HelpKINode Title="Product Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Product.htm" />
+    <HelpKINode Title="Product Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Product.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.Statistics class">
+    <HelpKINode Title="Statistics Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Statistics.htm" />
+    <HelpKINode Title="Statistics Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Statistics.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.LicenseDsc.User class">
+    <HelpKINode Title="User Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.User.htm" />
+    <HelpKINode Title="User Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.User.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.MaintenanceControl class">
+    <HelpKINode Title="MaintenanceControl Class" Url="html/T-CAS.Lib.CodeProtect.MaintenanceControl.htm" />
+    <HelpKINode Title="MaintenanceControl Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.MaintenanceControl.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.MaintenanceControlComponent class">
+    <HelpKINode Title="MaintenanceControlComponent Class" Url="html/T-CAS.Lib.CodeProtect.MaintenanceControlComponent.htm" />
+    <HelpKINode Title="MaintenanceControlComponent Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.MaintenanceControlComponent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.Properties namespace" Url="html/N-CAS.Lib.CodeProtect.Properties.htm" />
+  <HelpKINode Title="CAS.Lib.CodeProtect.Properties.Resources class">
+    <HelpKINode Title="Resources Class" Url="html/T-CAS.Lib.CodeProtect.Properties.Resources.htm" />
+    <HelpKINode Title="Resources Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.Properties.Resources.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CAS.Lib.CodeProtect.RelativeFilePathsCalculator class">
+    <HelpKINode Title="RelativeFilePathsCalculator Class" Url="html/T-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.htm" />
+    <HelpKINode Title="RelativeFilePathsCalculator Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CASCommonResources property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.CASCommonResources.htm" />
+  <HelpKINode Title="CodeProtectHelpers class">
+    <HelpKINode Title="CodeProtectHelpers Class" Url="html/T-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.htm" />
+    <HelpKINode Title="CodeProtectHelpers Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.htm" />
+    <HelpKINode Title="about CodeProtectHelpers class" Url="html/T-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CodeProtectHelpers.CreateRSA method" Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.CreateRSA.htm" />
+  <HelpKINode Title="CodeProtectHelpers.GetArguments method" Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.GetArguments.htm" />
+  <HelpKINode Title="CodeProtectLP class">
+    <HelpKINode Title="CodeProtectLP Class" Url="html/T-CAS.Lib.CodeProtect.CodeProtectLP.htm" />
+    <HelpKINode Title="CodeProtectLP Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.CodeProtectLP.htm" />
+    <HelpKINode Title="about CodeProtectLP class" Url="html/T-CAS.Lib.CodeProtect.CodeProtectLP.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.CodeProtectLP.htm" />
+    <HelpKINode Title="constructor" Url="html/M-CAS.Lib.CodeProtect.CodeProtectLP.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.CodeProtectLP.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.CodeProtectLP.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CodeProtectLP.CodeProtectLP constructor" Url="html/M-CAS.Lib.CodeProtect.CodeProtectLP.-ctor.htm" />
+  <HelpKINode Title="CodeProtectLP.GetLicense method" Url="html/Overload-CAS.Lib.CodeProtect.CodeProtectLP.GetLicense.htm" />
+  <HelpKINode Title="CodeProtectLP.OpeningError property" Url="html/P-CAS.Lib.CodeProtect.CodeProtectLP.OpeningError.htm" />
+  <HelpKINode Title="CodeProtectLP.ReadDeployManifest method" Url="html/M-CAS.Lib.CodeProtect.CodeProtectLP.ReadDeployManifest.htm" />
+  <HelpKINode Title="Commit method">
+    <HelpKINode Title="Commit Method " Url="html/Overload-CAS.Lib.CodeProtect.LibInstaller.Commit.htm" />
+    <HelpKINode Title="Commit Method " Url="html/M-CAS.Lib.CodeProtect.LibInstaller.Commit.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Company property" Url="html/P-CAS.Lib.CodeProtect.AssemblyHelperAttribute.Company.htm" />
+  <HelpKINode Title="Condition property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.Condition.htm" />
+  <HelpKINode Title="Constraints property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Constraints.htm" />
+  <HelpKINode Title="ConstraintType property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.ConstraintType.htm" />
+  <HelpKINode Title="Contains method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.Contains.htm" />
+  <HelpKINode Title="CopyTo method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.CopyTo.htm" />
+  <HelpKINode Title="CreateLicenseFileStream method" Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.CreateLicenseFileStream.htm" />
+  <HelpKINode Title="CreateRSA method" Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.CreateRSA.htm" />
+  <HelpKINode Title="CreationDate property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.CreationDate.htm" />
+  <HelpKINode Title="Culture property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.Culture.htm" />
+  <HelpKINode Title="Current property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.Current.htm" />
+  <HelpKINode Title="CurrentDays property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.CurrentDays.htm" />
+  <HelpKINode Title="CurrentDomain property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.CurrentDomain.htm" />
+  <HelpKINode Title="CurrentHitCount property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.CurrentHitCount.htm" />
+  <HelpKINode Title="CurrentUsageCount property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.CurrentUsageCount.htm" />
+  <HelpKINode Title="CustomData class">
+    <HelpKINode Title="CustomData Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.CustomData.htm" />
+    <HelpKINode Title="CustomData Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.CustomData.htm" />
+    <HelpKINode Title="about CustomData class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.CustomData.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.CustomData.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.CustomData.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.CustomData.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CustomData property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.CustomData.htm" />
+  <HelpKINode Title="CustomData.Items property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.CustomData.Items.htm" />
+  <HelpKINode Title="CustomData.ToXmlString method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.CustomData.ToXmlString.htm" />
+  <HelpKINode Title="DateTimeLastAccessed property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Statistics.DateTimeLastAccessed.htm" />
+  <HelpKINode Title="DaysCount property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Statistics.DaysCount.htm" />
+  <HelpKINode Title="DayTimeConstraint class">
+    <HelpKINode Title="DayTimeConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.htm" />
+    <HelpKINode Title="DayTimeConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.htm" />
+    <HelpKINode Title="about DayTimeConstraint class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DayTimeConstraint.DayTimeConstraint constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.-ctor.htm" />
+  <HelpKINode Title="DayTimeConstraint.FromXml method">
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.FromXml.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DayTimeConstraint.Items property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.Items.htm" />
+  <HelpKINode Title="DayTimeConstraint.Validate method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.Validate.htm" />
+  <HelpKINode Title="DefaultUnlockCode property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.DefaultUnlockCode.htm" />
+  <HelpKINode Title="DemoConstraint class">
+    <HelpKINode Title="DemoConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.htm" />
+    <HelpKINode Title="DemoConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.htm" />
+    <HelpKINode Title="about DemoConstraint class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DemoConstraint.Condition property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.Condition.htm" />
+  <HelpKINode Title="DemoConstraint.DemoConstraint constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.-ctor.htm" />
+  <HelpKINode Title="DemoConstraint.Duration property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.Duration.htm" />
+  <HelpKINode Title="DemoConstraint.EndDate property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.EndDate.htm" />
+  <HelpKINode Title="DemoConstraint.FromXml method">
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.FromXml.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DemoConstraint.InfoURL property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.InfoURL.htm" />
+  <HelpKINode Title="DemoConstraint.PurchaseURL property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.PurchaseURL.htm" />
+  <HelpKINode Title="DemoConstraint.StartDate property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.StartDate.htm" />
+  <HelpKINode Title="DemoConstraint.Validate method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.Validate.htm" />
+  <HelpKINode Title="Description property">
+    <HelpKINode Title="Description Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Description.htm" />
+    <HelpKINode Title="Description Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Description.htm" />
+    <HelpKINode Title="Description Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.Description.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DesigntimeConstraint class">
+    <HelpKINode Title="DesigntimeConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.htm" />
+    <HelpKINode Title="DesigntimeConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.htm" />
+    <HelpKINode Title="about DesigntimeConstraint class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DesigntimeConstraint.DesigntimeConstraint constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.-ctor.htm" />
+  <HelpKINode Title="DesigntimeConstraint.FromXml method">
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.FromXml.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DesigntimeConstraint.Validate method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.Validate.htm" />
+  <HelpKINode Title="Developer property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.Developer.htm" />
+  <HelpKINode Title="Dispose method">
+    <HelpKINode Title="Dispose Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Dispose.htm" />
+    <HelpKINode Title="Dispose Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Dispose.htm" />
+    <HelpKINode Title="Dispose Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Dispose.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DomainConstraint class">
+    <HelpKINode Title="DomainConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.htm" />
+    <HelpKINode Title="DomainConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.htm" />
+    <HelpKINode Title="about DomainConstraint class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DomainConstraint.CurrentDomain property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.CurrentDomain.htm" />
+  <HelpKINode Title="DomainConstraint.DomainConstraint constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.-ctor.htm" />
+  <HelpKINode Title="DomainConstraint.Domains property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.Domains.htm" />
+  <HelpKINode Title="DomainConstraint.FromXml method">
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.FromXml.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DomainConstraint.Validate method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.Validate.htm" />
+  <HelpKINode Title="Domains property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.Domains.htm" />
+  <HelpKINode Title="Duration property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.Duration.htm" />
+  <HelpKINode Title="Email property">
+    <HelpKINode Title="Email Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.User.Email.htm" />
+    <HelpKINode Title="Email Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Issuer.Email.htm" />
+    <HelpKINode Title="Email Property " Url="html/P-CAS.Lib.CodeProtect.AssemblyHelperAttribute.Email.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EncryptionKey property" Url="html/P-CAS.Lib.CodeProtect.AssemblyKeyAttribute.EncryptionKey.htm" />
+  <HelpKINode Title="End property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.End.htm" />
+  <HelpKINode Title="EndDate property">
+    <HelpKINode Title="EndDate Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.EndDate.htm" />
+    <HelpKINode Title="EndDate Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.EndDate.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ErrorStringUnableToUpgradeLicense property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrorStringUnableToUpgradeLicense.htm" />
+  <HelpKINode Title="ErrStr_GetLicensee_UnableToGetLicenseFrom_default property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_GetLicensee_UnableToGetLicenseFrom_default.htm" />
+  <HelpKINode Title="ErrStr_GetLicensee_UnableToGetLicenseFrom_isolatedstorage property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_GetLicensee_UnableToGetLicenseFrom_isolatedstorage.htm" />
+  <HelpKINode Title="ErrStr_GetLicensee_UnableToGetLicenseFrom_web property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_GetLicensee_UnableToGetLicenseFrom_web.htm" />
+  <HelpKINode Title="ErrStr_InstallLicense_CannotLoadContainer property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_CannotLoadContainer.htm" />
+  <HelpKINode Title="ErrStr_InstallLicense_NoContainer property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_NoContainer.htm" />
+  <HelpKINode Title="ErrStr_InstallLicense_NoLicenseFound property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_NoLicenseFound.htm" />
+  <HelpKINode Title="ErrStr_InstallLicense_NoLicForProductInContainer property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_NoLicForProductInContainer.htm" />
+  <HelpKINode Title="ErrStr_InstallLicense_NoManifest property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_NoManifest.htm" />
+  <HelpKINode Title="ErrStr_InstallLicense_NoPath property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_NoPath.htm" />
+  <HelpKINode Title="ErrStr_OpenLicense_Signature property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_OpenLicense_Signature.htm" />
+  <HelpKINode Title="ErrStr_SaveLicense_UnableToSaveLicense property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_SaveLicense_UnableToSaveLicense.htm" />
+  <HelpKINode Title="ErrStr_UpgardeData_HardwareKeyToken property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_HardwareKeyToken.htm" />
+  <HelpKINode Title="ErrStr_UpgardeData_Issuer property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_Issuer.htm" />
+  <HelpKINode Title="ErrStr_UpgardeData_LicenseKeyToken property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_LicenseKeyToken.htm" />
+  <HelpKINode Title="ErrStr_UpgardeData_LicenseUID property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_LicenseUID.htm" />
+  <HelpKINode Title="ErrStr_UpgardeData_Overupgrade property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_Overupgrade.htm" />
+  <HelpKINode Title="ErrStr_UpgardeData_Product property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_Product.htm" />
+  <HelpKINode Title="ErrStr_UpgardeData_Product_Name property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_Product_Name.htm" />
+  <HelpKINode Title="ErrStr_UpgardeData_Product_Version property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_Product_Version.htm" />
+  <HelpKINode Title="ErrStr_UpgardeData_User property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_User.htm" />
+  <HelpKINode Title="FailureReason property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.FailureReason.htm" />
+  <HelpKINode Title="FileNames class">
+    <HelpKINode Title="FileNames Class" Url="html/T-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.htm" />
+    <HelpKINode Title="FileNames Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.htm" />
+    <HelpKINode Title="about FileNames class" Url="html/T-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FileNames.CreateLicenseFileStream method" Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.CreateLicenseFileStream.htm" />
+  <HelpKINode Title="FileNames.LicenseFileName property" Url="html/P-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.LicenseFileName.htm" />
+  <HelpKINode Title="FileNames.LicExtension field" Url="html/F-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.LicExtension.htm" />
+  <HelpKINode Title="FilePath property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.FilePath.htm" />
+  <HelpKINode Title="FirstUsesDate property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.FirstUsesDate.htm" />
+  <HelpKINode Title="FromXml method">
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.FromXml.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FullName property">
+    <HelpKINode Title="FullName Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Issuer.FullName.htm" />
+    <HelpKINode Title="FullName Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.FullName.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FunctionConstraint class">
+    <HelpKINode Title="FunctionConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.htm" />
+    <HelpKINode Title="FunctionConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.htm" />
+    <HelpKINode Title="about FunctionConstraint class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FunctionConstraint.Allow property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.Allow.htm" />
+  <HelpKINode Title="FunctionConstraint.FromXml method">
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.FromXml.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FunctionConstraint.FunctionConstraint constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.-ctor.htm" />
+  <HelpKINode Title="FunctionConstraint.UpdateURL property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.UpdateURL.htm" />
+  <HelpKINode Title="FunctionConstraint.Validate method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.Validate.htm" />
+  <HelpKINode Title="FunctionConstraintDescriptor property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.FunctionConstraintDescriptor.htm" />
+  <HelpKINode Title="FunctionConstraintName property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.FunctionConstraintName.htm" />
+  <HelpKINode Title="FunctionConstraint_Allowed property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.FunctionConstraint_Allowed.htm" />
+  <HelpKINode Title="FunctionConstraint_NOTAllowed property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.FunctionConstraint_NOTAllowed.htm" />
+  <HelpKINode Title="GetAbsolutePathToFileInApplicationDataFolder method" Url="html/M-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.GetAbsolutePathToFileInApplicationDataFolder.htm" />
+  <HelpKINode Title="GetArguments method" Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.GetArguments.htm" />
+  <HelpKINode Title="GetCustomFieldValue method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.GetCustomFieldValue.htm" />
+  <HelpKINode Title="GetEncryptionKeyAttribute method" Url="html/M-CAS.Lib.CodeProtect.AssemblyKeyAttribute.GetEncryptionKeyAttribute.htm" />
+  <HelpKINode Title="GetEnumerator method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.GetEnumerator.htm" />
+  <HelpKINode Title="GetLicense method" Url="html/Overload-CAS.Lib.CodeProtect.CodeProtectLP.GetLicense.htm" />
+  <HelpKINode Title="GetManifestResourcePath method" Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.GetManifestResourcePath.htm" />
+  <HelpKINode Title="GetManifestResourceStream method" Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.GetManifestResourceStream.htm" />
+  <HelpKINode Title="GUID property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.GUID.htm" />
+  <HelpKINode Title="HardwareKeyToken property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.HardwareKeyToken.htm" />
+  <HelpKINode Title="HardwareKeyTokenBasedOnDevice property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.HardwareKeyTokenBasedOnDevice.htm" />
+  <HelpKINode Title="HitCount property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Statistics.HitCount.htm" />
+  <HelpKINode Title="HowToUlock_docx property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.HowToUlock_docx.htm" />
+  <HelpKINode Title="Icon property">
+    <HelpKINode Title="Icon Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Icon.htm" />
+    <HelpKINode Title="Icon Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Icon.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IConstraint interface">
+    <HelpKINode Title="IConstraint Interface" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.htm" />
+    <HelpKINode Title="IConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.htm" />
+    <HelpKINode Title="about IConstraint interface" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IConstraint.Description property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Description.htm" />
+  <HelpKINode Title="IConstraint.Dispose method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Dispose.htm" />
+  <HelpKINode Title="IConstraint.FromXml method" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.FromXml.htm" />
+  <HelpKINode Title="IConstraint.Icon property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Icon.htm" />
+  <HelpKINode Title="IConstraint.IsDirty property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.IsDirty.htm" />
+  <HelpKINode Title="IConstraint.License property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.License.htm" />
+  <HelpKINode Title="IConstraint.Name property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Name.htm" />
+  <HelpKINode Title="IConstraint.Saved method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Saved.htm" />
+  <HelpKINode Title="IConstraint.ToXmlString method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.ToXmlString.htm" />
+  <HelpKINode Title="IConstraint.Validate method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Validate.htm" />
+  <HelpKINode Title="IConstraintItemProvider interface">
+    <HelpKINode Title="IConstraintItemProvider Interface" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.IConstraintItemProvider.htm" />
+    <HelpKINode Title="IConstraintItemProvider Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.IConstraintItemProvider.htm" />
+    <HelpKINode Title="about IConstraintItemProvider interface" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.IConstraintItemProvider.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.IConstraintItemProvider.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.IConstraintItemProvider.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.IConstraintItemProvider.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IConstraintItemProvider.Items property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.IConstraintItemProvider.Items.htm" />
+  <HelpKINode Title="IIsLicensed interface">
+    <HelpKINode Title="IIsLicensed Interface" Url="html/T-CAS.Lib.CodeProtect.IIsLicensed.htm" />
+    <HelpKINode Title="IIsLicensed Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.IIsLicensed.htm" />
+    <HelpKINode Title="about IIsLicensed interface" Url="html/T-CAS.Lib.CodeProtect.IIsLicensed.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.IIsLicensed.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.IIsLicensed.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.IIsLicensed.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IIsLicensed.Licensed property" Url="html/P-CAS.Lib.CodeProtect.IIsLicensed.Licensed.htm" />
+  <HelpKINode Title="IIsLicensed.RunTime property" Url="html/P-CAS.Lib.CodeProtect.IIsLicensed.RunTime.htm" />
+  <HelpKINode Title="IIsLicensed.Volume property" Url="html/P-CAS.Lib.CodeProtect.IIsLicensed.Volume.htm" />
+  <HelpKINode Title="IIsLicensed.Warning property" Url="html/P-CAS.Lib.CodeProtect.IIsLicensed.Warning.htm" />
+  <HelpKINode Title="ILicenseData interface">
+    <HelpKINode Title="ILicenseData Interface" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.htm" />
+    <HelpKINode Title="ILicenseData Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.htm" />
+    <HelpKINode Title="about ILicenseData interface" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ILicenseData.IsDirty property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.IsDirty.htm" />
+  <HelpKINode Title="ILicenseData.Saved method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.Saved.htm" />
+  <HelpKINode Title="ILicenseData.ToXmlString method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.ToXmlString.htm" />
+  <HelpKINode Title="IndexOf method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.IndexOf.htm" />
+  <HelpKINode Title="InfoURL property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.InfoURL.htm" />
+  <HelpKINode Title="Insert method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.Insert.htm" />
+  <HelpKINode Title="Install method">
+    <HelpKINode Title="Install Method " Url="html/M-CAS.Lib.CodeProtect.LibInstaller.Install.htm" />
+    <HelpKINode Title="Install Method " Url="html/Overload-CAS.Lib.CodeProtect.LibInstaller.Install.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InstallationInstanceGUID property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.InstallationInstanceGUID.htm" />
+  <HelpKINode Title="InstallContextNames class">
+    <HelpKINode Title="InstallContextNames Class" Url="html/T-CAS.Lib.CodeProtect.InstallContextNames.htm" />
+    <HelpKINode Title="InstallContextNames Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.InstallContextNames.htm" />
+    <HelpKINode Title="about InstallContextNames class" Url="html/T-CAS.Lib.CodeProtect.InstallContextNames.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.InstallContextNames.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.InstallContextNames.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.InstallContextNames.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InstallContextNames.ApplicationDataPath property" Url="html/P-CAS.Lib.CodeProtect.InstallContextNames.ApplicationDataPath.htm" />
+  <HelpKINode Title="InstallLicense method" Url="html/Overload-CAS.Lib.CodeProtect.LibInstaller.InstallLicense.htm" />
+  <HelpKINode Title="IsDirty property">
+    <HelpKINode Title="IsDirty Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.IsDirty.htm" />
+    <HelpKINode Title="IsDirty Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.IsDirty.htm" />
+    <HelpKINode Title="IsDirty Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.IsDirty.htm" />
+    <HelpKINode Title="IsDirty Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.IsDirty.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsInGAC property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.IsInGAC.htm" />
+  <HelpKINode Title="IsLicensed property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.IsLicensed.htm" />
+  <HelpKINode Title="IsLicensed(Of type) class">
+    <HelpKINode Title="IsLicensed(type) Class" Url="html/T-CAS.Lib.CodeProtect.IsLicensed-1.htm" />
+    <HelpKINode Title="IsLicensed(type) Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.IsLicensed-1.htm" />
+    <HelpKINode Title="about IsLicensed(Of type) class" Url="html/T-CAS.Lib.CodeProtect.IsLicensed-1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.IsLicensed-1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.IsLicensed-1.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.IsLicensed-1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.IsLicensed-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsLicensed(Of type).IsLicensed constructor" Url="html/Overload-CAS.Lib.CodeProtect.IsLicensed-1.-ctor.htm" />
+  <HelpKINode Title="IsLicensed(Of type).Licensed property" Url="html/P-CAS.Lib.CodeProtect.IsLicensed-1.Licensed.htm" />
+  <HelpKINode Title="IsLicensed(Of type).RunTime property" Url="html/P-CAS.Lib.CodeProtect.IsLicensed-1.RunTime.htm" />
+  <HelpKINode Title="IsLicensed(Of type).Volume property" Url="html/P-CAS.Lib.CodeProtect.IsLicensed-1.Volume.htm" />
+  <HelpKINode Title="IsLicensed(Of type).Warning property" Url="html/P-CAS.Lib.CodeProtect.IsLicensed-1.Warning.htm" />
+  <HelpKINode Title="IsLicensed&lt;type&gt; class">
+    <HelpKINode Title="IsLicensed(type) Class" Url="html/T-CAS.Lib.CodeProtect.IsLicensed-1.htm" />
+    <HelpKINode Title="IsLicensed(type) Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.IsLicensed-1.htm" />
+    <HelpKINode Title="about IsLicensed&lt;type&gt; class" Url="html/T-CAS.Lib.CodeProtect.IsLicensed-1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.IsLicensed-1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.IsLicensed-1.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.IsLicensed-1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.IsLicensed-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsLicensed&lt;type&gt;.IsLicensed constructor" Url="html/Overload-CAS.Lib.CodeProtect.IsLicensed-1.-ctor.htm" />
+  <HelpKINode Title="IsLicensed&lt;type&gt;.Licensed property" Url="html/P-CAS.Lib.CodeProtect.IsLicensed-1.Licensed.htm" />
+  <HelpKINode Title="IsLicensed&lt;type&gt;.RunTime property" Url="html/P-CAS.Lib.CodeProtect.IsLicensed-1.RunTime.htm" />
+  <HelpKINode Title="IsLicensed&lt;type&gt;.Volume property" Url="html/P-CAS.Lib.CodeProtect.IsLicensed-1.Volume.htm" />
+  <HelpKINode Title="IsLicensed&lt;type&gt;.Warning property" Url="html/P-CAS.Lib.CodeProtect.IsLicensed-1.Warning.htm" />
+  <HelpKINode Title="IsReadOnly property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.IsReadOnly.htm" />
+  <HelpKINode Title="Issuer class">
+    <HelpKINode Title="Issuer Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Issuer.htm" />
+    <HelpKINode Title="Issuer Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Issuer.htm" />
+    <HelpKINode Title="about Issuer class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Issuer.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Issuer.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Issuer.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Issuer.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Issuer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Issuer property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Issuer.htm" />
+  <HelpKINode Title="Issuer.Email property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Issuer.Email.htm" />
+  <HelpKINode Title="Issuer.FullName property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Issuer.FullName.htm" />
+  <HelpKINode Title="Issuer.Issuer constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Issuer.-ctor.htm" />
+  <HelpKINode Title="Issuer.ToXmlString method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Issuer.ToXmlString.htm" />
+  <HelpKINode Title="Issuer.UpgardeData method">
+    <HelpKINode Title="UpgardeData Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Issuer.UpgardeData.htm" />
+    <HelpKINode Title="UpgardeData Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Issuer.UpgardeData.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Issuer.Url property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Issuer.Url.htm" />
+  <HelpKINode Title="Item property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.Item-System.Int32-.htm" />
+  <HelpKINode Title="Items property">
+    <HelpKINode Title="Items Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.IConstraintItemProvider.Items.htm" />
+    <HelpKINode Title="Items Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.Items.htm" />
+    <HelpKINode Title="Items Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.Items.htm" />
+    <HelpKINode Title="Items Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.CustomData.Items.htm" />
+  </HelpKINode>
+  <HelpKINode Title="keys property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.keys.htm" />
+  <HelpKINode Title="LibInstaller class">
+    <HelpKINode Title="LibInstaller Class" Url="html/T-CAS.Lib.CodeProtect.LibInstaller.htm" />
+    <HelpKINode Title="LibInstaller Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LibInstaller.htm" />
+    <HelpKINode Title="about LibInstaller class" Url="html/T-CAS.Lib.CodeProtect.LibInstaller.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LibInstaller.htm" />
+    <HelpKINode Title="constructor" Url="html/M-CAS.Lib.CodeProtect.LibInstaller.-ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events.T-CAS.Lib.CodeProtect.LibInstaller.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LibInstaller.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LibInstaller.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LibInstaller.Commit method">
+    <HelpKINode Title="Commit Method " Url="html/M-CAS.Lib.CodeProtect.LibInstaller.Commit.htm" />
+    <HelpKINode Title="Commit Method " Url="html/Overload-CAS.Lib.CodeProtect.LibInstaller.Commit.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LibInstaller.Install method">
+    <HelpKINode Title="Install Method " Url="html/Overload-CAS.Lib.CodeProtect.LibInstaller.Install.htm" />
+    <HelpKINode Title="Install Method " Url="html/M-CAS.Lib.CodeProtect.LibInstaller.Install.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LibInstaller.InstallLicense method" Url="html/Overload-CAS.Lib.CodeProtect.LibInstaller.InstallLicense.htm" />
+  <HelpKINode Title="LibInstaller.LibInstaller constructor" Url="html/M-CAS.Lib.CodeProtect.LibInstaller.-ctor.htm" />
+  <HelpKINode Title="LibInstaller.Rollback method">
+    <HelpKINode Title="Rollback Method " Url="html/Overload-CAS.Lib.CodeProtect.LibInstaller.Rollback.htm" />
+    <HelpKINode Title="Rollback Method " Url="html/M-CAS.Lib.CodeProtect.LibInstaller.Rollback.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LibInstaller.Uninstall method" Url="html/M-CAS.Lib.CodeProtect.LibInstaller.Uninstall.htm" />
+  <HelpKINode Title="License property">
+    <HelpKINode Title="License Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.License.htm" />
+    <HelpKINode Title="License Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.License.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Licensed property">
+    <HelpKINode Title="Licensed Property " Url="html/P-CAS.Lib.CodeProtect.IsLicensed-1.Licensed.htm" />
+    <HelpKINode Title="Licensed Property " Url="html/P-CAS.Lib.CodeProtect.IIsLicensed.Licensed.htm" />
+    <HelpKINode Title="Licensed Property " Url="html/P-CAS.Lib.CodeProtect.MaintenanceControlComponent.Licensed.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LicenseFile class">
+    <HelpKINode Title="LicenseFile Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.htm" />
+    <HelpKINode Title="LicenseFile Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.htm" />
+    <HelpKINode Title="about LicenseFile class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LicenseFile.Constraints property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Constraints.htm" />
+  <HelpKINode Title="LicenseFile.CreationDate property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.CreationDate.htm" />
+  <HelpKINode Title="LicenseFile.CustomData property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.CustomData.htm" />
+  <HelpKINode Title="LicenseFile.Dispose method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Dispose.htm" />
+  <HelpKINode Title="LicenseFile.FailureReason property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.FailureReason.htm" />
+  <HelpKINode Title="LicenseFile.FirstUsesDate property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.FirstUsesDate.htm" />
+  <HelpKINode Title="LicenseFile.GetCustomFieldValue method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.GetCustomFieldValue.htm" />
+  <HelpKINode Title="LicenseFile.HardwareKeyToken property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.HardwareKeyToken.htm" />
+  <HelpKINode Title="LicenseFile.HardwareKeyTokenBasedOnDevice property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.HardwareKeyTokenBasedOnDevice.htm" />
+  <HelpKINode Title="LicenseFile.InstallationInstanceGUID property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.InstallationInstanceGUID.htm" />
+  <HelpKINode Title="LicenseFile.IsDirty property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.IsDirty.htm" />
+  <HelpKINode Title="LicenseFile.IsReadOnly property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.IsReadOnly.htm" />
+  <HelpKINode Title="LicenseFile.Issuer property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Issuer.htm" />
+  <HelpKINode Title="LicenseFile.LicenseKey property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LicenseKey.htm" />
+  <HelpKINode Title="LicenseFile.LicenseKeyToken property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LicenseKeyToken.htm" />
+  <HelpKINode Title="LicenseFile.LicenseUID property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LicenseUID.htm" />
+  <HelpKINode Title="LicenseFile.LicModificationUID property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LicModificationUID.htm" />
+  <HelpKINode Title="LicenseFile.LoadFile method" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LoadFile.htm" />
+  <HelpKINode Title="LicenseFile.ModificationDate property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.ModificationDate.htm" />
+  <HelpKINode Title="LicenseFile.Product property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Product.htm" />
+  <HelpKINode Title="LicenseFile.ResetCreationStatistics method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.ResetCreationStatistics.htm" />
+  <HelpKINode Title="LicenseFile.RunTimeConstrain property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.RunTimeConstrain.htm" />
+  <HelpKINode Title="LicenseFile.Statistics property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Statistics.htm" />
+  <HelpKINode Title="LicenseFile.ToString method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.ToString.htm" />
+  <HelpKINode Title="LicenseFile.UpgradeLicense method" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.UpgradeLicense.htm" />
+  <HelpKINode Title="LicenseFile.User property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.User.htm" />
+  <HelpKINode Title="LicenseFile.ValidateLicense method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.ValidateLicense.htm" />
+  <HelpKINode Title="LicenseFile.VolumeConstrain property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.VolumeConstrain.htm" />
+  <HelpKINode Title="LicenseFile.Warnings property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Warnings.htm" />
+  <HelpKINode Title="LicenseFileError property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileError.htm" />
+  <HelpKINode Title="LicenseFileErrorAssembly property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorAssembly.htm" />
+  <HelpKINode Title="LicenseFileErrorAValidLicense property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorAValidLicense.htm" />
+  <HelpKINode Title="LicenseFileErrorContactManufacturer property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorContactManufacturer.htm" />
+  <HelpKINode Title="LicenseFileErrorContext property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorContext.htm" />
+  <HelpKINode Title="LicenseFileErrorIntro property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorIntro.htm" />
+  <HelpKINode Title="LicenseFileErrorRSA property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorRSA.htm" />
+  <HelpKINode Title="LicenseFileErrorType property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorType.htm" />
+  <HelpKINode Title="LicenseFileErrorTypeUnknown property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorTypeUnknown.htm" />
+  <HelpKINode Title="LicenseFileException class">
+    <HelpKINode Title="LicenseFileException Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException.htm" />
+    <HelpKINode Title="LicenseFileException Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException.htm" />
+    <HelpKINode Title="about LicenseFileException class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LicenseFileException.TraceInnerExceptions method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException.TraceInnerExceptions.htm" />
+  <HelpKINode Title="LicenseFileName property" Url="html/P-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.LicenseFileName.htm" />
+  <HelpKINode Title="LicenseKey property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LicenseKey.htm" />
+  <HelpKINode Title="LicenseKeyToken property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LicenseKeyToken.htm" />
+  <HelpKINode Title="LicenseUID property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LicenseUID.htm" />
+  <HelpKINode Title="License_request_message property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.License_request_message.htm" />
+  <HelpKINode Title="LicExtension field" Url="html/F-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.LicExtension.htm" />
+  <HelpKINode Title="LicFileName property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.LicFileName.htm" />
+  <HelpKINode Title="LicMessageFunctionDataTime property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicMessageFunctionDataTime.htm" />
+  <HelpKINode Title="LicMessageFunctionNoReason property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicMessageFunctionNoReason.htm" />
+  <HelpKINode Title="LicMessageFunctionNotAllowed property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicMessageFunctionNotAllowed.htm" />
+  <HelpKINode Title="LicModificationUID property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LicModificationUID.htm" />
+  <HelpKINode Title="LoadFile method" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LoadFile.htm" />
+  <HelpKINode Title="MaintenanceControl class">
+    <HelpKINode Title="MaintenanceControl Class" Url="html/T-CAS.Lib.CodeProtect.MaintenanceControl.htm" />
+    <HelpKINode Title="MaintenanceControl Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.MaintenanceControl.htm" />
+    <HelpKINode Title="about MaintenanceControl class" Url="html/T-CAS.Lib.CodeProtect.MaintenanceControl.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.MaintenanceControl.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.MaintenanceControl.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.MaintenanceControl.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MaintenanceControl.MaintenanceControlWarning property" Url="html/P-CAS.Lib.CodeProtect.MaintenanceControl.MaintenanceControlWarning.htm" />
+  <HelpKINode Title="MaintenanceControlComponent class">
+    <HelpKINode Title="MaintenanceControlComponent Class" Url="html/T-CAS.Lib.CodeProtect.MaintenanceControlComponent.htm" />
+    <HelpKINode Title="MaintenanceControlComponent Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.MaintenanceControlComponent.htm" />
+    <HelpKINode Title="about MaintenanceControlComponent class" Url="html/T-CAS.Lib.CodeProtect.MaintenanceControlComponent.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.MaintenanceControlComponent.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.MaintenanceControlComponent.-ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events.T-CAS.Lib.CodeProtect.MaintenanceControlComponent.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.MaintenanceControlComponent.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.MaintenanceControlComponent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MaintenanceControlComponent.Licensed property" Url="html/P-CAS.Lib.CodeProtect.MaintenanceControlComponent.Licensed.htm" />
+  <HelpKINode Title="MaintenanceControlComponent.MaintenanceControlComponent constructor" Url="html/Overload-CAS.Lib.CodeProtect.MaintenanceControlComponent.-ctor.htm" />
+  <HelpKINode Title="MaintenanceControlComponent.Warning property" Url="html/P-CAS.Lib.CodeProtect.MaintenanceControlComponent.Warning.htm" />
+  <HelpKINode Title="MaintenanceControlWarning property" Url="html/P-CAS.Lib.CodeProtect.MaintenanceControl.MaintenanceControlWarning.htm" />
+  <HelpKINode Title="MaxDays property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.MaxDays.htm" />
+  <HelpKINode Title="MaxHitCount property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.MaxHitCount.htm" />
+  <HelpKINode Title="Maximum property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.Maximum.htm" />
+  <HelpKINode Title="MaxUsageCount property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.MaxUsageCount.htm" />
+  <HelpKINode Title="MenuItemText property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.MenuItemText.htm" />
+  <HelpKINode Title="MenuItemToolTipText property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.MenuItemToolTipText.htm" />
+  <HelpKINode Title="MilitaryTime property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.MilitaryTime.htm" />
+  <HelpKINode Title="Minimum property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.Minimum.htm" />
+  <HelpKINode Title="ModificationDate property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.ModificationDate.htm" />
+  <HelpKINode Title="MoveNext method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.MoveNext.htm" />
+  <HelpKINode Title="Name property">
+    <HelpKINode Title="Name Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Name.htm" />
+    <HelpKINode Title="Name Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Name.htm" />
+    <HelpKINode Title="Name Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.User.Name.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Now method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.Now.htm" />
+  <HelpKINode Title="OpeningError property" Url="html/P-CAS.Lib.CodeProtect.CodeProtectLP.OpeningError.htm" />
+  <HelpKINode Title="OrConstraint class">
+    <HelpKINode Title="OrConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.htm" />
+    <HelpKINode Title="OrConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.htm" />
+    <HelpKINode Title="about OrConstraint class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OrConstraint.OrConstraint constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.-ctor.htm" />
+  <HelpKINode Title="OrConstraint.Validate method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.Validate.htm" />
+  <HelpKINode Title="Organization property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.User.Organization.htm" />
+  <HelpKINode Title="OS property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.OS.htm" />
+  <HelpKINode Title="Phone property" Url="html/P-CAS.Lib.CodeProtect.AssemblyHelperAttribute.Phone.htm" />
+  <HelpKINode Title="ProcessorConstraint class">
+    <HelpKINode Title="ProcessorConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.htm" />
+    <HelpKINode Title="ProcessorConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.htm" />
+    <HelpKINode Title="about ProcessorConstraint class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProcessorConstraint.FromXml method">
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.FromXml.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProcessorConstraint.OS property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.OS.htm" />
+  <HelpKINode Title="ProcessorConstraint.ProcessorConstraint constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.-ctor.htm" />
+  <HelpKINode Title="ProcessorConstraint.Validate method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.Validate.htm" />
+  <HelpKINode Title="Product class">
+    <HelpKINode Title="Product Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Product.htm" />
+    <HelpKINode Title="Product Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Product.htm" />
+    <HelpKINode Title="about Product class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Product.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Product.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Product.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Product.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Product.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Product property">
+    <HelpKINode Title="Product Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Product.htm" />
+    <HelpKINode Title="Product Property " Url="html/P-CAS.Lib.CodeProtect.AssemblyHelperAttribute.Product.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Product.Description property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.Description.htm" />
+  <HelpKINode Title="Product.Developer property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.Developer.htm" />
+  <HelpKINode Title="Product.FilePath property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.FilePath.htm" />
+  <HelpKINode Title="Product.FullName property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.FullName.htm" />
+  <HelpKINode Title="Product.IsInGAC property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.IsInGAC.htm" />
+  <HelpKINode Title="Product.IsLicensed property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.IsLicensed.htm" />
+  <HelpKINode Title="Product.LicFileName property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.LicFileName.htm" />
+  <HelpKINode Title="Product.Product constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Product.-ctor.htm" />
+  <HelpKINode Title="Product.ShortName property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.ShortName.htm" />
+  <HelpKINode Title="Product.ToXmlString method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Product.ToXmlString.htm" />
+  <HelpKINode Title="Product.UpgardeData method">
+    <HelpKINode Title="UpgardeData Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Product.UpgardeData.htm" />
+    <HelpKINode Title="UpgardeData Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Product.UpgardeData.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Product.Version property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.Version.htm" />
+  <HelpKINode Title="ProductUnlockCodeStringToRemove property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ProductUnlockCodeStringToRemove.htm" />
+  <HelpKINode Title="PurchaseURL property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.PurchaseURL.htm" />
+  <HelpKINode Title="ReadDeployManifest method" Url="html/M-CAS.Lib.CodeProtect.CodeProtectLP.ReadDeployManifest.htm" />
+  <HelpKINode Title="RelativeFilePathsCalculator class">
+    <HelpKINode Title="RelativeFilePathsCalculator Class" Url="html/T-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.htm" />
+    <HelpKINode Title="RelativeFilePathsCalculator Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.htm" />
+    <HelpKINode Title="about RelativeFilePathsCalculator class" Url="html/T-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RelativeFilePathsCalculator.GetAbsolutePathToFileInApplicationDataFolder method" Url="html/M-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.GetAbsolutePathToFileInApplicationDataFolder.htm" />
+  <HelpKINode Title="RelativeFilePathsCalculator.TestIfPathIsAbsolute method" Url="html/M-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.TestIfPathIsAbsolute.htm" />
+  <HelpKINode Title="RelativeFilePathsCalculator.TryComputeRelativePath method" Url="html/M-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.TryComputeRelativePath.htm" />
+  <HelpKINode Title="Remove method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.Remove.htm" />
+  <HelpKINode Title="Reset method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.Reset.htm" />
+  <HelpKINode Title="ResetCreationStatistics method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.ResetCreationStatistics.htm" />
+  <HelpKINode Title="ResourceManager property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ResourceManager.htm" />
+  <HelpKINode Title="Resources class">
+    <HelpKINode Title="Resources Class" Url="html/T-CAS.Lib.CodeProtect.Properties.Resources.htm" />
+    <HelpKINode Title="Resources Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.Properties.Resources.htm" />
+    <HelpKINode Title="about Resources class" Url="html/T-CAS.Lib.CodeProtect.Properties.Resources.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.Properties.Resources.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.Properties.Resources.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.Properties.Resources.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Resources.AssemblyHelperToString property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.AssemblyHelperToString.htm" />
+  <HelpKINode Title="Resources.CaptionUpgardeLicense property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.CaptionUpgardeLicense.htm" />
+  <HelpKINode Title="Resources.CASCommonResources property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.CASCommonResources.htm" />
+  <HelpKINode Title="Resources.Culture property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.Culture.htm" />
+  <HelpKINode Title="Resources.DefaultUnlockCode property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.DefaultUnlockCode.htm" />
+  <HelpKINode Title="Resources.ErrorStringUnableToUpgradeLicense property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrorStringUnableToUpgradeLicense.htm" />
+  <HelpKINode Title="Resources.ErrStr_GetLicensee_UnableToGetLicenseFrom_default property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_GetLicensee_UnableToGetLicenseFrom_default.htm" />
+  <HelpKINode Title="Resources.ErrStr_GetLicensee_UnableToGetLicenseFrom_isolatedstorage property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_GetLicensee_UnableToGetLicenseFrom_isolatedstorage.htm" />
+  <HelpKINode Title="Resources.ErrStr_GetLicensee_UnableToGetLicenseFrom_web property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_GetLicensee_UnableToGetLicenseFrom_web.htm" />
+  <HelpKINode Title="Resources.ErrStr_InstallLicense_CannotLoadContainer property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_CannotLoadContainer.htm" />
+  <HelpKINode Title="Resources.ErrStr_InstallLicense_NoContainer property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_NoContainer.htm" />
+  <HelpKINode Title="Resources.ErrStr_InstallLicense_NoLicenseFound property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_NoLicenseFound.htm" />
+  <HelpKINode Title="Resources.ErrStr_InstallLicense_NoLicForProductInContainer property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_NoLicForProductInContainer.htm" />
+  <HelpKINode Title="Resources.ErrStr_InstallLicense_NoManifest property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_NoManifest.htm" />
+  <HelpKINode Title="Resources.ErrStr_InstallLicense_NoPath property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_NoPath.htm" />
+  <HelpKINode Title="Resources.ErrStr_OpenLicense_Signature property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_OpenLicense_Signature.htm" />
+  <HelpKINode Title="Resources.ErrStr_SaveLicense_UnableToSaveLicense property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_SaveLicense_UnableToSaveLicense.htm" />
+  <HelpKINode Title="Resources.ErrStr_UpgardeData_HardwareKeyToken property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_HardwareKeyToken.htm" />
+  <HelpKINode Title="Resources.ErrStr_UpgardeData_Issuer property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_Issuer.htm" />
+  <HelpKINode Title="Resources.ErrStr_UpgardeData_LicenseKeyToken property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_LicenseKeyToken.htm" />
+  <HelpKINode Title="Resources.ErrStr_UpgardeData_LicenseUID property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_LicenseUID.htm" />
+  <HelpKINode Title="Resources.ErrStr_UpgardeData_Overupgrade property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_Overupgrade.htm" />
+  <HelpKINode Title="Resources.ErrStr_UpgardeData_Product property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_Product.htm" />
+  <HelpKINode Title="Resources.ErrStr_UpgardeData_Product_Name property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_Product_Name.htm" />
+  <HelpKINode Title="Resources.ErrStr_UpgardeData_Product_Version property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_Product_Version.htm" />
+  <HelpKINode Title="Resources.ErrStr_UpgardeData_User property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_User.htm" />
+  <HelpKINode Title="Resources.FunctionConstraintDescriptor property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.FunctionConstraintDescriptor.htm" />
+  <HelpKINode Title="Resources.FunctionConstraintName property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.FunctionConstraintName.htm" />
+  <HelpKINode Title="Resources.FunctionConstraint_Allowed property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.FunctionConstraint_Allowed.htm" />
+  <HelpKINode Title="Resources.FunctionConstraint_NOTAllowed property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.FunctionConstraint_NOTAllowed.htm" />
+  <HelpKINode Title="Resources.HowToUlock_docx property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.HowToUlock_docx.htm" />
+  <HelpKINode Title="Resources.keys property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.keys.htm" />
+  <HelpKINode Title="Resources.LicenseFileError property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileError.htm" />
+  <HelpKINode Title="Resources.LicenseFileErrorAssembly property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorAssembly.htm" />
+  <HelpKINode Title="Resources.LicenseFileErrorAValidLicense property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorAValidLicense.htm" />
+  <HelpKINode Title="Resources.LicenseFileErrorContactManufacturer property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorContactManufacturer.htm" />
+  <HelpKINode Title="Resources.LicenseFileErrorContext property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorContext.htm" />
+  <HelpKINode Title="Resources.LicenseFileErrorIntro property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorIntro.htm" />
+  <HelpKINode Title="Resources.LicenseFileErrorRSA property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorRSA.htm" />
+  <HelpKINode Title="Resources.LicenseFileErrorType property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorType.htm" />
+  <HelpKINode Title="Resources.LicenseFileErrorTypeUnknown property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorTypeUnknown.htm" />
+  <HelpKINode Title="Resources.License_request_message property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.License_request_message.htm" />
+  <HelpKINode Title="Resources.LicMessageFunctionDataTime property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicMessageFunctionDataTime.htm" />
+  <HelpKINode Title="Resources.LicMessageFunctionNoReason property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicMessageFunctionNoReason.htm" />
+  <HelpKINode Title="Resources.LicMessageFunctionNotAllowed property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.LicMessageFunctionNotAllowed.htm" />
+  <HelpKINode Title="Resources.MenuItemText property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.MenuItemText.htm" />
+  <HelpKINode Title="Resources.MenuItemToolTipText property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.MenuItemToolTipText.htm" />
+  <HelpKINode Title="Resources.ProductUnlockCodeStringToRemove property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ProductUnlockCodeStringToRemove.htm" />
+  <HelpKINode Title="Resources.ResourceManager property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.ResourceManager.htm" />
+  <HelpKINode Title="Resources.SecurityUnlock property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.SecurityUnlock.htm" />
+  <HelpKINode Title="Resources.SourceAssemblyFailedMessage property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.SourceAssemblyFailedMessage.htm" />
+  <HelpKINode Title="Resources.SplashScreenDefaultAppMissing property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.SplashScreenDefaultAppMissing.htm" />
+  <HelpKINode Title="Resources.SplashScreenStartASMDButtonText property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.SplashScreenStartASMDButtonText.htm" />
+  <HelpKINode Title="Resources.SplashScreenStartButtonFormat property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.SplashScreenStartButtonFormat.htm" />
+  <HelpKINode Title="Resources.SplashScreenStoreUrl property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.SplashScreenStoreUrl.htm" />
+  <HelpKINode Title="Resources.SplashScreenWaitMessage property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.SplashScreenWaitMessage.htm" />
+  <HelpKINode Title="Resources.Tx_LicCap property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicCap.htm" />
+  <HelpKINode Title="Resources.Tx_LicDemoModeInfo property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicDemoModeInfo.htm" />
+  <HelpKINode Title="Resources.Tx_LicDemoWriteErr property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicDemoWriteErr.htm" />
+  <HelpKINode Title="Resources.Tx_LicNoFileErr property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicNoFileErr.htm" />
+  <HelpKINode Title="Resources.Tx_LicValidationErr property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicValidationErr.htm" />
+  <HelpKINode Title="Resources.Tx_LicVolumeConstrainErr property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicVolumeConstrainErr.htm" />
+  <HelpKINode Title="Resources.UAASMDInstallbanner property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UAASMDInstallbanner.htm" />
+  <HelpKINode Title="Resources.UnlockFailureMessge property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UnlockFailureMessge.htm" />
+  <HelpKINode Title="Resources.UnlockFindingLicenseFailureMessage property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UnlockFindingLicenseFailureMessage.htm" />
+  <HelpKINode Title="Resources.UnlockInalationFailureCaption property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UnlockInalationFailureCaption.htm" />
+  <HelpKINode Title="Resources.UnlockSuccessCaption property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UnlockSuccessCaption.htm" />
+  <HelpKINode Title="Resources.UnlockSuccessMessge property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UnlockSuccessMessge.htm" />
+  <HelpKINode Title="Resources.UsageConstraint_Days property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UsageConstraint_Days.htm" />
+  <HelpKINode Title="Resources.UsageConstraint_Hit property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UsageConstraint_Hit.htm" />
+  <HelpKINode Title="Resources.UsageConstraint_Usage property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UsageConstraint_Usage.htm" />
+  <HelpKINode Title="Rollback method">
+    <HelpKINode Title="Rollback Method " Url="html/M-CAS.Lib.CodeProtect.LibInstaller.Rollback.htm" />
+    <HelpKINode Title="Rollback Method " Url="html/Overload-CAS.Lib.CodeProtect.LibInstaller.Rollback.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RunTime property">
+    <HelpKINode Title="RunTime Property " Url="html/P-CAS.Lib.CodeProtect.IIsLicensed.RunTime.htm" />
+    <HelpKINode Title="RunTime Property " Url="html/P-CAS.Lib.CodeProtect.IsLicensed-1.RunTime.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RunTimeConstrain property">
+    <HelpKINode Title="RunTimeConstrain Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.RunTimeConstrain.htm" />
+    <HelpKINode Title="RunTimeConstrain Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.RunTimeConstrain.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RuntimeConstraint class">
+    <HelpKINode Title="RuntimeConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.htm" />
+    <HelpKINode Title="RuntimeConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.htm" />
+    <HelpKINode Title="about RuntimeConstraint class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RuntimeConstraint.FromXml method">
+    <HelpKINode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.FromXml.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RuntimeConstraint.RuntimeConstraint constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.-ctor.htm" />
+  <HelpKINode Title="RuntimeConstraint.Validate method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.Validate.htm" />
+  <HelpKINode Title="Saved method">
+    <HelpKINode Title="Saved Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.Saved.htm" />
+    <HelpKINode Title="Saved Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.Saved.htm" />
+    <HelpKINode Title="Saved Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Saved.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SecurityUnlock property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.SecurityUnlock.htm" />
+  <HelpKINode Title="ShortName property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.ShortName.htm" />
+  <HelpKINode Title="SourceAssemblyFailedMessage property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.SourceAssemblyFailedMessage.htm" />
+  <HelpKINode Title="SplashScreenDefaultAppMissing property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.SplashScreenDefaultAppMissing.htm" />
+  <HelpKINode Title="SplashScreenStartASMDButtonText property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.SplashScreenStartASMDButtonText.htm" />
+  <HelpKINode Title="SplashScreenStartButtonFormat property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.SplashScreenStartButtonFormat.htm" />
+  <HelpKINode Title="SplashScreenStoreUrl property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.SplashScreenStoreUrl.htm" />
+  <HelpKINode Title="SplashScreenWaitMessage property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.SplashScreenWaitMessage.htm" />
+  <HelpKINode Title="Start property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.Start.htm" />
+  <HelpKINode Title="StartDate property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.StartDate.htm" />
+  <HelpKINode Title="Statistics class">
+    <HelpKINode Title="Statistics Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Statistics.htm" />
+    <HelpKINode Title="Statistics Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Statistics.htm" />
+    <HelpKINode Title="about Statistics class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Statistics.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Statistics.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Statistics.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Statistics.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Statistics.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Statistics property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Statistics.htm" />
+  <HelpKINode Title="Statistics.AccessCount property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Statistics.AccessCount.htm" />
+  <HelpKINode Title="Statistics.DateTimeLastAccessed property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Statistics.DateTimeLastAccessed.htm" />
+  <HelpKINode Title="Statistics.DaysCount property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Statistics.DaysCount.htm" />
+  <HelpKINode Title="Statistics.HitCount property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Statistics.HitCount.htm" />
+  <HelpKINode Title="Statistics.Statistics constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Statistics.-ctor.htm" />
+  <HelpKINode Title="Statistics.ToXmlString method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Statistics.ToXmlString.htm" />
+  <HelpKINode Title="Statistics.UsageCount property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Statistics.UsageCount.htm" />
+  <HelpKINode Title="TestIfPathIsAbsolute method" Url="html/M-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.TestIfPathIsAbsolute.htm" />
+  <HelpKINode Title="Time class">
+    <HelpKINode Title="Time Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.htm" />
+    <HelpKINode Title="Time Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.htm" />
+    <HelpKINode Title="about Time class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Time.MilitaryTime property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.MilitaryTime.htm" />
+  <HelpKINode Title="Time.Now method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.Now.htm" />
+  <HelpKINode Title="Time.Time constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.-ctor.htm" />
+  <HelpKINode Title="TimeRange class">
+    <HelpKINode Title="TimeRange Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.htm" />
+    <HelpKINode Title="TimeRange Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.htm" />
+    <HelpKINode Title="about TimeRange class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TimeRange.End property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.End.htm" />
+  <HelpKINode Title="TimeRange.Start property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.Start.htm" />
+  <HelpKINode Title="TimeRange.TimeRange constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.-ctor.htm" />
+  <HelpKINode Title="TimeRangeCollection class">
+    <HelpKINode Title="TimeRangeCollection Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.htm" />
+    <HelpKINode Title="TimeRangeCollection Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.htm" />
+    <HelpKINode Title="about TimeRangeCollection class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TimeRangeCollection.Add method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.Add.htm" />
+  <HelpKINode Title="TimeRangeCollection.AddRange method" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.AddRange.htm" />
+  <HelpKINode Title="TimeRangeCollection.Contains method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.Contains.htm" />
+  <HelpKINode Title="TimeRangeCollection.CopyTo method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.CopyTo.htm" />
+  <HelpKINode Title="TimeRangeCollection.GetEnumerator method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.GetEnumerator.htm" />
+  <HelpKINode Title="TimeRangeCollection.IndexOf method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.IndexOf.htm" />
+  <HelpKINode Title="TimeRangeCollection.Insert method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.Insert.htm" />
+  <HelpKINode Title="TimeRangeCollection.Item property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.Item-System.Int32-.htm" />
+  <HelpKINode Title="TimeRangeCollection.Remove method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.Remove.htm" />
+  <HelpKINode Title="TimeRangeCollection.TimeRangeCollection constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.-ctor.htm" />
+  <HelpKINode Title="TimeRangeCollection.TimeRangeEnumerator class">
+    <HelpKINode Title="TimeRangeCollection.TimeRangeEnumerator Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.htm" />
+    <HelpKINode Title="TimeRangeCollection.TimeRangeEnumerator Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.htm" />
+    <HelpKINode Title="about TimeRangeCollection.TimeRangeEnumerator class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TimeRangeEnumerator class">
+    <HelpKINode Title="constructor" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.-ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TimeRangeEnumerator.Current property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.Current.htm" />
+  <HelpKINode Title="TimeRangeEnumerator.MoveNext method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.MoveNext.htm" />
+  <HelpKINode Title="TimeRangeEnumerator.Reset method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.Reset.htm" />
+  <HelpKINode Title="TimeRangeEnumerator.TimeRangeEnumerator constructor" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.-ctor.htm" />
+  <HelpKINode Title="ToString method">
+    <HelpKINode Title="ToString Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.ToString.htm" />
+    <HelpKINode Title="ToString Method " Url="html/M-CAS.Lib.CodeProtect.AssemblyHelperAttribute.ToString.htm" />
+    <HelpKINode Title="ToString Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.ToString.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ToXmlString method">
+    <HelpKINode Title="ToXmlString Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Statistics.ToXmlString.htm" />
+    <HelpKINode Title="ToXmlString Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.ToXmlString.htm" />
+    <HelpKINode Title="ToXmlString Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Issuer.ToXmlString.htm" />
+    <HelpKINode Title="ToXmlString Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.ToXmlString.htm" />
+    <HelpKINode Title="ToXmlString Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.CustomData.ToXmlString.htm" />
+    <HelpKINode Title="ToXmlString Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Product.ToXmlString.htm" />
+    <HelpKINode Title="ToXmlString Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.User.ToXmlString.htm" />
+    <HelpKINode Title="ToXmlString Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.ToXmlString.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TraceInnerExceptions method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException.TraceInnerExceptions.htm" />
+  <HelpKINode Title="TryComputeRelativePath method" Url="html/M-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.TryComputeRelativePath.htm" />
+  <HelpKINode Title="Tx_LicCap property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicCap.htm" />
+  <HelpKINode Title="Tx_LicDemoModeInfo property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicDemoModeInfo.htm" />
+  <HelpKINode Title="Tx_LicDemoWriteErr property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicDemoWriteErr.htm" />
+  <HelpKINode Title="Tx_LicNoFileErr property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicNoFileErr.htm" />
+  <HelpKINode Title="Tx_LicValidationErr property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicValidationErr.htm" />
+  <HelpKINode Title="Tx_LicVolumeConstrainErr property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicVolumeConstrainErr.htm" />
+  <HelpKINode Title="UAASMDInstallbanner property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UAASMDInstallbanner.htm" />
+  <HelpKINode Title="Uninstall method" Url="html/M-CAS.Lib.CodeProtect.LibInstaller.Uninstall.htm" />
+  <HelpKINode Title="UnlockFailureMessge property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UnlockFailureMessge.htm" />
+  <HelpKINode Title="UnlockFindingLicenseFailureMessage property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UnlockFindingLicenseFailureMessage.htm" />
+  <HelpKINode Title="UnlockInalationFailureCaption property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UnlockInalationFailureCaption.htm" />
+  <HelpKINode Title="UnlockKeyAssemblyContainer class">
+    <HelpKINode Title="UnlockKeyAssemblyContainer Class" Url="html/T-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.htm" />
+    <HelpKINode Title="UnlockKeyAssemblyContainer Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.htm" />
+    <HelpKINode Title="about UnlockKeyAssemblyContainer class" Url="html/T-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UnlockKeyAssemblyContainer.GetManifestResourcePath method" Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.GetManifestResourcePath.htm" />
+  <HelpKINode Title="UnlockKeyAssemblyContainer.GetManifestResourceStream method" Url="html/M-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.GetManifestResourceStream.htm" />
+  <HelpKINode Title="UnlockKeyAssemblyContainer.UnlockKeyAssemblyContainer constructor" Url="html/Overload-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.-ctor.htm" />
+  <HelpKINode Title="UnlockSuccessCaption property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UnlockSuccessCaption.htm" />
+  <HelpKINode Title="UnlockSuccessMessge property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UnlockSuccessMessge.htm" />
+  <HelpKINode Title="UpdateURL property">
+    <HelpKINode Title="UpdateURL Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.UpdateURL.htm" />
+    <HelpKINode Title="UpdateURL Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.UpdateURL.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UpgardeData method">
+    <HelpKINode Title="UpgardeData Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.UpgardeData.htm" />
+    <HelpKINode Title="UpgardeData Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Product.UpgardeData.htm" />
+    <HelpKINode Title="UpgardeData Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Issuer.UpgardeData.htm" />
+    <HelpKINode Title="UpgardeData Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.User.UpgardeData.htm" />
+    <HelpKINode Title="UpgardeData Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Product.UpgardeData.htm" />
+    <HelpKINode Title="UpgardeData Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.User.UpgardeData.htm" />
+    <HelpKINode Title="UpgardeData Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Issuer.UpgardeData.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UpgradeLicense method" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.UpgradeLicense.htm" />
+  <HelpKINode Title="Url property">
+    <HelpKINode Title="Url Property " Url="html/P-CAS.Lib.CodeProtect.AssemblyHelperAttribute.Url.htm" />
+    <HelpKINode Title="Url Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Issuer.Url.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UsageConstraint class">
+    <HelpKINode Title="UsageConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.htm" />
+    <HelpKINode Title="UsageConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.htm" />
+    <HelpKINode Title="about UsageConstraint class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UsageConstraint.CurrentDays property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.CurrentDays.htm" />
+  <HelpKINode Title="UsageConstraint.CurrentHitCount property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.CurrentHitCount.htm" />
+  <HelpKINode Title="UsageConstraint.CurrentUsageCount property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.CurrentUsageCount.htm" />
+  <HelpKINode Title="UsageConstraint.FromXml method">
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.FromXml.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UsageConstraint.MaxDays property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.MaxDays.htm" />
+  <HelpKINode Title="UsageConstraint.MaxHitCount property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.MaxHitCount.htm" />
+  <HelpKINode Title="UsageConstraint.MaxUsageCount property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.MaxUsageCount.htm" />
+  <HelpKINode Title="UsageConstraint.UsageConstraint constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.-ctor.htm" />
+  <HelpKINode Title="UsageConstraint.Validate method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.Validate.htm" />
+  <HelpKINode Title="UsageConstraint_Days property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UsageConstraint_Days.htm" />
+  <HelpKINode Title="UsageConstraint_Hit property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UsageConstraint_Hit.htm" />
+  <HelpKINode Title="UsageConstraint_Usage property" Url="html/P-CAS.Lib.CodeProtect.Properties.Resources.UsageConstraint_Usage.htm" />
+  <HelpKINode Title="UsageCount property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Statistics.UsageCount.htm" />
+  <HelpKINode Title="User class">
+    <HelpKINode Title="User Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.User.htm" />
+    <HelpKINode Title="User Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.User.htm" />
+    <HelpKINode Title="about User class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.User.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.User.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.User.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.User.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.User.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.User.htm" />
+  <HelpKINode Title="User.Email property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.User.Email.htm" />
+  <HelpKINode Title="User.Name property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.User.Name.htm" />
+  <HelpKINode Title="User.Organization property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.User.Organization.htm" />
+  <HelpKINode Title="User.ToXmlString method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.User.ToXmlString.htm" />
+  <HelpKINode Title="User.UpgardeData method">
+    <HelpKINode Title="UpgardeData Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.User.UpgardeData.htm" />
+    <HelpKINode Title="UpgardeData Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.User.UpgardeData.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User.User constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.User.-ctor.htm" />
+  <HelpKINode Title="Validate method">
+    <HelpKINode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.Validate.htm" />
+    <HelpKINode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.Validate.htm" />
+    <HelpKINode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.Validate.htm" />
+    <HelpKINode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.Validate.htm" />
+    <HelpKINode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.Validate.htm" />
+    <HelpKINode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.Validate.htm" />
+    <HelpKINode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Validate.htm" />
+    <HelpKINode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.Validate.htm" />
+    <HelpKINode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Validate.htm" />
+    <HelpKINode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.Validate.htm" />
+    <HelpKINode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.Validate.htm" />
+    <HelpKINode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.Validate.htm" />
+    <HelpKINode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.Validate.htm" />
+    <HelpKINode Title="Validate Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.Validate.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ValidateLicense method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.ValidateLicense.htm" />
+  <HelpKINode Title="Version property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Product.Version.htm" />
+  <HelpKINode Title="VersionConstraint class">
+    <HelpKINode Title="VersionConstraint Class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.htm" />
+    <HelpKINode Title="VersionConstraint Members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.htm" />
+    <HelpKINode Title="about VersionConstraint class" Url="html/T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VersionConstraint.FromXml method">
+    <HelpKINode Title="FromXml Method " Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.FromXml.htm" />
+    <HelpKINode Title="FromXml Method " Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.FromXml.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VersionConstraint.Maximum property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.Maximum.htm" />
+  <HelpKINode Title="VersionConstraint.Minimum property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.Minimum.htm" />
+  <HelpKINode Title="VersionConstraint.Validate method" Url="html/M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.Validate.htm" />
+  <HelpKINode Title="VersionConstraint.VersionConstraint constructor" Url="html/Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.-ctor.htm" />
+  <HelpKINode Title="Volume property">
+    <HelpKINode Title="Volume Property " Url="html/P-CAS.Lib.CodeProtect.IIsLicensed.Volume.htm" />
+    <HelpKINode Title="Volume Property " Url="html/P-CAS.Lib.CodeProtect.IsLicensed-1.Volume.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VolumeConstrain property">
+    <HelpKINode Title="VolumeConstrain Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.VolumeConstrain.htm" />
+    <HelpKINode Title="VolumeConstrain Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.VolumeConstrain.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Warning property">
+    <HelpKINode Title="Warning Property " Url="html/P-CAS.Lib.CodeProtect.IsLicensed-1.Warning.htm" />
+    <HelpKINode Title="Warning Property " Url="html/P-CAS.Lib.CodeProtect.MaintenanceControlComponent.Warning.htm" />
+    <HelpKINode Title="Warning Property " Url="html/P-CAS.Lib.CodeProtect.IIsLicensed.Warning.htm" />
+    <HelpKINode Title="Warning Property " Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Warning.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Warnings property" Url="html/P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Warnings.htm" />
+</HelpKI>

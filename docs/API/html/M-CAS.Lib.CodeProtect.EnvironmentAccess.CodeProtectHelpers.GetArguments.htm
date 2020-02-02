@@ -1,0 +1,2218 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"[]>
+<html>
+  <head><link rel="shortcut icon" href="../favicon.ico" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="save" content="history" />
+    <title>GetArguments Method </title>
+    <link rel="stylesheet" type="text/css" href="../styles/lightweight.css" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <link rel="stylesheet" type="text/css" href="../styles/lw-code.css" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <script type="text/javascript" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" src="../scripts/languageSelector.js"> </script>
+    <meta name="container" content="CAS.Lib.CodeProtect.EnvironmentAccess" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <meta name="file" content="M-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.GetArguments" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <meta name="guid" content="M-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.GetArguments" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <xml xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <MSHelp:Attr Name="AssetID" Value="M:CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.GetArguments" />
+      <MSHelp:TOCTitle Title="GetArguments Method " />
+      <MSHelp:RLTitle Title="CodeProtectHelpers.GetArguments Method  (CAS.Lib.CodeProtect.EnvironmentAccess)" />
+      <MSHelp:Keyword Index="A" Term="M:CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.GetArguments" />
+      <MSHelp:Keyword Index="A" Term="frlrfCASLibCodeProtectEnvironmentAccessCodeProtectHelpersClassGetArgumentsTopic" />
+      <MSHelp:Keyword Index="K" Term="GetArguments method" />
+      <MSHelp:Keyword Index="K" Term="CodeProtectHelpers.GetArguments method" />
+      <MSHelp:Keyword Index="F" Term="CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.GetArguments" />
+      <MSHelp:Attr Name="APIType" Value="Managed" />
+      <MSHelp:Attr Name="APILocation" Value="CAS.CodeProtect.dll" />
+      <MSHelp:Attr Name="APIName" Value="CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.GetArguments" />
+      <MSHelp:Attr Name="DevLang" Value="CSharp" />
+      <MSHelp:Attr Name="DevLang" Value="VB" />
+      <MSHelp:Attr Name="Locale" Value="en-us" />
+      <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
+      <MSHelp:Attr Name="TopicType" Value="apiref" />
+      <MSHelp:Attr Name="Abstract" Value="Gets the arguments form the deployment URI or from the command line." />
+      <MSHelp:Attr Name="AssemblyVersion" Value="" />
+    </xml>
+  <link rel="stylesheet" href="../TOC.css"><script type="text/javascript" src="../TOC.js"></script></head>
+  <body onload="javascript: Initialize('.aspx');" onresize="javascript: ResizeTree();">
+            <div id="TOCDiv" class="TOCDiv" style="width: 310px; float: left; position: relative; ">
+
+            <div id="divSearchOpts" class="SearchOpts" style="height: 95px; display: none;">
+                <div class="SearchOptsInner">
+                    <img class="TOCLink" onclick="javascript: ShowHideSearch(false);" src="../Close.png" height="24" width="24" alt="Hide Search" title="Hide Search" style="float: right;" />
+                    <span class="Title">Keyword(s) to search:</span>
+                </div>
+                <div class="SearchOptsInner">
+                    <input id="txtSearchText" type="text" style="width: 95.5%;" onkeypress="javascript: return OnSearchTextKeyPress(event);" />
+                </div>
+                <div class="SearchOptsInner">
+                    <input id="chkSortByTitle" type="checkbox" />&nbsp;Sort results by title
+                    <input type="button" value="Search" onclick="javascript: return PerformSearch();" style="float: right;" />
+                </div>
+            </div>
+
+            <div id="divIndexOpts" class="IndexOpts" style="height: 28px; display: none;">
+                <img class="TOCLink" onclick="javascript: ShowHideIndex(false);"
+                     src="../Close.png" height="24" width="24" alt="Hide Keyword Index" title="Hide Keyword Index" style="float: right;" />
+                <span class="Title">Keyword Index</span>
+            </div>
+
+            <div id="divNavOpts" class="NavOpts" style="height: 28px;">
+                <!--<img class="TOCLink" onclick="javascript: SyncTOC();" src="../SyncTOC.png"
+                     height="24" width="24" alt="Sync to TOC" title="Sync to TOC" />-->
+                <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(true);"
+                     src="../ExpandAll.png" height="24" width="24" alt="Expand all" title="Expand all" />
+                <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(false);"
+                     src="../CollapseAll.png" height="24" width="24" alt="Collapse all" title="Collapse all" />
+                <!--<img class="TOCLink" onclick="javascript: alert('Please make sure to use either Index.aspx or Index.php to enable the Keyword Index feature.');"
+                     src="../Index.png" height="24" width="24" alt="Keyword Index" title="Keyword Index" />-->
+                <img class="TOCLink" onclick="javascript: ShowHideSearch(true);"
+                     src="../Search.png" height="24" width="24" alt="Search" title="Search" />
+                <img class="TOCLink" onclick="javascript: ShowDirectLink();"
+                     src="../Link.png" height="24" width="24" alt="Get direct link to the displayed topic" title="Get direct link to the displayed topic" />
+                <a href="#" onclick="javascript: window.history.go(-1); return false;">
+                    <img class="TOCLink" style="float: right;"
+                         src="../Back.png" height="24" width="24" alt="Previous page" title="Previous page" />
+                </a>
+            </div>
+
+            <div class="Tree" id="divSearchResults" style="display: none;"
+                 onselectstart="javascript: return false;">
+            </div>
+
+            <div class="Tree" id="divIndexResults" style="display: none;"
+                 onselectstart="javascript: return false;">
+            </div>
+
+            <div class="Tree" id="divTree" onselectstart="javascript: return false;">
+              <div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-CAS.Lib.CodeProtect.htm" target="_self">CAS.Lib.CodeProtect Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.AssemblyHelperAttribute.htm" target="_self">AssemblyHelperAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.AssemblyHelperAttribute.htm" target="_self">AssemblyHelperAttribute Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.AssemblyHelperAttribute.-ctor.htm" target="_self">AssemblyHelperAttribute Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.AssemblyHelperAttribute.-ctor.htm" target="_self">AssemblyHelperAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.AssemblyHelperAttribute.-ctor_1.htm" target="_self">AssemblyHelperAttribute Constructor (String)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.AssemblyHelperAttribute.-ctor_2.htm" target="_self">AssemblyHelperAttribute Constructor (String, String)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.AssemblyHelperAttribute.-ctor_3.htm" target="_self">AssemblyHelperAttribute Constructor (String, String, String)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.AssemblyHelperAttribute.-ctor_4.htm" target="_self">AssemblyHelperAttribute Constructor (String, String, String, String)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.AssemblyHelperAttribute.-ctor_5.htm" target="_self">AssemblyHelperAttribute Constructor (String, String, String, String, String)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.AssemblyHelperAttribute.htm" target="_self">AssemblyHelperAttribute Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.AssemblyHelperAttribute.ToString.htm" target="_self">ToString Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.AssemblyHelperAttribute.htm" target="_self">AssemblyHelperAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.AssemblyHelperAttribute.Company.htm" target="_self">Company Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.AssemblyHelperAttribute.Email.htm" target="_self">Email Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.AssemblyHelperAttribute.Phone.htm" target="_self">Phone Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.AssemblyHelperAttribute.Product.htm" target="_self">Product Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.AssemblyHelperAttribute.Url.htm" target="_self">Url Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.AssemblyKeyAttribute.htm" target="_self">AssemblyKeyAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.AssemblyKeyAttribute.htm" target="_self">AssemblyKeyAttribute Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.AssemblyKeyAttribute.-ctor.htm" target="_self">AssemblyKeyAttribute Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.AssemblyKeyAttribute.-ctor.htm" target="_self">AssemblyKeyAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.AssemblyKeyAttribute.-ctor_1.htm" target="_self">AssemblyKeyAttribute Constructor (String)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.AssemblyKeyAttribute.htm" target="_self">AssemblyKeyAttribute Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.AssemblyKeyAttribute.GetEncryptionKeyAttribute.htm" target="_self">GetEncryptionKeyAttribute Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.AssemblyKeyAttribute.htm" target="_self">AssemblyKeyAttribute Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.AssemblyKeyAttribute.EncryptionKey.htm" target="_self">EncryptionKey Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.CodeProtectLP.htm" target="_self">CodeProtectLP Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.CodeProtectLP.htm" target="_self">CodeProtectLP Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.CodeProtectLP.-ctor.htm" target="_self">CodeProtectLP Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.CodeProtectLP.htm" target="_self">CodeProtectLP Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.CodeProtectLP.GetLicense.htm" target="_self">GetLicense Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.CodeProtectLP.GetLicense.htm" target="_self">GetLicense Method (LicenseContext, Type, Object, Boolean)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.CodeProtectLP.ReadDeployManifest.htm" target="_self">ReadDeployManifest Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.CodeProtectLP.htm" target="_self">CodeProtectLP Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.CodeProtectLP.OpeningError.htm" target="_self">OpeningError Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.IIsLicensed.htm" target="_self">IIsLicensed Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.IIsLicensed.htm" target="_self">IIsLicensed Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Methods.T-CAS.Lib.CodeProtect.IIsLicensed.htm" target="_self">IIsLicensed Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.IIsLicensed.htm" target="_self">IIsLicensed Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.IIsLicensed.Licensed.htm" target="_self">Licensed Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.IIsLicensed.RunTime.htm" target="_self">RunTime Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.IIsLicensed.Volume.htm" target="_self">Volume Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.IIsLicensed.Warning.htm" target="_self">Warning Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.InstallContextNames.htm" target="_self">InstallContextNames Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.InstallContextNames.htm" target="_self">InstallContextNames Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Methods.T-CAS.Lib.CodeProtect.InstallContextNames.htm" target="_self">InstallContextNames Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.InstallContextNames.htm" target="_self">InstallContextNames Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.InstallContextNames.ApplicationDataPath.htm" target="_self">ApplicationDataPath Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.IsLicensed-1.htm" target="_self">IsLicensed(type) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.IsLicensed-1.htm" target="_self">IsLicensed(type) Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.IsLicensed-1.-ctor.htm" target="_self">IsLicensed(type) Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.IsLicensed-1.-ctor.htm" target="_self">IsLicensed(type) Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.IsLicensed-1.-ctor_1.htm" target="_self">IsLicensed(type) Constructor (Nullable(Int32), Nullable(TimeSpan))</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Methods.T-CAS.Lib.CodeProtect.IsLicensed-1.htm" target="_self">IsLicensed(type) Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.IsLicensed-1.htm" target="_self">IsLicensed(type) Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.IsLicensed-1.Licensed.htm" target="_self">Licensed Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.IsLicensed-1.RunTime.htm" target="_self">RunTime Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.IsLicensed-1.Volume.htm" target="_self">Volume Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.IsLicensed-1.Warning.htm" target="_self">Warning Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LibInstaller.htm" target="_self">LibInstaller Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LibInstaller.htm" target="_self">LibInstaller Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LibInstaller.-ctor.htm" target="_self">LibInstaller Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LibInstaller.htm" target="_self">LibInstaller Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LibInstaller.Commit.htm" target="_self">Commit Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LibInstaller.Commit.htm" target="_self">Commit Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LibInstaller.Install.htm" target="_self">Install Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LibInstaller.Install.htm" target="_self">Install Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LibInstaller.InstallLicense.htm" target="_self">InstallLicense Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LibInstaller.InstallLicense.htm" target="_self">InstallLicense Method (Boolean)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LibInstaller.InstallLicense_1.htm" target="_self">InstallLicense Method (String, String, String, Boolean)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LibInstaller.InstallLicense_2.htm" target="_self">InstallLicense Method (Stream)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LibInstaller.Rollback.htm" target="_self">Rollback Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LibInstaller.Rollback.htm" target="_self">Rollback Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LibInstaller.Uninstall.htm" target="_self">Uninstall Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Properties.T-CAS.Lib.CodeProtect.LibInstaller.htm" target="_self">LibInstaller Properties</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Events.T-CAS.Lib.CodeProtect.LibInstaller.htm" target="_self">LibInstaller Events</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.MaintenanceControl.htm" target="_self">MaintenanceControl Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.MaintenanceControl.htm" target="_self">MaintenanceControl Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Methods.T-CAS.Lib.CodeProtect.MaintenanceControl.htm" target="_self">MaintenanceControl Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.MaintenanceControl.htm" target="_self">MaintenanceControl Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.MaintenanceControl.MaintenanceControlWarning.htm" target="_self">MaintenanceControlWarning Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.MaintenanceControlComponent.htm" target="_self">MaintenanceControlComponent Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.MaintenanceControlComponent.htm" target="_self">MaintenanceControlComponent Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.MaintenanceControlComponent.-ctor.htm" target="_self">MaintenanceControlComponent Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.MaintenanceControlComponent.-ctor.htm" target="_self">MaintenanceControlComponent Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.MaintenanceControlComponent.-ctor_1.htm" target="_self">MaintenanceControlComponent Constructor (IContainer)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Methods.T-CAS.Lib.CodeProtect.MaintenanceControlComponent.htm" target="_self">MaintenanceControlComponent Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.MaintenanceControlComponent.htm" target="_self">MaintenanceControlComponent Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.MaintenanceControlComponent.Licensed.htm" target="_self">Licensed Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.MaintenanceControlComponent.Warning.htm" target="_self">Warning Property </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Events.T-CAS.Lib.CodeProtect.MaintenanceControlComponent.htm" target="_self">MaintenanceControlComponent Events</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.htm" target="_self">RelativeFilePathsCalculator Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.htm" target="_self">RelativeFilePathsCalculator Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.htm" target="_self">RelativeFilePathsCalculator Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.GetAbsolutePathToFileInApplicationDataFolder.htm" target="_self">GetAbsolutePathToFileInApplicationDataFolder Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.TestIfPathIsAbsolute.htm" target="_self">TestIfPathIsAbsolute Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.RelativeFilePathsCalculator.TryComputeRelativePath.htm" target="_self">TryComputeRelativePath Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-CAS.Lib.CodeProtect.EnvironmentAccess.htm" target="_self">CAS.Lib.CodeProtect.EnvironmentAccess Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedDelimitedListTraceListener.htm" target="_self">AdvancedDelimitedListTraceListener Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedDelimitedListTraceListener.htm" target="_self">AdvancedDelimitedListTraceListener Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedDelimitedListTraceListener.-ctor.htm" target="_self">AdvancedDelimitedListTraceListener Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Methods.T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedDelimitedListTraceListener.htm" target="_self">AdvancedDelimitedListTraceListener Methods</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Properties.T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedDelimitedListTraceListener.htm" target="_self">AdvancedDelimitedListTraceListener Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedXmlWriterTraceListener.htm" target="_self">AdvancedXmlWriterTraceListener Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedXmlWriterTraceListener.htm" target="_self">AdvancedXmlWriterTraceListener Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedXmlWriterTraceListener.-ctor.htm" target="_self">AdvancedXmlWriterTraceListener Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Methods.T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedXmlWriterTraceListener.htm" target="_self">AdvancedXmlWriterTraceListener Methods</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Properties.T-CAS.Lib.CodeProtect.EnvironmentAccess.AdvancedXmlWriterTraceListener.htm" target="_self">AdvancedXmlWriterTraceListener Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.htm" target="_self">CodeProtectHelpers Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.htm" target="_self">CodeProtectHelpers Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.htm" target="_self">CodeProtectHelpers Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.CreateRSA.htm" target="_self">CreateRSA Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.GetArguments.htm" target="_self">GetArguments Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.htm" target="_self">FileNames Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.htm" target="_self">FileNames Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Fields.T-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.htm" target="_self">FileNames Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.LicExtension.htm" target="_self">LicExtension Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.htm" target="_self">FileNames Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.CreateLicenseFileStream.htm" target="_self">CreateLicenseFileStream Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.htm" target="_self">FileNames Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.EnvironmentAccess.FileNames.LicenseFileName.htm" target="_self">LicenseFileName Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.htm" target="_self">UnlockKeyAssemblyContainer Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.htm" target="_self">UnlockKeyAssemblyContainer Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.-ctor.htm" target="_self">UnlockKeyAssemblyContainer Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.-ctor.htm" target="_self">UnlockKeyAssemblyContainer Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.-ctor_1.htm" target="_self">UnlockKeyAssemblyContainer Constructor (Assembly)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.-ctor_2.htm" target="_self">UnlockKeyAssemblyContainer Constructor (String)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.htm" target="_self">UnlockKeyAssemblyContainer Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.GetManifestResourcePath.htm" target="_self">GetManifestResourcePath Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.EnvironmentAccess.UnlockKeyAssemblyContainer.GetManifestResourceStream.htm" target="_self">GetManifestResourceStream Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-CAS.Lib.CodeProtect.LicenseDsc.htm" target="_self">CAS.Lib.CodeProtect.LicenseDsc Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.htm" target="_self">AbstractConstraint Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.htm" target="_self">AbstractConstraint Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.htm" target="_self">AbstractConstraint Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Dispose.htm" target="_self">Dispose Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.FromXml.htm" target="_self">FromXml Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.FromXml.htm" target="_self">FromXml Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.FromXml_1.htm" target="_self">FromXml Method (XmlNode)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.ToString.htm" target="_self">ToString Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.ToXmlString.htm" target="_self">ToXmlString Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Validate.htm" target="_self">Validate Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.htm" target="_self">AbstractConstraint Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.ConstraintType.htm" target="_self">ConstraintType Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Description.htm" target="_self">Description Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.GUID.htm" target="_self">GUID Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Icon.htm" target="_self">Icon Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.License.htm" target="_self">License Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Name.htm" target="_self">Name Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.RunTimeConstrain.htm" target="_self">RunTimeConstrain Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.VolumeConstrain.htm" target="_self">VolumeConstrain Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint.Warning.htm" target="_self">Warning Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.htm" target="_self">AbstractContainerConstraint Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.htm" target="_self">AbstractContainerConstraint Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.htm" target="_self">AbstractContainerConstraint Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.FromXml.htm" target="_self">FromXml Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.FromXml.htm" target="_self">FromXml Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.ToXmlString.htm" target="_self">ToXmlString Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.htm" target="_self">AbstractContainerConstraint Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint.Items.htm" target="_self">Items Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.htm" target="_self">AbstractLicenseData Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.htm" target="_self">AbstractLicenseData Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.htm" target="_self">AbstractLicenseData Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.Saved.htm" target="_self">Saved Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.ToXmlString.htm" target="_self">ToXmlString Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.htm" target="_self">AbstractLicenseData Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData.IsDirty.htm" target="_self">IsDirty Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm" target="_self">AbstractUpgradeableData(Type) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm" target="_self">AbstractUpgradeableData(Type) Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm" target="_self">AbstractUpgradeableData(Type) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.UpgardeData.htm" target="_self">UpgardeData Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData-1.htm" target="_self">AbstractUpgradeableData(Type) Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.CustomData.htm" target="_self">CustomData Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.CustomData.htm" target="_self">CustomData Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.CustomData.-ctor.htm" target="_self">CustomData Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.CustomData.htm" target="_self">CustomData Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.CustomData.ToXmlString.htm" target="_self">ToXmlString Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.CustomData.htm" target="_self">CustomData Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.CustomData.Items.htm" target="_self">Items Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.htm" target="_self">IConstraint Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.htm" target="_self">IConstraint Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.htm" target="_self">IConstraint Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Dispose.htm" target="_self">Dispose Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.FromXml.htm" target="_self">FromXml Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.FromXml.htm" target="_self">FromXml Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.FromXml_1.htm" target="_self">FromXml Method (XmlNode)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Saved.htm" target="_self">Saved Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.ToXmlString.htm" target="_self">ToXmlString Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Validate.htm" target="_self">Validate Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.htm" target="_self">IConstraint Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Description.htm" target="_self">Description Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Icon.htm" target="_self">Icon Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.IsDirty.htm" target="_self">IsDirty Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.License.htm" target="_self">License Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.IConstraint.Name.htm" target="_self">Name Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.IConstraintItemProvider.htm" target="_self">IConstraintItemProvider Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.IConstraintItemProvider.htm" target="_self">IConstraintItemProvider Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.IConstraintItemProvider.htm" target="_self">IConstraintItemProvider Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.IConstraintItemProvider.htm" target="_self">IConstraintItemProvider Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.IConstraintItemProvider.Items.htm" target="_self">Items Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.htm" target="_self">ILicenseData Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.htm" target="_self">ILicenseData Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.htm" target="_self">ILicenseData Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.Saved.htm" target="_self">Saved Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.ToXmlString.htm" target="_self">ToXmlString Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.htm" target="_self">ILicenseData Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.ILicenseData.IsDirty.htm" target="_self">IsDirty Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.Issuer.htm" target="_self">Issuer Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Issuer.htm" target="_self">Issuer Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Issuer.-ctor.htm" target="_self">Issuer Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Issuer.-ctor.htm" target="_self">Issuer Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Issuer.-ctor_1.htm" target="_self">Issuer Constructor (String, String, String)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Issuer.htm" target="_self">Issuer Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Issuer.ToXmlString.htm" target="_self">ToXmlString Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Issuer.UpgardeData.htm" target="_self">UpgardeData Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Issuer.UpgardeData.htm" target="_self">UpgardeData Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Issuer.htm" target="_self">Issuer Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Issuer.Email.htm" target="_self">Email Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Issuer.FullName.htm" target="_self">FullName Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Issuer.Url.htm" target="_self">Url Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.htm" target="_self">LicenseFile Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.htm" target="_self">LicenseFile Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.-ctor.htm" target="_self">LicenseFile Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.htm" target="_self">LicenseFile Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Dispose.htm" target="_self">Dispose Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.GetCustomFieldValue.htm" target="_self">GetCustomFieldValue Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LoadFile.htm" target="_self">LoadFile Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LoadFile.htm" target="_self">LoadFile Method (Stream, RSACryptoServiceProvider, Boolean)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LoadFile_1.htm" target="_self">LoadFile Method (Stream, RSACryptoServiceProvider)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LoadFile_2.htm" target="_self">LoadFile Method (FileInfo, RSACryptoServiceProvider, Boolean)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.ResetCreationStatistics.htm" target="_self">ResetCreationStatistics Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.SaveFile.htm" target="_self">SaveFile Method (Stream, RSA)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.ToString.htm" target="_self">ToString Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.ToXmlSignedXmlDocument.htm" target="_self">ToXmlSignedXmlDocument Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.UpgradeLicense.htm" target="_self">UpgradeLicense Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.UpgradeLicense.htm" target="_self">UpgradeLicense Method (Stream)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.UpgradeLicense_1.htm" target="_self">UpgradeLicense Method (String)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.ValidateLicense.htm" target="_self">ValidateLicense Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.htm" target="_self">LicenseFile Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Constraints.htm" target="_self">Constraints Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.CreationDate.htm" target="_self">CreationDate Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.CustomData.htm" target="_self">CustomData Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.FailureReason.htm" target="_self">FailureReason Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.FirstUsesDate.htm" target="_self">FirstUsesDate Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.HardwareKeyToken.htm" target="_self">HardwareKeyToken Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.HardwareKeyTokenBasedOnDevice.htm" target="_self">HardwareKeyTokenBasedOnDevice Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.InstallationInstanceGUID.htm" target="_self">InstallationInstanceGUID Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.IsDirty.htm" target="_self">IsDirty Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.IsReadOnly.htm" target="_self">IsReadOnly Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Issuer.htm" target="_self">Issuer Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LicenseKey.htm" target="_self">LicenseKey Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LicenseKeyToken.htm" target="_self">LicenseKeyToken Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LicenseUID.htm" target="_self">LicenseUID Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.LicModificationUID.htm" target="_self">LicModificationUID Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.ModificationDate.htm" target="_self">ModificationDate Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Product.htm" target="_self">Product Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.RunTimeConstrain.htm" target="_self">RunTimeConstrain Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Statistics.htm" target="_self">Statistics Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.User.htm" target="_self">User Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.VolumeConstrain.htm" target="_self">VolumeConstrain Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.LicenseFile.Warnings.htm" target="_self">Warnings Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException.htm" target="_self">LicenseFileException Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException.htm" target="_self">LicenseFileException Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException.htm" target="_self">LicenseFileException Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException.TraceInnerExceptions.htm" target="_self">TraceInnerExceptions Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException.htm" target="_self">LicenseFileException Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.Product.htm" target="_self">Product Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Product.htm" target="_self">Product Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Product.-ctor.htm" target="_self">Product Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Product.-ctor.htm" target="_self">Product Constructor (Assembly)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Product.-ctor_1.htm" target="_self">Product Constructor (DeployManifest)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Product.htm" target="_self">Product Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Product.ToXmlString.htm" target="_self">ToXmlString Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Product.UpgardeData.htm" target="_self">UpgardeData Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Product.UpgardeData.htm" target="_self">UpgardeData Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Product.htm" target="_self">Product Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Product.Description.htm" target="_self">Description Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Product.Developer.htm" target="_self">Developer Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Product.FilePath.htm" target="_self">FilePath Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Product.FullName.htm" target="_self">FullName Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Product.IsInGAC.htm" target="_self">IsInGAC Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Product.IsLicensed.htm" target="_self">IsLicensed Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Product.LicFileName.htm" target="_self">LicFileName Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Product.ShortName.htm" target="_self">ShortName Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Product.Version.htm" target="_self">Version Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.Statistics.htm" target="_self">Statistics Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Statistics.htm" target="_self">Statistics Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Statistics.-ctor.htm" target="_self">Statistics Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Statistics.-ctor.htm" target="_self">Statistics Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Statistics.-ctor_1.htm" target="_self">Statistics Constructor (Int32)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Statistics.-ctor_2.htm" target="_self">Statistics Constructor (Int32, Int32)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Statistics.-ctor_3.htm" target="_self">Statistics Constructor (Int32, Int32, Int32)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Statistics.-ctor_4.htm" target="_self">Statistics Constructor (Int32, Int32, Int32, Int32)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Statistics.-ctor_5.htm" target="_self">Statistics Constructor (Int32, Int32, Int32, Int32, DateTime)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Statistics.htm" target="_self">Statistics Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Statistics.ToXmlString.htm" target="_self">ToXmlString Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Statistics.htm" target="_self">Statistics Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Statistics.AccessCount.htm" target="_self">AccessCount Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Statistics.DateTimeLastAccessed.htm" target="_self">DateTimeLastAccessed Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Statistics.DaysCount.htm" target="_self">DaysCount Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Statistics.HitCount.htm" target="_self">HitCount Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Statistics.UsageCount.htm" target="_self">UsageCount Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.User.htm" target="_self">User Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.User.htm" target="_self">User Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.User.-ctor.htm" target="_self">User Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.User.-ctor.htm" target="_self">User Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.User.-ctor_1.htm" target="_self">User Constructor (String)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.User.-ctor_2.htm" target="_self">User Constructor (String, String)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.User.-ctor_3.htm" target="_self">User Constructor (String, String, String)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.User.htm" target="_self">User Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.User.ToXmlString.htm" target="_self">ToXmlString Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.User.UpgardeData.htm" target="_self">UpgardeData Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.User.UpgardeData.htm" target="_self">UpgardeData Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.User.htm" target="_self">User Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.User.Email.htm" target="_self">Email Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.User.Name.htm" target="_self">Name Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.User.Organization.htm" target="_self">Organization Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-CAS.Lib.CodeProtect.LicenseDsc.Constraints.htm" target="_self">CAS.Lib.CodeProtect.LicenseDsc.Constraints Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.htm" target="_self">AndConstraint Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.htm" target="_self">AndConstraint Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.-ctor.htm" target="_self">AndConstraint Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.-ctor.htm" target="_self">AndConstraint Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.-ctor_1.htm" target="_self">AndConstraint Constructor (LicenseFile)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.htm" target="_self">AndConstraint Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.Validate.htm" target="_self">Validate Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint.htm" target="_self">AndConstraint Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.htm" target="_self">BetaConstraint Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.htm" target="_self">BetaConstraint Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.-ctor.htm" target="_self">BetaConstraint Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.-ctor.htm" target="_self">BetaConstraint Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.-ctor_1.htm" target="_self">BetaConstraint Constructor (LicenseFile)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.htm" target="_self">BetaConstraint Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.FromXml.htm" target="_self">FromXml Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.FromXml.htm" target="_self">FromXml Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.Validate.htm" target="_self">Validate Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.htm" target="_self">BetaConstraint Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.EndDate.htm" target="_self">EndDate Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint.UpdateURL.htm" target="_self">UpdateURL Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.htm" target="_self">DayTimeConstraint Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.htm" target="_self">DayTimeConstraint Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.-ctor.htm" target="_self">DayTimeConstraint Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.-ctor.htm" target="_self">DayTimeConstraint Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.-ctor_1.htm" target="_self">DayTimeConstraint Constructor (LicenseFile)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.htm" target="_self">DayTimeConstraint Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.FromXml.htm" target="_self">FromXml Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.FromXml.htm" target="_self">FromXml Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.Validate.htm" target="_self">Validate Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.htm" target="_self">DayTimeConstraint Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint.Items.htm" target="_self">Items Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.htm" target="_self">DemoConstraint Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.htm" target="_self">DemoConstraint Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.-ctor.htm" target="_self">DemoConstraint Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.-ctor.htm" target="_self">DemoConstraint Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.-ctor_1.htm" target="_self">DemoConstraint Constructor (LicenseFile)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.htm" target="_self">DemoConstraint Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.FromXml.htm" target="_self">FromXml Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.FromXml.htm" target="_self">FromXml Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.Validate.htm" target="_self">Validate Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.htm" target="_self">DemoConstraint Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.Condition.htm" target="_self">Condition Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.Duration.htm" target="_self">Duration Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.EndDate.htm" target="_self">EndDate Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.InfoURL.htm" target="_self">InfoURL Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.PurchaseURL.htm" target="_self">PurchaseURL Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint.StartDate.htm" target="_self">StartDate Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.htm" target="_self">DesigntimeConstraint Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.htm" target="_self">DesigntimeConstraint Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.-ctor.htm" target="_self">DesigntimeConstraint Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.-ctor.htm" target="_self">DesigntimeConstraint Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.-ctor_1.htm" target="_self">DesigntimeConstraint Constructor (LicenseFile)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.htm" target="_self">DesigntimeConstraint Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.FromXml.htm" target="_self">FromXml Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.FromXml.htm" target="_self">FromXml Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.Validate.htm" target="_self">Validate Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint.htm" target="_self">DesigntimeConstraint Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.htm" target="_self">DomainConstraint Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.htm" target="_self">DomainConstraint Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.-ctor.htm" target="_self">DomainConstraint Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.-ctor.htm" target="_self">DomainConstraint Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.-ctor_1.htm" target="_self">DomainConstraint Constructor (LicenseFile)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.htm" target="_self">DomainConstraint Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.FromXml.htm" target="_self">FromXml Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.FromXml.htm" target="_self">FromXml Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.Validate.htm" target="_self">Validate Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.htm" target="_self">DomainConstraint Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.CurrentDomain.htm" target="_self">CurrentDomain Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint.Domains.htm" target="_self">Domains Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.htm" target="_self">FunctionConstraint Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.htm" target="_self">FunctionConstraint Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.-ctor.htm" target="_self">FunctionConstraint Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.-ctor.htm" target="_self">FunctionConstraint Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.-ctor_1.htm" target="_self">FunctionConstraint Constructor (LicenseFile)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.htm" target="_self">FunctionConstraint Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.FromXml.htm" target="_self">FromXml Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.FromXml.htm" target="_self">FromXml Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.Validate.htm" target="_self">Validate Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.htm" target="_self">FunctionConstraint Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.Allow.htm" target="_self">Allow Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint.UpdateURL.htm" target="_self">UpdateURL Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.htm" target="_self">OrConstraint Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.htm" target="_self">OrConstraint Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.-ctor.htm" target="_self">OrConstraint Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.-ctor.htm" target="_self">OrConstraint Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.-ctor_1.htm" target="_self">OrConstraint Constructor (LicenseFile)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.htm" target="_self">OrConstraint Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.Validate.htm" target="_self">Validate Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint.htm" target="_self">OrConstraint Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.htm" target="_self">ProcessorConstraint Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.htm" target="_self">ProcessorConstraint Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.-ctor.htm" target="_self">ProcessorConstraint Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.-ctor.htm" target="_self">ProcessorConstraint Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.-ctor_1.htm" target="_self">ProcessorConstraint Constructor (LicenseFile)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.htm" target="_self">ProcessorConstraint Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.FromXml.htm" target="_self">FromXml Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.FromXml.htm" target="_self">FromXml Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.Validate.htm" target="_self">Validate Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.htm" target="_self">ProcessorConstraint Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint.OS.htm" target="_self">OS Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.htm" target="_self">RuntimeConstraint Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.htm" target="_self">RuntimeConstraint Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.-ctor.htm" target="_self">RuntimeConstraint Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.-ctor.htm" target="_self">RuntimeConstraint Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.-ctor_1.htm" target="_self">RuntimeConstraint Constructor (LicenseFile)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.htm" target="_self">RuntimeConstraint Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.FromXml.htm" target="_self">FromXml Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.FromXml.htm" target="_self">FromXml Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.Validate.htm" target="_self">Validate Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint.htm" target="_self">RuntimeConstraint Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.htm" target="_self">Time Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.htm" target="_self">Time Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.-ctor.htm" target="_self">Time Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.-ctor.htm" target="_self">Time Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.-ctor_1.htm" target="_self">Time Constructor (Int32)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.htm" target="_self">Time Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.Now.htm" target="_self">Now Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.htm" target="_self">Time Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.Time.MilitaryTime.htm" target="_self">MilitaryTime Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.htm" target="_self">TimeRange Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.htm" target="_self">TimeRange Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.-ctor.htm" target="_self">TimeRange Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.-ctor.htm" target="_self">TimeRange Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.-ctor_1.htm" target="_self">TimeRange Constructor (Time)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.-ctor_2.htm" target="_self">TimeRange Constructor (Time, Time)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.htm" target="_self">TimeRange Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.htm" target="_self">TimeRange Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.End.htm" target="_self">End Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRange.Start.htm" target="_self">Start Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.htm" target="_self">TimeRangeCollection Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.htm" target="_self">TimeRangeCollection Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.-ctor.htm" target="_self">TimeRangeCollection Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.-ctor.htm" target="_self">TimeRangeCollection Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.-ctor_1.htm" target="_self">TimeRangeCollection Constructor (TimeRangeCollection)</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.-ctor_2.htm" target="_self">TimeRangeCollection Constructor (TimeRange[])</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.htm" target="_self">TimeRangeCollection Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.Add.htm" target="_self">Add Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.AddRange.htm" target="_self">AddRange Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.AddRange.htm" target="_self">AddRange Method (TimeRange[])</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.AddRange_1.htm" target="_self">AddRange Method (TimeRangeCollection)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.Contains.htm" target="_self">Contains Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.CopyTo.htm" target="_self">CopyTo Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.GetEnumerator.htm" target="_self">GetEnumerator Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.IndexOf.htm" target="_self">IndexOf Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.Insert.htm" target="_self">Insert Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.Remove.htm" target="_self">Remove Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.htm" target="_self">TimeRangeCollection Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.Item-System.Int32-.htm" target="_self">Item Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.htm" target="_self">TimeRangeCollection.TimeRangeEnumerator Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.htm" target="_self">TimeRangeCollection.TimeRangeEnumerator Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.-ctor.htm" target="_self">TimeRangeEnumerator Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.htm" target="_self">TimeRangeCollection.TimeRangeEnumerator Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.MoveNext.htm" target="_self">MoveNext Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.Reset.htm" target="_self">Reset Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.htm" target="_self">TimeRangeCollection.TimeRangeEnumerator Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.TimeRangeCollection.TimeRangeEnumerator.Current.htm" target="_self">Current Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.htm" target="_self">UsageConstraint Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.htm" target="_self">UsageConstraint Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.-ctor.htm" target="_self">UsageConstraint Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.-ctor.htm" target="_self">UsageConstraint Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.-ctor_1.htm" target="_self">UsageConstraint Constructor (LicenseFile)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.htm" target="_self">UsageConstraint Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.FromXml.htm" target="_self">FromXml Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.FromXml.htm" target="_self">FromXml Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.Validate.htm" target="_self">Validate Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.htm" target="_self">UsageConstraint Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.CurrentDays.htm" target="_self">CurrentDays Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.CurrentHitCount.htm" target="_self">CurrentHitCount Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.CurrentUsageCount.htm" target="_self">CurrentUsageCount Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.MaxDays.htm" target="_self">MaxDays Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.MaxHitCount.htm" target="_self">MaxHitCount Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint.MaxUsageCount.htm" target="_self">MaxUsageCount Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.htm" target="_self">VersionConstraint Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.htm" target="_self">VersionConstraint Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.-ctor.htm" target="_self">VersionConstraint Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.-ctor.htm" target="_self">VersionConstraint Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.-ctor_1.htm" target="_self">VersionConstraint Constructor (LicenseFile)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.htm" target="_self">VersionConstraint Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.FromXml.htm" target="_self">FromXml Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.FromXml.htm" target="_self">FromXml Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.Validate.htm" target="_self">Validate Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.htm" target="_self">VersionConstraint Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.Maximum.htm" target="_self">Maximum Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint.Minimum.htm" target="_self">Minimum Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-CAS.Lib.CodeProtect.Properties.htm" target="_self">CAS.Lib.CodeProtect.Properties Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-CAS.Lib.CodeProtect.Properties.Resources.htm" target="_self">Resources Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-CAS.Lib.CodeProtect.Properties.Resources.htm" target="_self">Resources Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Methods.T-CAS.Lib.CodeProtect.Properties.Resources.htm" target="_self">Resources Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Properties.T-CAS.Lib.CodeProtect.Properties.Resources.htm" target="_self">Resources Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.AssemblyHelperToString.htm" target="_self">AssemblyHelperToString Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.CaptionUpgardeLicense.htm" target="_self">CaptionUpgardeLicense Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.CASCommonResources.htm" target="_self">CASCommonResources Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.Culture.htm" target="_self">Culture Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.DefaultUnlockCode.htm" target="_self">DefaultUnlockCode Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ErrorStringUnableToUpgradeLicense.htm" target="_self">ErrorStringUnableToUpgradeLicense Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_GetLicensee_UnableToGetLicenseFrom_default.htm" target="_self">ErrStr_GetLicensee_UnableToGetLicenseFrom_default Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_GetLicensee_UnableToGetLicenseFrom_isolatedstorage.htm" target="_self">ErrStr_GetLicensee_UnableToGetLicenseFrom_isolatedstorage Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_GetLicensee_UnableToGetLicenseFrom_web.htm" target="_self">ErrStr_GetLicensee_UnableToGetLicenseFrom_web Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_CannotLoadContainer.htm" target="_self">ErrStr_InstallLicense_CannotLoadContainer Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_NoContainer.htm" target="_self">ErrStr_InstallLicense_NoContainer Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_NoLicenseFound.htm" target="_self">ErrStr_InstallLicense_NoLicenseFound Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_NoLicForProductInContainer.htm" target="_self">ErrStr_InstallLicense_NoLicForProductInContainer Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_NoManifest.htm" target="_self">ErrStr_InstallLicense_NoManifest Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_InstallLicense_NoPath.htm" target="_self">ErrStr_InstallLicense_NoPath Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_OpenLicense_Signature.htm" target="_self">ErrStr_OpenLicense_Signature Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_SaveLicense_UnableToSaveLicense.htm" target="_self">ErrStr_SaveLicense_UnableToSaveLicense Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_HardwareKeyToken.htm" target="_self">ErrStr_UpgardeData_HardwareKeyToken Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_Issuer.htm" target="_self">ErrStr_UpgardeData_Issuer Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_LicenseKeyToken.htm" target="_self">ErrStr_UpgardeData_LicenseKeyToken Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_LicenseUID.htm" target="_self">ErrStr_UpgardeData_LicenseUID Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_Overupgrade.htm" target="_self">ErrStr_UpgardeData_Overupgrade Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_Product.htm" target="_self">ErrStr_UpgardeData_Product Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_Product_Name.htm" target="_self">ErrStr_UpgardeData_Product_Name Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_Product_Version.htm" target="_self">ErrStr_UpgardeData_Product_Version Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ErrStr_UpgardeData_User.htm" target="_self">ErrStr_UpgardeData_User Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.FunctionConstraint_Allowed.htm" target="_self">FunctionConstraint_Allowed Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.FunctionConstraint_NOTAllowed.htm" target="_self">FunctionConstraint_NOTAllowed Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.FunctionConstraintDescriptor.htm" target="_self">FunctionConstraintDescriptor Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.FunctionConstraintName.htm" target="_self">FunctionConstraintName Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.HowToUlock_docx.htm" target="_self">HowToUlock_docx Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.keys.htm" target="_self">keys Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.License_request_message.htm" target="_self">License_request_message Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileError.htm" target="_self">LicenseFileError Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorAssembly.htm" target="_self">LicenseFileErrorAssembly Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorAValidLicense.htm" target="_self">LicenseFileErrorAValidLicense Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorContactManufacturer.htm" target="_self">LicenseFileErrorContactManufacturer Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorContext.htm" target="_self">LicenseFileErrorContext Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorIntro.htm" target="_self">LicenseFileErrorIntro Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorRSA.htm" target="_self">LicenseFileErrorRSA Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorType.htm" target="_self">LicenseFileErrorType Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.LicenseFileErrorTypeUnknown.htm" target="_self">LicenseFileErrorTypeUnknown Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.LicMessageFunctionDataTime.htm" target="_self">LicMessageFunctionDataTime Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.LicMessageFunctionNoReason.htm" target="_self">LicMessageFunctionNoReason Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.LicMessageFunctionNotAllowed.htm" target="_self">LicMessageFunctionNotAllowed Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.MenuItemText.htm" target="_self">MenuItemText Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.MenuItemToolTipText.htm" target="_self">MenuItemToolTipText Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ProductUnlockCodeStringToRemove.htm" target="_self">ProductUnlockCodeStringToRemove Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.ResourceManager.htm" target="_self">ResourceManager Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.SecurityUnlock.htm" target="_self">SecurityUnlock Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.SourceAssemblyFailedMessage.htm" target="_self">SourceAssemblyFailedMessage Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.SplashScreenDefaultAppMissing.htm" target="_self">SplashScreenDefaultAppMissing Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.SplashScreenStartASMDButtonText.htm" target="_self">SplashScreenStartASMDButtonText Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.SplashScreenStartButtonFormat.htm" target="_self">SplashScreenStartButtonFormat Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.SplashScreenStoreUrl.htm" target="_self">SplashScreenStoreUrl Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.SplashScreenWaitMessage.htm" target="_self">SplashScreenWaitMessage Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicCap.htm" target="_self">Tx_LicCap Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicDemoModeInfo.htm" target="_self">Tx_LicDemoModeInfo Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicDemoWriteErr.htm" target="_self">Tx_LicDemoWriteErr Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicNoFileErr.htm" target="_self">Tx_LicNoFileErr Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicValidationErr.htm" target="_self">Tx_LicValidationErr Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.Tx_LicVolumeConstrainErr.htm" target="_self">Tx_LicVolumeConstrainErr Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.UAASMDInstallbanner.htm" target="_self">UAASMDInstallbanner Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.UnlockFailureMessge.htm" target="_self">UnlockFailureMessge Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.UnlockFindingLicenseFailureMessage.htm" target="_self">UnlockFindingLicenseFailureMessage Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.UnlockInalationFailureCaption.htm" target="_self">UnlockInalationFailureCaption Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.UnlockSuccessCaption.htm" target="_self">UnlockSuccessCaption Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.UnlockSuccessMessge.htm" target="_self">UnlockSuccessMessge Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.UsageConstraint_Days.htm" target="_self">UsageConstraint_Days Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.UsageConstraint_Hit.htm" target="_self">UsageConstraint_Hit Property </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="P-CAS.Lib.CodeProtect.Properties.Resources.UsageConstraint_Usage.htm" target="_self">UsageConstraint_Usage Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+            </div>
+
+        </div>
+
+        <div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
+        
+        <div id ="TopicContent" name="TopicContent" class="TopicContent" style="float: none; margin-left: 312px;height: -webkit-fill-available;display:block;overflow: auto;">
+          <div class="header" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <table class="headerBar cl_lightweight_topnav_slice" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+          <tr>
+            <td class="leftSection cl_lightweight_header_leftSection_wave leftSectionImageClusterOverride" />
+            <td class="rightSection cl_lightweight_header_rightSection_wave rightSectionImageClusterOverride">
+              <div class="tabContainer">OOI CodeProtect</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+          <!-- Content Starts Here -->
+          <div class="contentPlaceHolder" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <div class="content">
+        <div class="topicContainer">
+          <div class="topic">
+            <p class="majorTitle" />
+            <h1 class="title">CodeProtectHelpers<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>GetArguments Method </h1>
+            <div id="mainSection">
+              <div id="mainBody">
+                <div class="summary">
+   Gets the arguments form the deployment URI or from the command line.
+   </div>
+                <p />
+    <b>Namespace:</b> 
+   <a href="N-CAS.Lib.CodeProtect.EnvironmentAccess.htm">CAS.Lib.CodeProtect.EnvironmentAccess</a><br />
+    <b>Assembly:</b>
+   <span sdata="assembly">CAS.CodeProtect</span> (in CAS.CodeProtect.dll)<div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Syntax</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="syntaxSection"><!----></a><div class="CodeSnippetContainer"><div class="CodeSnippetContainerTabs"><div class="CodeSnippetContainerTabLeft"><!----></div><div class="CodeSnippetContainerTabFirst CSharpTab" id="CSharpTabId" style="background:white;border-bottom-color:white"><a href="javascript:setActiveTab('CodeSnippetContainerCode','CSharpCode','CSharpTabId');" title="C#">C#</a></div><div class="CodeSnippetContainerTab VisualBasicTab" id="VisualBasicTabId"><a href="javascript:setActiveTab('CodeSnippetContainerCode','VisualBasicCode','VisualBasicTabId');" title="Visual Basic">VB</a></div><div class="CodeSnippetContainerTab ManagedCPlusPlusTab" id="ManagedCPlusPlusTabId"><a href="javascript:setActiveTab('CodeSnippetContainerCode','ManagedCPlusPlusCode','ManagedCPlusPlusTabId');" title="Visual C++">C++</a></div><div class="CodeSnippetContainerTabRight"><!----></div></div><div class="CodeSnippetContainerCodeCollection"><div class="CodeSnippetToolBar"><div class="CodeSnippetToolBarText" /></div><div class="CodeSnippetContainerCode CSharpCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">public</span> <span class="keyword">static</span> <a href="http://msdn.microsoft.com/en-us/library/system.string.aspx" target="_blank">string</a>[] <span class="identifier">GetArguments</span>()</pre></div><div class="CodeSnippetContainerCode VisualBasicCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">Public</span> <span class="keyword">Shared</span> <span class="keyword">Function</span> <span class="identifier">GetArguments</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/system.string.aspx" target="_blank">String</a>()</pre></div><div class="CodeSnippetContainerCode ManagedCPlusPlusCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">public</span>:
+<span class="keyword">static</span> <span class="keyword">array</span>&lt;<a href="http://msdn.microsoft.com/en-us/library/system.string.aspx" target="_blank">String</a>^&gt;^ <span class="identifier">GetArguments</span>()</pre></div></div></div><h4 class="subHeading">Return Value</h4>System.String[].</div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-CAS.Lib.CodeProtect.EnvironmentAccess.CodeProtectHelpers.htm">CodeProtectHelpers Class</a></div><div class="seeAlsoStyle"><a href="N-CAS.Lib.CodeProtect.EnvironmentAccess.htm">CAS.Lib.CodeProtect.EnvironmentAccess Namespace</a></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div id="footer" class="footerContainer">
+          <div class="footerLogoContainer">
+            <div style="margin-top:5px">
+              <span class="customCopyrightFooter">Rel 7.0.0-Alpha</span>
+            </div>
+            <div style="margin-top:5px" class="copyrightFooter">Help File generated with GhostDoc</div>
+            <div> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+          <!-- /Content Ends Here -->
+        </div>
+
+
+  </body>
+</html>
