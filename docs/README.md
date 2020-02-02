@@ -2,7 +2,8 @@
 
 Helper library supporting licenses creation and validation.
 
-![Nuget](https://img.shields.io/nuget/v/CAS.CodeProtect)
+[![NuGet](https://img.shields.io/nuget/v/CAS.CodeProtect)](https://www.nuget.org/packages/CAS.CodeProtect/)
+[![API](https://img.shields.io/badge/API-Browser-brightgreen)](https://mpostol.github.io/CodeProtect/API/index.html)
 
 ## Manageable Restrictions
 
