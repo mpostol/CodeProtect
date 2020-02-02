@@ -1,0 +1,32 @@
+<#+
+//Template
+string DefaultProductName ="DefaultProductName";
+string DefaultProductVersion = "1.00.00";
+string DefaultProductTrademark = "Object-Oriented Internet Process-Observer";
+
+//Solution common
+string AssemblyCopyright = "Copyright (C) 2020, Mariusz Postol LODZ POLAND.";
+string AssemblyCompany = "Mariusz Postol";
+string Url = "https://github.com/mpostol/CodeProtect";
+string repositoryUrl = "https://github.com/mpostol/RealTime";
+string Email = "mpostol@cas.eu";
+string Phone = "+48 608 619 899";
+string Owner = "Mariusz Postol";
+string Authors = "Mariusz Postol";
+string IconURLTag = "https://github.com/mpostol/OPC-UA-OOI/blob/master/CommonResources/Media/Logo64.PNG?raw=true";
+
+//CAS.CodeProtect
+string Title = "Licenses creation and validation library";
+string Id = "CAS.CodeProtect";
+string CASCodeProtectProductName = "Process Observer";
+string CASCodeProtectProductTrademark = "Object-Oriented Internet";
+string Description = "Helper library supporting licenses creation and validation.";
+string CASCodeProtectProductVersion = "7.0.0";
+string CASCodeProtectProductPreRelease = "-Alpha";
+
+//Note: 
+//Alpha, Bravo, Charlie, Delta, Echo, Foxtrot, Golf, Hotel, India, Juliet, 
+//Kilo, Lima, Mike, November, Oscar, Papa, Quebec, Romeo, Sierra, Tango,
+//Uniform, Victor, Whiskey, X-Ray, Yankee, Zulu 
+
+#>

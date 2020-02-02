@@ -2,11 +2,11 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>CAS.CodeProtect</id>
-    <version>6.1.3 </version>
-    <title>CAS.CodeProtect</title>
-    <authors>CAS</authors>
-    <owners>commsvr.com</owners>
-    <projectUrl>svn://svnserver.hq.cas.com.pl/Products/CAS.CodeProtect</projectUrl>
+    <version>7.0.0-Alpha </version>
+    <title>Licenses creation and validation library</title>
+    <authors>Mariusz Postol</authors>
+    <owners>Mariusz Postol</owners>
+    <projectUrl>https://github.com/mpostol/RealTime</projectUrl>
 	  <licenseUrl>http://www.commsvr.com/DownloadCenter/ProductSoftware/LicenseAgreement.aspx</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <developmentDependency>false</developmentDependency>
@@ -17,9 +17,9 @@
 	    Licenses management support library.
     </summary>
     <releaseNotes>
-       Contains previously released component. 
-	  </releaseNotes>
-    <copyright>Copyright (c) 2017 CAS LODZ POLAND</copyright>
+       Porting to Object-Oriented Internet Process Observer.
+    </releaseNotes>
+    <copyright>Copyright (C) 2020, Mariusz Postol LODZ POLAND.</copyright>
     <tags>CAS Software, CAS Framework, CAS Library, Licensing.</tags>
   </metadata>
   <files>
