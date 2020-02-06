@@ -4,14 +4,16 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id><#=Id#></id>
-    <version><#= CASCodeProtectProductVersion #><#= CASCodeProtectProductPreRelease #> </version>
+    <version><#= CASCodeProtectProductVersion #><#= CASCodeProtectProductPreRelease #></version>
     <title><#= Title #></title>
     <authors><#=AssemblyCompany#></authors>
     <owners><#=Owner#></owners>
-    <projectUrl><#= repositoryUrl #></projectUrl>
-	  <licenseUrl>http://www.commsvr.com/DownloadCenter/ProductSoftware/LicenseAgreement.aspx</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <developmentDependency>false</developmentDependency>
+    <license type="expression">MIT</license>
+    <icon>content\Logo64.PNG</icon>
+    <projectUrl><#=Url#></projectUrl>
+    <repository type="GitHub" url="<#=Url #>" />
+      <developmentDependency>false</developmentDependency>
     <description>
 	    <#= Description #>
     </description>
@@ -25,12 +27,9 @@
     <tags>CAS Software, CAS Framework, CAS Library, Licensing.</tags>
   </metadata>
   <files>
+    <file src="bin\Release\Logo64.PNG" target="content\Logo64.PNG" />
     <file src="bin\Release\CAS.CodeProtect.dll" target="lib\net451\CAS.CodeProtect.dll" />
-    <file src="bin\Release\CAS.CodeProtect.dll.config" target="lib\net451\CAS.CodeProtect.dll.config" />
     <file src="bin\Release\CAS.CodeProtect.XML" target="lib\net451\CAS.CodeProtect.XML" />
-    <file src="bin\Release\Microsoft.Build.Framework.dll" target="lib\net451\Microsoft.Build.Framework.dll" />
-    <file src="bin\Release\Microsoft.Build.Tasks.Core.dll" target="lib\net451\Microsoft.Build.Tasks.Core.dll" />
-    <file src="bin\Release\Microsoft.Build.Utilities.Core.dll" target="lib\net451\Microsoft.Build.Utilities.Core.dll" />
   </files>
 </package>
 

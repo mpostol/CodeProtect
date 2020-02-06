@@ -1,19 +1,11 @@
-﻿//<summary>
-//  Title   : CAS.Lib.CodeProtect.EnvironmentAccess.LicenseTraceSource - local trace source 
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2011, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
-using CAS.Lib.CodeProtect.Properties;
+
 using System;
 using System.Diagnostics;
 
@@ -24,6 +16,7 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
   /// </summary>
   internal class LicenseTraceSource : TraceSource
   {
+
     #region internal
     /// <summary>
     /// <see cref="TraceEventType.Verbose"/> trace message.
@@ -70,7 +63,7 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
 
     #region private
     private LicenseTraceSource()
-      : base(Settings.Default.TraceSourceName) { }
+      : base(Properties.Resources.TraceSourceName) { }
     private static void PrivateTrace(TraceEventType type, int id, string message)
     {
       try

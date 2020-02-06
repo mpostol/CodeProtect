@@ -1,23 +1,15 @@
-//<summary>
-//  Title   : FunctionConstraint
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+//___________________________________________________________________________________
 //
-//  Copyright (C)2009, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
+using CAS.Lib.CodeProtect.Properties;
 using System;
 using System.ComponentModel;
 using System.Text;
 using System.Xml;
-using CAS.Lib.CodeProtect.Properties;
 
 namespace CAS.Lib.CodeProtect.LicenseDsc.Constraints
 {
@@ -29,11 +21,11 @@ namespace CAS.Lib.CodeProtect.LicenseDsc.Constraints
   /// <seealso cref="AbstractConstraint">AbstractConstraint</seealso>
   /// <seealso cref="IConstraint">IConstraint</seealso>
   /// <seealso cref="LicenseFile">LicenseFile</seealso>
-  public class FunctionConstraint: AbstractConstraint
+  public class FunctionConstraint : AbstractConstraint
   {
     #region private
     private bool m_Allows = true;
-    private String updateUrl = String.Empty;
+    private string updateUrl = string.Empty;
     #endregion
 
     #region public constructors
@@ -41,7 +33,7 @@ namespace CAS.Lib.CodeProtect.LicenseDsc.Constraints
     /// This is the constructor for the <see cref="FunctionConstraint"/>.  The constructor
     /// is used to create the object with a valid license to attach it to.
     /// </summary>
-    public FunctionConstraint() : this( null ) { }
+    public FunctionConstraint() : this(null) { }
     /// <summary>
     /// This is the constructor for the <see cref="FunctionConstraint"/>. The constructor
     /// is used to create the object and assign it to the proper license.
@@ -50,7 +42,7 @@ namespace CAS.Lib.CodeProtect.LicenseDsc.Constraints
     /// The <see cref="LicenseFile">LicenseFile</see> this constraint
     /// belongs to.
     /// </param>
-    public FunctionConstraint( LicenseFile license )
+    public FunctionConstraint(LicenseFile license)
     {
       base.License = license;
       base.Name = Resources.FunctionConstraintName;
@@ -64,15 +56,15 @@ namespace CAS.Lib.CodeProtect.LicenseDsc.Constraints
     /// <param name="cStr">The stringBuilder class where information should be stored</param>
     /// <param name="additionalInformation">The additional information.</param>
     /// <param name="depth">The depth (Indentation  level).</param>
-    protected internal override void PrepareTextInformationAboutConstraint( StringBuilder cStr, string additionalInformation, int depth )
+    protected internal override void PrepareTextInformationAboutConstraint(StringBuilder cStr, string additionalInformation, int depth)
     {
       StringBuilder sb_addtionalInfo = new StringBuilder();
-      DoIndent( sb_addtionalInfo, depth );
-      if ( Allow )
-        sb_addtionalInfo.AppendLine( Resources.FunctionConstraint_Allowed );
+      DoIndent(sb_addtionalInfo, depth);
+      if (Allow)
+        sb_addtionalInfo.AppendLine(Resources.FunctionConstraint_Allowed);
       else
-        sb_addtionalInfo.AppendLine( Resources.FunctionConstraint_NOTAllowed );
-      base.PrepareTextInformationAboutConstraint( cStr, sb_addtionalInfo.ToString(), depth );
+        sb_addtionalInfo.AppendLine(Resources.FunctionConstraint_NOTAllowed);
+      base.PrepareTextInformationAboutConstraint(cStr, sb_addtionalInfo.ToString(), depth);
     }
     /// <summary>
     /// <p>This verifies the license meets its desired validation criteria. This includes
@@ -94,16 +86,16 @@ namespace CAS.Lib.CodeProtect.LicenseDsc.Constraints
     /// \t{UpdateURL}
     /// </code>
     /// </remarks>
-    public override bool Validate( Type typeToValidate, ref int vc, ref int rtc )
+    public override bool Validate(Type typeToValidate, ref int vc, ref int rtc)
     {
-      if ( !base.Validate( typeToValidate, ref vc, ref rtc ) )
+      if (!base.Validate(typeToValidate, ref vc, ref rtc))
         return false;
-      if ( m_Allows )
+      if (m_Allows)
         return true;
       StringBuilder errStr = new StringBuilder();
-      errStr.Append( String.Format( Resources.LicMessageFunctionNotAllowed, this.Name, this.UpdateURL ) );
+      errStr.Append($"{Resources.LicMessageFunctionNotAllowed} {this.Name}; {Resources.GetUpgrade} {this.UpdateURL}");
       errStr.AppendLine();
-      AddFailureReasonText( errStr.ToString() );
+      AddFailureReasonText(errStr.ToString());
       return false;
     }
     /// <summary>
@@ -115,15 +107,15 @@ namespace CAS.Lib.CodeProtect.LicenseDsc.Constraints
     /// <exception cref="ArgumentNullException">
     /// Thrown if the <see cref="XmlNode">XmlNode</see> is null.
     /// </exception>
-    public override void FromXml( XmlNode itemsNode )
+    public override void FromXml(XmlNode itemsNode)
     {
-      base.FromXml( itemsNode );
-      XmlNode updateURLTextNode = itemsNode.SelectSingleNode( "UpdateUrl/text()" );
-      if ( updateURLTextNode != null )
+      base.FromXml(itemsNode);
+      XmlNode updateURLTextNode = itemsNode.SelectSingleNode("UpdateUrl/text()");
+      if (updateURLTextNode != null)
         UpdateURL = updateURLTextNode.Value;
-      XmlNode allowed = itemsNode.SelectSingleNode( "Allow/text()" );
-      if ( allowed != null )
-        Allow = Convert.ToBoolean( allowed.Value );
+      XmlNode allowed = itemsNode.SelectSingleNode("Allow/text()");
+      if (allowed != null)
+        Allow = Convert.ToBoolean(allowed.Value);
     }
     #endregion AbstractConstraint implementation
     #region AbstractLicenseData implementation
@@ -133,10 +125,10 @@ namespace CAS.Lib.CodeProtect.LicenseDsc.Constraints
     /// <returns>
     /// A <c>String</c> representing the FunctionConstraint as Xml data.
     /// </returns>
-    protected override void ToXmlString( XmlTextWriter xmlWriter )
+    protected override void ToXmlString(XmlTextWriter xmlWriter)
     {
-      xmlWriter.WriteElementString( "UpdateUrl", this.UpdateURL );
-      xmlWriter.WriteElementString( "Allow", Convert.ToString( Allow ) );
+      xmlWriter.WriteElementString("UpdateUrl", this.UpdateURL);
+      xmlWriter.WriteElementString("Allow", Convert.ToString(Allow));
     }
     #endregion AbstractLicenseData implementation
     #region Properties
@@ -150,22 +142,19 @@ namespace CAS.Lib.CodeProtect.LicenseDsc.Constraints
     ///	Gets the end date/time for this <see cref="FunctionConstraint">FunctionConstraint</see>.
     /// </returns>
     [
-    Bindable( false ),
-    Browsable( true ),
-    Category( "Constraints" ),
-    DefaultValue( null ),
-    Description( "Gets or sets the allow property. If the value is false the constrain is not valid" ),
-    DesignerSerializationVisibility( DesignerSerializationVisibility.Visible )
+    Bindable(false),
+    Browsable(true),
+    Category("Constraints"),
+    DefaultValue(null),
+    Description("Gets or sets the allow property. If the value is false the constrain is not valid"),
+    DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)
     ]
     public bool Allow
     {
-      get
-      {
-        return this.m_Allows;
-      }
+      get => this.m_Allows;
       set
       {
-        if ( !this.m_Allows.Equals( value ) )
+        if (!this.m_Allows.Equals(value))
         {
           this.m_Allows = value;
           this.IsModified = true;
@@ -178,25 +167,22 @@ namespace CAS.Lib.CodeProtect.LicenseDsc.Constraints
     /// </summary>
     /// <value>The new URL.</value>
     /// <returns>
-    /// Returns the URL, as a <see cref="String"/>, which points to where an update can be obtained.
+    /// Returns the URL, as a <see cref="string"/>, which points to where an update can be obtained.
     /// </returns>
     [
-    Bindable( false ),
-    Browsable( true ),
-    Category( "Data" ),
-    DefaultValue( "" ),
-    Description( "Gets or Sets the URL, as a String, which points to where an update can be obtained." ),
-    DesignerSerializationVisibility( DesignerSerializationVisibility.Visible )
+    Bindable(false),
+    Browsable(true),
+    Category("Data"),
+    DefaultValue(""),
+    Description("Gets or Sets the URL, as a String, which points to where an update can be obtained."),
+    DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)
     ]
     public string UpdateURL
     {
-      get
-      {
-        return this.updateUrl;
-      }
+      get => this.updateUrl;
       set
       {
-        if ( !this.UpdateURL.Equals( value ) )
+        if (!this.UpdateURL.Equals(value))
         {
           this.updateUrl = value;
           this.IsModified = true;

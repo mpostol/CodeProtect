@@ -2,14 +2,16 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>CAS.CodeProtect</id>
-    <version>7.0.0-Alpha </version>
+    <version>7.0.0-Alpha</version>
     <title>Licenses creation and validation library</title>
     <authors>Mariusz Postol</authors>
     <owners>Mariusz Postol</owners>
-    <projectUrl>https://github.com/mpostol/RealTime</projectUrl>
-	  <licenseUrl>http://www.commsvr.com/DownloadCenter/ProductSoftware/LicenseAgreement.aspx</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <developmentDependency>false</developmentDependency>
+    <license type="expression">MIT</license>
+    <icon>content\Logo64.PNG</icon>
+    <projectUrl>https://github.com/mpostol/CodeProtect</projectUrl>
+    <repository type="GitHub" url="https://github.com/mpostol/CodeProtect" />
+      <developmentDependency>false</developmentDependency>
     <description>
 	    Helper library supporting licenses creation and validation.
     </description>
@@ -23,12 +25,9 @@
     <tags>CAS Software, CAS Framework, CAS Library, Licensing.</tags>
   </metadata>
   <files>
+    <file src="bin\Release\Logo64.PNG" target="content\Logo64.PNG" />
     <file src="bin\Release\CAS.CodeProtect.dll" target="lib\net451\CAS.CodeProtect.dll" />
-    <file src="bin\Release\CAS.CodeProtect.dll.config" target="lib\net451\CAS.CodeProtect.dll.config" />
     <file src="bin\Release\CAS.CodeProtect.XML" target="lib\net451\CAS.CodeProtect.XML" />
-    <file src="bin\Release\Microsoft.Build.Framework.dll" target="lib\net451\Microsoft.Build.Framework.dll" />
-    <file src="bin\Release\Microsoft.Build.Tasks.Core.dll" target="lib\net451\Microsoft.Build.Tasks.Core.dll" />
-    <file src="bin\Release\Microsoft.Build.Utilities.Core.dll" target="lib\net451\Microsoft.Build.Utilities.Core.dll" />
   </files>
 </package>
 

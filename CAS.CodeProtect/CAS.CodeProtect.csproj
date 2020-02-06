@@ -19,8 +19,7 @@
     <FileAlignment>4096</FileAlignment>
     <WarningLevel>4</WarningLevel>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
-    <ApplicationIcon>
-    </ApplicationIcon>
+    <ApplicationIcon>Logo.ico</ApplicationIcon>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
@@ -137,12 +136,6 @@
     <Compile Include="LicenseDsc\AbstractLicenseData.cs" />
     <Compile Include="LicenseDsc\IConstraint.cs" />
     <Compile Include="LicenseDsc\ILicenseData.cs" />
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
-    <None Include="app.config" />
     <None Include="CAS.CodeProtect.nuspec">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -189,10 +182,6 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>AssemblyInfo.cs</LastGenOutput>
     </None>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
     <None Include="Resources\keys.xml" />
   </ItemGroup>
   <ItemGroup>
@@ -201,6 +190,10 @@
       <SubType>Designer</SubType>
       <LastGenOutput>CAS.CodeProtect.nuspec</LastGenOutput>
     </Content>
+    <Content Include="Logo.ico" />
+    <None Include="Logo64.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <Content Include="Packages\EN\package.xml">
       <SubType>Designer</SubType>
     </Content>

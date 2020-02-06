@@ -19,7 +19,7 @@ namespace CAS.Lib.CodeProtect.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Resources {
@@ -322,6 +322,15 @@ namespace CAS.Lib.CodeProtect.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to You may get an upgrade at: .
+        /// </summary>
+        public static string GetUpgrade {
+            get {
+                return ResourceManager.GetString("GetUpgrade", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {\rtf1\ansi\ansicpg1250\uc1 \deff0\deflang1045\deflangfe1045{\fonttbl{\f0\froman\fcharset238\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f2\fmodern\fcharset238\fprq1{\*\panose 02070309020205020404}Courier New;}
         ///{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f14\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}{\f27\fswiss\fcharset238\fprq2{\*\panose 020b0604030504040204}Tahoma;}
         ///{\f28\fswiss\fcharset128\fprq2{\*\panose 020b0604020202020204}Arial Unicode MS;} [rest of string was truncated]&quot;;.
@@ -452,8 +461,7 @@ namespace CAS.Lib.CodeProtect.Properties {
         }
         
         /// <summary>
-        ///  Looks up a localized string similar to This license does not allow you to execute the functionality: {0}.
-        ///  You may get an upgrade at: {1}.
+        ///   Looks up a localized string similar to This license does not allow you to execute the functionality:.
         /// </summary>
         public static string LicMessageFunctionNotAllowed {
             get {
@@ -486,16 +494,6 @@ namespace CAS.Lib.CodeProtect.Properties {
         public static string ProductUnlockCodeStringToRemove {
             get {
                 return ResourceManager.GetString("ProductUnlockCodeStringToRemove", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        public static System.Drawing.Icon SecurityUnlock {
-            get {
-                object obj = ResourceManager.GetObject("SecurityUnlock", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
             }
         }
         
@@ -554,6 +552,15 @@ namespace CAS.Lib.CodeProtect.Properties {
         public static string SplashScreenWaitMessage {
             get {
                 return ResourceManager.GetString("SplashScreenWaitMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to CAS.CodeProtect.TraceSource.
+        /// </summary>
+        public static string TraceSourceName {
+            get {
+                return ResourceManager.GetString("TraceSourceName", resourceCulture);
             }
         }
         

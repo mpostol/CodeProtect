@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ErrStr_OpenLicense_Signature" xml:space="preserve">
     <value>the license signature is wrong.</value>
@@ -182,9 +182,7 @@
     <comment>CAS.Lib.CodeProtect.CodeProtectLP.CodeProtectLP()</comment>
   </data>
   <data name="LicMessageFunctionNotAllowed" xml:space="preserve">
-    <value>This license does not allow you to execute the functionality:
-&#x1F;{0}.
-You may get an upgrade at: {1}</value>
+    <value>This license does not allow you to execute the functionality:</value>
     <comment>CAS.Lib.CodeProtect.LicenseDsc.Constraints.FunctionConstraint</comment>
   </data>
   <data name="Tx_LicCap" xml:space="preserve">
@@ -281,7 +279,7 @@ Restart the application to activate it.</value>
     <value>Hi,
 I am interested in a new licence, below are my current licensing details:</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="keys" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>keys.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
   </data>
@@ -295,10 +293,6 @@ I am interested in a new licence, below are my current licensing details:</value
   <data name="MenuItemToolTipText" xml:space="preserve">
     <value>Shows the dialog Unlock key to enter 
 the key and unlock the software.</value>
-  </data>
-  <data name="SecurityUnlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SecurityUnlock.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-    <comment>Icone used by the user dialog</comment>
   </data>
   <data name="CASCommonResources" xml:space="preserve">
     <value>CAS.CommonResources</value>
@@ -398,5 +392,11 @@ Please navigate to: {0} manually.</value>
   <data name="SourceAssemblyFailedMessage" xml:space="preserve">
     <value>It is impossible for this environment to get source assembly and install license.</value>
     <comment>CAS.Lib.CodeProtect.LibInstaller</comment>
+  </data>
+  <data name="TraceSourceName" xml:space="preserve">
+    <value>CAS.CodeProtect.TraceSource</value>
+  </data>
+  <data name="GetUpgrade" xml:space="preserve">
+    <value>You may get an upgrade at: </value>
   </data>
 </root>
