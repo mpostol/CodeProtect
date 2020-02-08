@@ -203,7 +203,6 @@
     <None Include="Resources\commserver_software_family_700x98.jpg" />
     <None Include="Resources\HowToUlock.docx.rtf" />
     <None Include="Resources\SecurityUnlock.ico" />
-    <None Include="security.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">

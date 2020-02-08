@@ -13,7 +13,7 @@
     <icon>content\Logo64.PNG</icon>
     <projectUrl><#=Url#></projectUrl>
     <repository type="GitHub" url="<#=Url #>" />
-      <developmentDependency>false</developmentDependency>
+    <developmentDependency>false</developmentDependency>
     <description>
 	    <#= Description #>
     </description>
