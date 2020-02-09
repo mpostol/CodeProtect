@@ -2,16 +2,16 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>CAS.CodeProtect</id>
-    <version>7.0.0-Alpha</version>
+    <version>7.0.1-Bravo</version>
     <title>Licenses creation and validation library</title>
     <authors>Mariusz Postol</authors>
     <owners>Mariusz Postol</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
-    <icon>content\Logo64.PNG</icon>
-    <projectUrl>https://github.com/mpostol/CodeProtect</projectUrl>
+    <icon>Logo64.PNG</icon>
+    <projectUrl>https://mpostol.github.io/CodeProtect/</projectUrl>
     <repository type="GitHub" url="https://github.com/mpostol/CodeProtect" />
-      <developmentDependency>false</developmentDependency>
+    <developmentDependency>false</developmentDependency>
     <description>
 	    Helper library supporting licenses creation and validation.
     </description>
@@ -19,13 +19,13 @@
 	    Licenses management support library.
     </summary>
     <releaseNotes>
-       Porting to Object-Oriented Internet Process Observer.
+      CommServer integration with the OOI
     </releaseNotes>
     <copyright>Copyright (C) 2020, Mariusz Postol LODZ POLAND.</copyright>
     <tags>CAS Software, CAS Framework, CAS Library, Licensing.</tags>
   </metadata>
   <files>
-    <file src="bin\Release\Logo64.PNG" target="content\Logo64.PNG" />
+    <file src="Logo64.PNG" target="" />
     <file src="bin\Release\CAS.CodeProtect.dll" target="lib\net451\CAS.CodeProtect.dll" />
     <file src="bin\Release\CAS.CodeProtect.XML" target="lib\net451\CAS.CodeProtect.XML" />
   </files>

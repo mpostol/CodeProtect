@@ -191,9 +191,7 @@
       <LastGenOutput>CAS.CodeProtect.nuspec</LastGenOutput>
     </Content>
     <Content Include="Logo.ico" />
-    <None Include="Logo64.PNG">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="Logo64.PNG" />
     <Content Include="Packages\EN\package.xml">
       <SubType>Designer</SubType>
     </Content>

@@ -10,8 +10,8 @@
     <owners><#=Owner#></owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
-    <icon>content\Logo64.PNG</icon>
-    <projectUrl><#=Url#></projectUrl>
+    <icon>Logo64.PNG</icon>
+    <projectUrl><#=projectUrl#></projectUrl>
     <repository type="GitHub" url="<#=Url #>" />
     <developmentDependency>false</developmentDependency>
     <description>
@@ -21,13 +21,13 @@
 	    Licenses management support library.
     </summary>
     <releaseNotes>
-       Porting to <#=CASCodeProtectProductTrademark#> <#=CASCodeProtectProductName#>.
+      CommServer integration with the OOI
     </releaseNotes>
     <copyright><#=AssemblyCopyright#></copyright>
     <tags>CAS Software, CAS Framework, CAS Library, Licensing.</tags>
   </metadata>
   <files>
-    <file src="bin\Release\Logo64.PNG" target="content\Logo64.PNG" />
+    <file src="Logo64.PNG" target="" />
     <file src="bin\Release\CAS.CodeProtect.dll" target="lib\net451\CAS.CodeProtect.dll" />
     <file src="bin\Release\CAS.CodeProtect.XML" target="lib\net451\CAS.CodeProtect.XML" />
   </files>
