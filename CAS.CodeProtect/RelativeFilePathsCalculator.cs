@@ -9,7 +9,7 @@ using System;
 using System.IO;
 using System.Text;
 
-namespace CAS.Lib.CodeProtect
+namespace UAOOI.CodeProtect
 {
   /// <summary>
   /// This class is responsible for operation on path, relative path, absolute path etc...

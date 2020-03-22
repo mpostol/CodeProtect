@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CAS.CodeProtect.UnitTests.Properties {
+namespace UAOOI.CodeProtect.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

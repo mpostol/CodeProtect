@@ -1,6 +1,6 @@
 ﻿
-using CAS.CodeProtect.UnitTests.Instrumentation;
-using CAS.Lib.CodeProtect.EnvironmentAccess;
+using UAOOI.CodeProtect.Instrumentation;
+using UAOOI.CodeProtect.EnvironmentAccess;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -8,7 +8,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 
-namespace CAS.CodeProtect.UnitTests
+namespace UAOOI.CodeProtect
 {
 
   [TestClass]
@@ -40,7 +40,7 @@ namespace CAS.CodeProtect.UnitTests
 
       //Test Switch
       Assert.IsNotNull(_tracer.Switch);
-      Assert.AreEqual<string>("CAS.CodeProtect.TraceSource.Switch", _tracer.Switch.DisplayName);
+      Assert.AreEqual<string>("UAOOI.CodeProtect.TraceSource.Switch", _tracer.Switch.DisplayName);
       Assert.AreEqual<SourceLevels>(SourceLevels.All, _tracer.Switch.Level);
 
       //Trace
@@ -62,7 +62,7 @@ namespace CAS.CodeProtect.UnitTests
     {
       get
       {
-        return Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "CAS.RealTimeUnitTests.log");
+        return Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "UAOOI.RealTimeUnitTests.log");
       }
     }
 

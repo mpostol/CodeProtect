@@ -1,10 +1,10 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CAS.Lib.CodeProtect;
-using CAS.Lib.CodeProtect.LicenseDsc;
+using UAOOI.CodeProtect;
+using UAOOI.CodeProtect.LicenseDsc;
 using System.Collections.Generic;
 
-namespace CAS.CodeProtect.UnitTests
+namespace UAOOI.CodeProtect
 {
   [TestClass]
   public class IsLicensedUnitTest

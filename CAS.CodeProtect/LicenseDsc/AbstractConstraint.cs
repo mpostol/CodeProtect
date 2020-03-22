@@ -11,8 +11,8 @@
 //
 //  Copyright (C)2006, CAS LODZ POLAND.
 //  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.eu
-//  http://www.cas.eu
+//  mailto:techsupp@UAOOI.eu
+//  http://www.UAOOI.eu
 //</summary>
 
 using System;
@@ -22,7 +22,7 @@ using System.IO;
 using System.Text;
 using System.Xml;
 
-namespace CAS.Lib.CodeProtect.LicenseDsc
+namespace UAOOI.CodeProtect.LicenseDsc
 {
   /// <summary>
   /// 	<p><c>AbstractConstraint</c> is an abstract class which all licensing

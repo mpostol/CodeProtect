@@ -1,5 +1,5 @@
 //<summary>
-//  Title   : CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException: Represents errors that occur during application execution.
+//  Title   : UAOOI.CodeProtect.LicenseDsc.LicenseFileException: Represents errors that occur during application execution.
 //  System  : Microsoft Visual C# .NET 2008
 //  $LastChangedDate$
 //  $Rev$
@@ -9,13 +9,13 @@
 //
 //  Copyright (C)2010, CAS LODZ POLAND.
 //  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
+//  mailto://techsupp@UAOOI.eu
+//  http://www.UAOOI.eu
 //</summary>
 
 using System;
 
-namespace CAS.Lib.CodeProtect.LicenseDsc
+namespace UAOOI.CodeProtect.LicenseDsc
 {
   /// <summary>
   /// Represents errors that occur during application execution. 

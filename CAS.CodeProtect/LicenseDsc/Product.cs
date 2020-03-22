@@ -8,8 +8,8 @@
 //  $Id$
 //  Copyright (C)2009, CAS LODZ POLAND.
 //  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
+//  mailto://techsupp@UAOOI.eu
+//  http://www.UAOOI.eu
 //</summary>
 
 using System;
@@ -18,10 +18,10 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 using System.Xml;
-using CAS.Lib.CodeProtect.Properties;
+using UAOOI.CodeProtect.Properties;
 using Microsoft.Build.Tasks.Deployment.ManifestUtilities;
 
-namespace CAS.Lib.CodeProtect.LicenseDsc
+namespace UAOOI.CodeProtect.LicenseDsc
 {
   /// <summary>
   ///  The <c>Product</c> is the information about the assembly this license is used for.  It

@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel;
 using System.Reflection;
-namespace CAS.Lib.CodeProtect
+namespace UAOOI.CodeProtect
 {
   /// <summary>
   /// This is an assembly attribute to be used to defined the encryption key that 
@@ -12,11 +12,11 @@ namespace CAS.Lib.CodeProtect
   /// <example>
   /// c#
   /// <code>
-  /// &#91;assembly: CAS.Lib.CodeProtectAssemblyOpenLicenseKey("test")&#93;
+  /// &#91;assembly: UAOOI.CodeProtectAssemblyOpenLicenseKey("test")&#93;
   /// </code>
   /// vb#
   /// <code>
-  /// &lt;assembly: CAS.Lib.CodeProtectAssemblyOpenLicenseKey("test")&gt;
+  /// &lt;assembly: UAOOI.CodeProtectAssemblyOpenLicenseKey("test")&gt;
   /// </code>
   /// </example>
   [

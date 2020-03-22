@@ -9,8 +9,8 @@
 //
 //  Copyright (C)2009, CAS LODZ POLAND.
 //  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
+//  mailto://techsupp@UAOOI.eu
+//  http://www.UAOOI.eu
 //</summary>
 
 using System;
@@ -22,7 +22,7 @@ using System.Security.AccessControl;
 using System.Security.Principal;
 using System.Globalization;
 
-namespace CAS.Lib.CodeProtect.EnvironmentAccess
+namespace UAOOI.CodeProtect.EnvironmentAccess
 {
   /// <summary>
   /// Creates manifest for the product.
@@ -62,7 +62,7 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
         Flags = AssemblyNameFlags.None,
         CultureInfo = CultureInfo.InvariantCulture
       };
-      //it is public token from cas.snk
+      //it is public token from UAOOI.snk
       _AssemblyName.SetPublicKeyToken(new byte[] { 0x88, 0x32, 0xff, 0x1a, 0x67, 0xea, 0x61, 0xa3 });
       ManifestManagement.ProductType _type = String.Compare(allUsers, "1") == 0 ? ManifestManagement.ProductType.AllUsers : ManifestManagement.ProductType.SingleUser;
       string publisher = m_Cnt.Parameters[InstallContextNames.Manufacturer];

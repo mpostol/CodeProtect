@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CAS.Lib.CodeProtect.LicenseDsc
+namespace UAOOI.CodeProtect.LicenseDsc
 {
   /// <summary>
   /// Iterface that allows accessing the items inside constraint

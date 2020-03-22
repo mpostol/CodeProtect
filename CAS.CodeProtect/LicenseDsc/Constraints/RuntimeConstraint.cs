@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel;
 using System.Xml;
-namespace CAS.Lib.CodeProtect.LicenseDsc.Constraints
+namespace UAOOI.CodeProtect.LicenseDsc.Constraints
 {
   /// <summary>
   /// <p>This <see cref='RuntimeConstraint'/> constrains the user to only running

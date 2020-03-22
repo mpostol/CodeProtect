@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel;
 using System.Globalization;
-namespace CAS.Lib.CodeProtect.LicenseDsc
+namespace UAOOI.CodeProtect.LicenseDsc
 {
 	/// <summary>
 	/// <p><c>AbstractLicenseData</c> is an abstract class which all licensing

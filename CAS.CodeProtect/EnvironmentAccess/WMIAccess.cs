@@ -14,12 +14,12 @@
 //
 //  Copyright (C)2006, CAS LODZ POLAND.
 //  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.com.pl
-//  http:\\www.cas.eu
+//  mailto:techsupp@UAOOI.com.pl
+//  http:\\www.UAOOI.eu
 //</summary>
 using System.Management;
 
-namespace CAS.Lib.CodeProtect.EnvironmentAccess
+namespace UAOOI.CodeProtect.EnvironmentAccess
 {
   class WMIAccess
   {

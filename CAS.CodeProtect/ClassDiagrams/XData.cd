@@ -1,141 +1,142 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="CAS.Lib.CodeProtect.LicenseDsc.AbstractConstraint" Collapsed="true">
+  <Class Name="UAOOI.CodeProtect.LicenseDsc.AbstractConstraint" Collapsed="true">
     <Position X="23.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AQBAAAAAACCgAAAEIAAAACQAAIAEAAEAESAIAAkACAA=</HashCode>
+      <HashCode>AUBAAABAACCgAAAkIAAAADQAAIAEAAEAESAIAAkACAA=</HashCode>
       <FileName>LicenseDsc\AbstractConstraint.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="CAS.Lib.CodeProtect.LicenseDsc.AbstractLicenseData" Collapsed="true">
+  <Class Name="UAOOI.CodeProtect.LicenseDsc.AbstractLicenseData" Collapsed="true">
     <Position X="17.75" Y="0.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAJACAAAAAAAAEAAAABAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAABAAAJACAAAAAAAAAAAAABAAAAAAA=</HashCode>
       <FileName>LicenseDsc\AbstractLicenseData.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="CAS.Lib.CodeProtect.LicenseDsc.CustomData" Collapsed="true">
+  <Class Name="UAOOI.CodeProtect.LicenseDsc.CustomData" Collapsed="true">
     <Position X="2.75" Y="1.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAACAAAAAAAASAAAAAAAAAAACAQAAAAAAA=</HashCode>
       <FileName>LicenseDsc\CustomData.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CAS.Lib.CodeProtect.LicenseDsc.Product" Collapsed="true">
+  <Class Name="UAOOI.CodeProtect.LicenseDsc.Product" Collapsed="true">
     <Position X="5.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>IAAIACAAQACgAIAAIADAACAAAIAAAMCAACDIAAAACAA=</HashCode>
       <FileName>LicenseDsc\Product.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CAS.Lib.CodeProtect.LicenseDsc.Statistics" Collapsed="true">
+  <Class Name="UAOOI.CodeProtect.LicenseDsc.Statistics" Collapsed="true">
     <Position X="0.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AGAAIAAQAAAAEAAEgEBAAiIAwAEAIAAAQCAAAEAAAAA=</HashCode>
       <FileName>LicenseDsc\Statistics.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CAS.Lib.CodeProtect.LicenseDsc.User" Collapsed="true">
+  <Class Name="UAOOI.CodeProtect.LicenseDsc.User" Collapsed="true">
     <Position X="10" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAQCAAAAAgAAAAACQAAAAEAAAAACAgAAAAIAA=</HashCode>
       <FileName>LicenseDsc\User.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CAS.Lib.CodeProtect.LicenseDsc.Constraints.BetaConstraint" Collapsed="true">
+  <Class Name="UAOOI.CodeProtect.LicenseDsc.Constraints.BetaConstraint" Collapsed="true">
     <Position X="17" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAACAACAAAAAAAAAACAgAAAAAAAgACAAAAAAAAA=</HashCode>
       <FileName>LicenseDsc\Constraints\BetaConstraint.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CAS.Lib.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint" Collapsed="true">
+  <Class Name="UAOOI.CodeProtect.LicenseDsc.Constraints.DayTimeConstraint" Collapsed="true">
     <Position X="28.5" Y="3.25" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACACAAAAAAAACACAAAAAAAAACAAAAAAAAA=</HashCode>
       <FileName>LicenseDsc\Constraints\DayTimeConstraint.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CAS.Lib.CodeProtect.LicenseDsc.Constraints.DemoConstraint" Collapsed="true">
+  <Class Name="UAOOI.CodeProtect.LicenseDsc.Constraints.DemoConstraint" Collapsed="true">
     <Position X="31" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAQCIACAACCEAAsAAAAACIwAAAAAAAAACQAAEAAAAA=</HashCode>
+      <HashCode>AAAQCIBCAACCEAAoAAAAACIwAAAAAAAAACQAAEAAAAA=</HashCode>
       <FileName>LicenseDsc\Constraints\DemoConstraint.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CAS.Lib.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint" Collapsed="true">
+  <Class Name="UAOOI.CodeProtect.LicenseDsc.Constraints.DesigntimeConstraint" Collapsed="true">
     <Position X="19.25" Y="3.25" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAACAAAAAAAAAAACAAAAAAAAA=</HashCode>
       <FileName>LicenseDsc\Constraints\DesignTimeConstraint.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CAS.Lib.CodeProtect.LicenseDsc.Constraints.DomainConstraint" Collapsed="true">
+  <Class Name="UAOOI.CodeProtect.LicenseDsc.Constraints.DomainConstraint" Collapsed="true">
     <Position X="33.25" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAKAAAIAACAAAAAAAAAACAAAAAIAAAAACAAQAAACAA=</HashCode>
       <FileName>LicenseDsc\Constraints\DomainConstraint.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CAS.Lib.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint" Collapsed="true">
+  <Class Name="UAOOI.CodeProtect.LicenseDsc.Constraints.ProcessorConstraint" Collapsed="true">
     <Position X="14.5" Y="3.25" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAACAAAAAAAAAAACAAAAAAAAE=</HashCode>
       <FileName>LicenseDsc\Constraints\ProcessorConstraint.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CAS.Lib.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint" Collapsed="true">
+  <Class Name="UAOOI.CodeProtect.LicenseDsc.Constraints.RuntimeConstraint" Collapsed="true">
     <Position X="12.25" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAACAAAAAAAAAAACAAAAAAAAA=</HashCode>
       <FileName>LicenseDsc\Constraints\RuntimeConstraint.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CAS.Lib.CodeProtect.LicenseDsc.Constraints.UsageConstraint" Collapsed="true">
+  <Class Name="UAOOI.CodeProtect.LicenseDsc.Constraints.UsageConstraint" Collapsed="true">
     <Position X="35.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AEAAAAAAAACQoQAIGIAACCIAAAAAAQIAACgAAAACAAE=</HashCode>
+      <HashCode>AEAAAABAAACQoQAIGIAACCIAAAAAAQIAACgAAAACAAE=</HashCode>
       <FileName>LicenseDsc\Constraints\UsageConstraint.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CAS.Lib.CodeProtect.LicenseDsc.Constraints.VersionConstraint" Collapsed="true">
+  <Class Name="UAOOI.CodeProtect.LicenseDsc.Constraints.VersionConstraint" Collapsed="true">
     <Position X="26.25" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>gAAAAACAAACIAAAEAAgAACAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <HashCode>gAAAAADAAACIAAAAAAgAACAAAAAAAAAAACAAAAAAAAA=</HashCode>
       <FileName>LicenseDsc\Constraints\VersionConstraint.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CAS.Lib.CodeProtect.LicenseDsc.AbstractContainerConstraint" Collapsed="true">
+  <Class Name="UAOOI.CodeProtect.LicenseDsc.AbstractContainerConstraint" Collapsed="true">
     <Position X="22.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAACAAAAAAAACBAAAAAAAAAACAQAAAAAAA=</HashCode>
+      <HashCode>AAAAAABAAAAACAAAAAAAACBAAAAAAAAAACAQAAAAAAA=</HashCode>
       <FileName>LicenseDsc\AbstractContainerConstraint.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
-  <Class Name="CAS.Lib.CodeProtect.LicenseDsc.Constraints.AndConstraint" Collapsed="true">
+  <Class Name="UAOOI.CodeProtect.LicenseDsc.Constraints.AndConstraint" Collapsed="true">
     <Position X="21.75" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>LicenseDsc\Constraints\AndConstraint.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CAS.Lib.CodeProtect.LicenseDsc.Constraints.OrConstraint" Collapsed="true">
+  <Class Name="UAOOI.CodeProtect.LicenseDsc.Constraints.OrConstraint" Collapsed="true">
     <Position X="24" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>LicenseDsc\Constraints\OrConstraint.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CAS.Lib.CodeProtect.LicenseDsc.AbstractUpgradeableData&lt;Type&gt;" Collapsed="true">
+  <Class Name="UAOOI.CodeProtect.LicenseDsc.AbstractUpgradeableData&lt;Type&gt;" Collapsed="true">
     <Position X="7.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAQAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>LicenseDsc\AbstractUpgradeableData.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CAS.Lib.CodeProtect.LicenseDsc.Issuer" Collapsed="true">
+  <Class Name="UAOOI.CodeProtect.LicenseDsc.Issuer" Collapsed="true">
     <Position X="7.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAQCAAAIAgAACAACAAAAAIAAAACCAAAAAAAAA=</HashCode>

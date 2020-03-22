@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.IO;
 using System.Text;
 using System.Xml;
-namespace CAS.Lib.CodeProtect.LicenseDsc
+namespace UAOOI.CodeProtect.LicenseDsc
 {
   /// <summary>
   /// The <c>Issuer</c> object inherits from the <see cref="AbstractLicenseData"/>.  The
@@ -16,9 +16,9 @@ namespace CAS.Lib.CodeProtect.LicenseDsc
   public class Issuer: AbstractUpgradeableData<Issuer>
   {
     #region private
-    private string fullName = "cas.eu";
-    private string email = "techsupp.cas.eu";
-    private string url = "www.cas.eu";
+    private string fullName = "UAOOI.eu";
+    private string email = "techsupp.UAOOI.eu";
+    private string url = "www.UAOOI.eu";
     #endregion private
     #region internal
     /// <summary>

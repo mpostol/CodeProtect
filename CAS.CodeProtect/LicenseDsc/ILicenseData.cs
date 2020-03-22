@@ -1,4 +1,4 @@
-namespace CAS.Lib.CodeProtect.LicenseDsc
+namespace UAOOI.CodeProtect.LicenseDsc
 {
   /// <summary>
   /// <p><c>ILicenseData</c> is an interface class which all licensing

@@ -1,10 +1,10 @@
 ﻿
-using CAS.Lib.CodeProtect.LicenseDsc;
+using UAOOI.CodeProtect.LicenseDsc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Reflection;
 
-namespace CAS.CodeProtect.UnitTests
+namespace UAOOI.CodeProtect
 {
   [TestClass]
   public class ProductUnitTest
@@ -22,7 +22,7 @@ namespace CAS.CodeProtect.UnitTests
       Assert.IsFalse(_newProduct.IsDirty);
       Assert.IsFalse(_newProduct.IsDirty);
       Assert.IsFalse(_newProduct.IsLicensed);
-      Assert.AreEqual<string>("CAS.CodeProtect.UnitTests.lic", _newProduct.LicFileName);
+      Assert.AreEqual<string>("UAOOI.CodeProtect.lic", _newProduct.LicFileName);
       Assert.AreEqual<string>(_expectedName.Name, _newProduct.ShortName);
       Assert.AreEqual<string>(_expectedName.Version.ToString(), _newProduct.Version);
     }

@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel;
 using System.Xml;
-namespace CAS.Lib.CodeProtect.LicenseDsc.Constraints
+namespace UAOOI.CodeProtect.LicenseDsc.Constraints
 {
   /// <summary>
   /// <p>This <see cref='ProcessorConstraint'/> constrains the user to only use the license

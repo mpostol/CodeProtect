@@ -1,6 +1,6 @@
 ﻿
-using CAS.CodeProtect.UnitTests.Instrumentation;
-using CAS.Lib.CodeProtect.EnvironmentAccess;
+using UAOOI.CodeProtect.Instrumentation;
+using UAOOI.CodeProtect.EnvironmentAccess;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace CAS.CodeProtect.UnitTests
+namespace UAOOI.CodeProtect
 {
   [TestClass]
   public class AdvancedDelimitedListTraceListenerUnitTest
@@ -47,7 +47,7 @@ namespace CAS.CodeProtect.UnitTests
     [TestMethod]
     public void ConfigTraceSourceTest()
     {
-      TraceSource _tracer = new TraceSource("CAS.CodeProtect.UnitTests.TraceSource");
+      TraceSource _tracer = new TraceSource("UAOOI.CodeProtect.TraceSource");
       Assert.IsNotNull(_tracer);
       Assert.AreEqual(1, _tracer.Listeners.Count);
       Dictionary<string, TraceListener> _listeners = _tracer.Listeners.Cast<TraceListener>().ToDictionary<TraceListener, string>(x => x.Name);
@@ -75,7 +75,7 @@ namespace CAS.CodeProtect.UnitTests
 
       //Test Switch
       Assert.IsNotNull(_tracer.Switch);
-      Assert.AreEqual<string>("CAS.CodeProtect.UnitTests.TraceSource.Switch", _tracer.Switch.DisplayName);
+      Assert.AreEqual<string>("UAOOI.CodeProtect.TraceSource.Switch", _tracer.Switch.DisplayName);
       Assert.AreEqual<SourceLevels>(SourceLevels.All, _tracer.Switch.Level);
 
       //Trace

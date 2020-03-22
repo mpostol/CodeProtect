@@ -1,12 +1,12 @@
 ﻿
-using CAS.Lib.CodeProtect;
-using CAS.Lib.CodeProtect.EnvironmentAccess;
+using UAOOI.CodeProtect;
+using UAOOI.CodeProtect.EnvironmentAccess;
 using Microsoft.Build.Tasks.Deployment.ManifestUtilities;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Reflection;
 
-namespace CAS.CodeProtect.UnitTests
+namespace UAOOI.CodeProtect
 {
   [TestClass]
   public class LibInstallerUnitTest
@@ -23,9 +23,9 @@ namespace CAS.CodeProtect.UnitTests
       {
         DeployManifest _manifest = FileNames.ProductManifest();
         Assert.IsNotNull(_manifest);
-        Assert.AreEqual<string>("CAS.CodeProtect.UnitTests", _manifest.Product);
-        Assert.IsFalse(ex.Message.Contains("CAS.CodeProtect.UnitTests"));
-        Assert.IsTrue(ex.Message.Contains("CodeProtect.UnitTests"));
+        Assert.AreEqual<string>("UAOOI.CodeProtect", _manifest.Product);
+        Assert.IsFalse(ex.Message.Contains("UAOOI.CodeProtect"));
+        Assert.IsTrue(ex.Message.Contains("CodeProtect"));
         ManifestManagement.DeleteDeployManifest();
       }
     }
@@ -41,9 +41,9 @@ namespace CAS.CodeProtect.UnitTests
       {
         DeployManifest _manifest = FileNames.ProductManifest();
         Assert.IsNotNull(_manifest);
-        Assert.AreEqual<string>("CAS.CodeProtect.UnitTests", _manifest.Product);
-        Assert.IsFalse(ex.Message.Contains("CAS.CodeProtect.UnitTests"));
-        Assert.IsTrue(ex.Message.Contains("CodeProtect.UnitTests"));
+        Assert.AreEqual<string>("UAOOI.CodeProtect", _manifest.Product);
+        Assert.IsFalse(ex.Message.Contains("UAOOI.CodeProtect"));
+        Assert.IsTrue(ex.Message.Contains("CodeProtect"));
         ManifestManagement.DeleteDeployManifest();
       }
 

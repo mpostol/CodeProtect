@@ -9,8 +9,8 @@
 //
 //  Copyright (C)2009, CAS LODZ POLAND.
 //  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
+//  mailto://techsupp@UAOOI.eu
+//  http://www.UAOOI.eu
 //</summary>
 
 using System;
@@ -21,7 +21,7 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Web;
 
-namespace CAS.Lib.CodeProtect.EnvironmentAccess
+namespace UAOOI.CodeProtect.EnvironmentAccess
 {
   /// <summary>
   /// This is a collection of Licenses used internally by the provider when caching

@@ -9,15 +9,15 @@
 //
 //  Copyright (C)2009, CAS LODZ POLAND.
 //  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
+//  mailto://techsupp@UAOOI.eu
+//  http://www.UAOOI.eu
 //</summary>
 
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.InteropServices;
 
-namespace CAS.Lib.CodeProtect
+namespace UAOOI.CodeProtect
 {
   /// <summary>
   /// Component that is responsible for checking the period after which the maintenance package for software will expire.

@@ -9,13 +9,13 @@
 //
 //  Copyright (C)2009, CAS LODZ POLAND.
 //  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
+//  mailto://techsupp@UAOOI.eu
+//  http://www.UAOOI.eu
 //</summary>
 
-using CAS.Lib.CodeProtect.EnvironmentAccess;
+using UAOOI.CodeProtect.EnvironmentAccess;
 
-namespace CAS.Lib.CodeProtect
+namespace UAOOI.CodeProtect
 {
   /// <summary>
   /// Context keys used to get properties form the installer CustomActionData and additional important installation information

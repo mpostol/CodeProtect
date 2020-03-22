@@ -1,17 +1,9 @@
-//<summary>
-//  Title   : Cryptography helper providing supporting tools.
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+//___________________________________________________________________________________
 //
-//  Copyright (C)2008, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System;
 using System.Deployment.Application;
@@ -23,7 +15,7 @@ using System.Text;
 using System.Web;
 using System.Xml;
 
-namespace CAS.Lib.CodeProtect.EnvironmentAccess
+namespace UAOOI.CodeProtect.EnvironmentAccess
 {
   /// <summary>
   /// Cryptography helper providing supporting tools.
@@ -31,6 +23,7 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
   public static class CodeProtectHelpers
   {
     #region public
+
     /// <summary>
     /// Initializes an <see cref="RSACryptoServiceProvider"/> object from the key information provided by the XML string <paramref name="key"/>.
     /// </summary>
@@ -44,11 +37,14 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
     /// <exception cref="System.ArgumentNullException">The <paramref name="key"/> parameter is null</exception>.
     public static RSACryptoServiceProvider CreateRSA(string key)
     {
-      RSACryptoServiceProvider my_KeySsignLic = new RSACryptoServiceProvider();
-      my_KeySsignLic.PersistKeyInCsp = false;
+      RSACryptoServiceProvider my_KeySsignLic = new RSACryptoServiceProvider
+      {
+        PersistKeyInCsp = false
+      };
       my_KeySsignLic.FromXmlString(key);
       return my_KeySsignLic;
     }
+
     /// <summary>
     /// Gets the arguments form the deployment URI or from the command line.
     /// </summary>
@@ -86,9 +82,11 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
       //Command line execution.
       return Environment.GetCommandLineArgs();
     }
-    #endregion
+
+    #endregion public
 
     #region internal
+
     /// <summary>
     /// Gets the entropy.
     /// </summary>
@@ -97,6 +95,7 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
     {
       return Assembly.GetExecutingAssembly().GetName().GetPublicKeyToken();
     }
+
     /// <summary>
     /// Sign an XML file.
     /// </summary>
@@ -113,12 +112,16 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
       if (rsa == null)
         throw new ArgumentException("SignXml: the rsa parameter cannot be null");
       // Create a SignedXml object.
-      SignedXml signedXml = new SignedXml(document);
-      // Add the key to the SignedXml document.
-      signedXml.SigningKey = rsa;
+      SignedXml signedXml = new SignedXml(document)
+      {
+        // Add the key to the SignedXml document.
+        SigningKey = rsa
+      };
       // Create a reference to be signed.
-      Reference reference = new Reference();
-      reference.Uri = "";
+      Reference reference = new Reference
+      {
+        Uri = ""
+      };
       // Add an enveloped transformation to the reference.
       XmlDsigEnvelopedSignatureTransform env = new XmlDsigEnvelopedSignatureTransform();
       reference.AddTransform(env);
@@ -136,6 +139,7 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
       // Append the element to the XML document.
       document.DocumentElement.AppendChild(document.ImportNode(xmlDigitalSignature, true));
     }
+
     /// <summary>
     /// Verify the signature of an XML file against an asymmetric RSA algorithm and return the result.
     /// </summary>
@@ -143,7 +147,7 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
     /// <param name="rsa">An instance of the <see cref="RSA"/> that provides a selected RSA algorithm.</param>
     /// <returns>True if signature OK otherwise, false.</returns>
     /// <remarks>There must be only one signature.</remarks>
-    internal static Boolean VerifyXml(XmlDocument document, RSA rsa)
+    internal static bool VerifyXml(XmlDocument document, RSA rsa)
     {
       // Check arguments.
       if (document == null)
@@ -157,11 +161,12 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
       // There must be only one signature. Return false if 0 or more than one signatures was found.
       if ((nodeList.Count <= 0) || (nodeList.Count >= 2))
         return false;
-      // Load the first <signature> node.  
+      // Load the first <signature> node.
       signedXml.LoadXml((XmlElement)nodeList[0]);
       // Check the signature and return the result.
       return signedXml.CheckSignature(rsa);
     }
+
     /// <summary>
     /// Saves the keys in the protected area.
     /// </summary>
@@ -183,6 +188,7 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
         }
       }
     }
+
     /// <summary>
     /// Reads keys from protected area and creates an instance of <see cref="RSACryptoServiceProvider"/>.
     /// </summary>
@@ -205,6 +211,7 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
       xmlKeys = UnicodeEncoding.ASCII.GetString(ProtectedData.Unprotect(encKeys, etp, DataProtectionScope.LocalMachine));
       return CreateRSA(xmlKeys);
     }
+
     /// <summary>
     /// Tries to read keys from the protected area.
     /// </summary>
@@ -217,7 +224,7 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
         return null;
       return ReadKeysFromProtectedArea(etp);
     }
-    #endregion
 
+    #endregion internal
   }
 }

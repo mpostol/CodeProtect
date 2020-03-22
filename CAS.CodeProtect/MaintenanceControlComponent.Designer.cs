@@ -1,4 +1,4 @@
-﻿namespace CAS.Lib.CodeProtect
+﻿namespace UAOOI.CodeProtect
 {
   partial class MaintenanceControlComponent
   {

@@ -1,6 +1,6 @@
 ﻿
-using CAS.Lib.CodeProtect;
-using CAS.Lib.CodeProtect.EnvironmentAccess;
+using UAOOI.CodeProtect;
+using UAOOI.CodeProtect.EnvironmentAccess;
 using Microsoft.Build.Tasks.Deployment.ManifestUtilities;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
@@ -8,7 +8,7 @@ using System.Configuration.Install;
 using System.IO;
 using System.Reflection;
 
-namespace CAS.CodeProtect.UnitTests
+namespace UAOOI.CodeProtect
 {
   [TestClass]
   public class ManifestManagementUnitTest
@@ -108,7 +108,7 @@ namespace CAS.CodeProtect.UnitTests
       Assert.AreEqual<string>(nameof(InstallContextNames.Productname), _manifest.Product);
       Assert.AreEqual<string>(nameof(InstallContextNames.Manufacturer), _manifest.Publisher);
       Assert.IsFalse(_manifest.ReadOnly);
-      Assert.AreEqual(Path.GetFileName(_manifest.SourcePath), "CAS.Product.xml");
+      Assert.AreEqual(Path.GetFileName(_manifest.SourcePath), "UAOOI.Product.xml");
       Assert.IsTrue(String.IsNullOrEmpty(_manifest.SuiteName));
       Assert.AreEqual<string>("http://www.contoso.com/", _manifest.SupportUrl);
       Assert.IsFalse(_manifest.TrustUrlParameters);

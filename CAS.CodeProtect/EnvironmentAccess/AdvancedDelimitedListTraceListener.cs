@@ -1,29 +1,21 @@
-﻿//<summary>
-//  Title   : Trace listener to be used for writing logs
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2009, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System;
 using System.Collections;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
 
-namespace CAS.Lib.CodeProtect.EnvironmentAccess
+namespace UAOOI.CodeProtect.EnvironmentAccess
 {
   internal static class AdvancedTraceListenerHelper
   {
-
     #region private
+
     private const string specialFormatToken = "|{0}|";
     private const string environmentVariablePattern = "\\%{0}\\%";
     private const string applicationDataPathText = "|ApplicationDataPath|"; //path to application data folder
@@ -55,13 +47,15 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
         return logFileName;
       }
     }
-    internal static string NormalizePath (this string path)
+
+    internal static string NormalizePath(this string path)
     {
       return path;
     }
-    #endregion private
 
+    #endregion private
   }
+
   /// <summary>
   /// Advanced delimited trace listener which derives from DelimitedListTraceListener and prepares the log file name replacing the tags by the path to selected folder.
   /// </summary>
@@ -79,6 +73,7 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
       : base(logFileName.PrepareLogFileName(FileNames.ApplicationDataPath))
     { }
   }
+
   /// <summary>
   /// Advanced delimited XML writer trace listener which derives from XmlWriterTraceListener and prepares the log file name replacing the tags by the path to selected folder.
   /// </summary>

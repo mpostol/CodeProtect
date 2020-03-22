@@ -4,7 +4,7 @@ using System.Globalization;
 using System.IO;
 using System.Text;
 using System.Xml;
-namespace CAS.Lib.CodeProtect.LicenseDsc
+namespace UAOOI.CodeProtect.LicenseDsc
 {
   /// <summary>
   /// The <c>Statistics</c> object inherits from the <see cref="AbstractLicenseData"/>.  The

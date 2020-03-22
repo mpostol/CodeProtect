@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Xml;
-namespace CAS.Lib.CodeProtect.LicenseDsc.Constraints
+namespace UAOOI.CodeProtect.LicenseDsc.Constraints
 {
   /// <summary>
   /// <p>The <see cref="DayTimeConstraint">DayTimeConstraint</see> constrains the user

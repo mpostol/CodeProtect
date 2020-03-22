@@ -9,18 +9,18 @@
 //
 //  Copyright (C)2011, CAS LODZ POLAND.
 //  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
+//  mailto://techsupp@UAOOI.eu
+//  http://www.UAOOI.eu
 //</summary>
 
-using CAS.Lib.CodeProtect.LicenseDsc;
-using CAS.Lib.CodeProtect.Properties;
+using UAOOI.CodeProtect.LicenseDsc;
+using UAOOI.CodeProtect.Properties;
 using System;
 using System.IO;
 using System.Reflection;
 using System.Text;
 
-namespace CAS.Lib.CodeProtect.EnvironmentAccess
+namespace UAOOI.CodeProtect.EnvironmentAccess
 {
   /// <summary>
   /// Class UnlockKeyAssemblyContainer - Unlock Key Assembly Container
@@ -52,7 +52,7 @@ namespace CAS.Lib.CodeProtect.EnvironmentAccess
     /// </summary>
     /// <param name="path">The path.</param>
     /// <returns>Stream.</returns>
-    /// <exception cref="CAS.Lib.CodeProtect.LicenseDsc.LicenseFileException">
+    /// <exception cref="UAOOI.CodeProtect.LicenseDsc.LicenseFileException">
     /// </exception>
     public Stream GetManifestResourceStream(string path)
     {

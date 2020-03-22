@@ -1,9 +1,9 @@
-﻿using CAS.Lib.CodeProtect.EnvironmentAccess;
+﻿using UAOOI.CodeProtect.EnvironmentAccess;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Diagnostics;
 using System.Reflection;
 
-namespace CAS.CodeProtect.UnitTests.Instrumentation
+namespace UAOOI.CodeProtect.Instrumentation
 {
   internal static class Extensions
   {

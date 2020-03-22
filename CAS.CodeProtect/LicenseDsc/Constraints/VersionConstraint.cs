@@ -9,8 +9,8 @@
 //
 //  Copyright (C)2009, CAS LODZ POLAND.
 //  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
+//  mailto://techsupp@UAOOI.eu
+//  http://www.UAOOI.eu
 //</summary>
 
 using System;
@@ -18,7 +18,7 @@ using System.ComponentModel;
 using System.Text;
 using System.Xml;
 
-namespace CAS.Lib.CodeProtect.LicenseDsc.Constraints
+namespace UAOOI.CodeProtect.LicenseDsc.Constraints
 {
   /// <summary>
   /// <p>This <see cref='VersionConstraint'/> constrains the user to only use the license

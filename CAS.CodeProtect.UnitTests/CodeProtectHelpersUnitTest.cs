@@ -1,9 +1,9 @@
 ﻿
-using CAS.Lib.CodeProtect.EnvironmentAccess;
+using UAOOI.CodeProtect.EnvironmentAccess;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 
-namespace CAS.CodeProtect.UnitTests
+namespace UAOOI.CodeProtect
 {
   [TestClass]
   public class CodeProtectHelpersUnitTest

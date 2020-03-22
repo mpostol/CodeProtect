@@ -9,18 +9,18 @@
 //
 //  Copyright (C)2008, CAS LODZ POLAND.
 //  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
+//  mailto://techsupp@UAOOI.eu
+//  http://www.UAOOI.eu
 //</summary>
 
-using CAS.Lib.CodeProtect.EnvironmentAccess;
-using CAS.Lib.CodeProtect.LicenseDsc;
+using UAOOI.CodeProtect.EnvironmentAccess;
+using UAOOI.CodeProtect.LicenseDsc;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 
-namespace CAS.Lib.CodeProtect
+namespace UAOOI.CodeProtect
 {
   /// <summary>
   /// Helper interface getting access to the basic information about the license.

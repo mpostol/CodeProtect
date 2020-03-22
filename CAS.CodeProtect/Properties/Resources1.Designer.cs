@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CAS.Lib.CodeProtect.Properties {
+namespace UAOOI.CodeProtect.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace CAS.Lib.CodeProtect.Properties {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CAS.Lib.CodeProtect.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("UAOOI.CodeProtect.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -79,7 +79,7 @@ namespace CAS.Lib.CodeProtect.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to CAS.CommonResources.
+        ///   Looks up a localized string similar to UAOOI.CommonResources.
         /// </summary>
         public static string CASCommonResources {
             get {
@@ -489,7 +489,7 @@ namespace CAS.Lib.CodeProtect.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to CAS..
+        ///   Looks up a localized string similar to UAOOI..
         /// </summary>
         public static string ProductUnlockCodeStringToRemove {
             get {
@@ -556,7 +556,7 @@ namespace CAS.Lib.CodeProtect.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to CAS.CodeProtect.TraceSource.
+        ///   Looks up a localized string similar to UAOOI.CodeProtect.TraceSource.
         /// </summary>
         public static string TraceSourceName {
             get {

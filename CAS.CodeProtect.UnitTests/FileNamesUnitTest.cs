@@ -1,11 +1,11 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CAS.Lib.CodeProtect.EnvironmentAccess;
+using UAOOI.CodeProtect.EnvironmentAccess;
 using System.IO;
 using System;
 using System.Reflection;
 using Microsoft.Build.Tasks.Deployment.ManifestUtilities;
 
-namespace CAS.CodeProtect.UnitTests
+namespace UAOOI.CodeProtect
 {
   [TestClass]
   public class FileNamesUnitTest
@@ -15,7 +15,7 @@ namespace CAS.CodeProtect.UnitTests
     {
       Assert.AreEqual<string>(FileNames.TargetDir, FileNames.ApplicationDataPath);
       Assert.IsTrue(FileNames.ApplicationDataPath.LastIndexOf(Path.PathSeparator) < FileNames.ApplicationDataPath.Length);
-      Assert.AreEqual<string>("CAS.Product.xml", Path.GetFileName(FileNames.ManifestFileName));
+      Assert.AreEqual<string>("UAOOI.Product.xml", Path.GetFileName(FileNames.ManifestFileName));
       Assert.AreEqual<string>("lic", Path.GetFileName(FileNames.LicExtension));
       Assert.AreEqual<string>(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), FileNames.TargetDir);
       Assert.AreEqual<string>(Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), FileNames.LicenseFileName), FileNames.LicenseFilePath);
@@ -36,7 +36,7 @@ namespace CAS.CodeProtect.UnitTests
       FileNames.UnloadProductManifest();
       DeployManifest _manifest = FileNames.ProductManifest();
       Assert.IsNull(_manifest);
-      FileInfo _testManifest = new FileInfo(Path.Combine(@"TestingData\", "CAS.Product.xml"));
+      FileInfo _testManifest = new FileInfo(Path.Combine(@"TestingData\", "UAOOI.Product.xml"));
       Assert.IsTrue(_testManifest.Exists);
       _testManifest.CopyTo(FileNames.ManifestFileName);
       FileInfo _manifestFileInfo = new FileInfo(FileNames.ManifestFileName);

@@ -1,31 +1,20 @@
-//<summary>
-//  Title   : Provides the foundation for custom installations.
-//  System  : Microsoft Visual C# .NET 2005
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
-//  History :
-//    MPostol 06-03-2007: 
-//      created;
+//___________________________________________________________________________________
 //
-//  Copyright (C)2006-2011, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.com.pl
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
-using CAS.Lib.CodeProtect.EnvironmentAccess;
-using CAS.Lib.CodeProtect.LicenseDsc;
 using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Configuration.Install;
 using System.IO;
 using System.Reflection;
+using UAOOI.CodeProtect.EnvironmentAccess;
+using UAOOI.CodeProtect.LicenseDsc;
 
-namespace CAS.Lib.CodeProtect
+namespace UAOOI.CodeProtect
 {
   /// <summary>
   /// Provides the foundation for custom installations.
@@ -34,19 +23,21 @@ namespace CAS.Lib.CodeProtect
   [RunInstaller(true)]
   public partial class LibInstaller : Installer
   {
-
     #region creator
+
     /// <summary>
-    /// Costructor of the custom installation class;
+    /// Constructor of the custom installation class;
     /// </summary>
     public LibInstaller()
       : base()
     {
       InitializeComponent();
     }
-    #endregion
+
+    #endregion creator
 
     #region public static
+
     /// <summary>
     /// Installs the license for the component with the default values for the user of the license. Could be used while debugging to
     /// allow to pass the license validation process.
@@ -64,6 +55,7 @@ namespace CAS.Lib.CodeProtect
         throw new ArgumentOutOfRangeException("Source Assembly", Properties.Resources.SourceAssemblyFailedMessage);
       InstallLicense(Environment.UserName, Environment.MachineName, Environment.UserName + "@" + Environment.UserDomainName, LoadLicenseFromDefaultContainer, null, null, assembly);
     }
+
     /// <summary>
     /// Installs the license for the component. Could be used for ClickOnce deployment
     /// to install the license while installing  the software.
@@ -84,14 +76,16 @@ namespace CAS.Lib.CodeProtect
         throw new ArgumentOutOfRangeException("Source Assembly", Properties.Resources.SourceAssemblyFailedMessage);
       InstallLicense(user, company, email, LoadLicenseFromDefaultContainer, null, null, assembly);
     }
+
     internal static void InstallLicense(string user, string company, string email, bool loadLicenseFromDefaultContainer, string alternativeProductName, string licenseUnlockCode, Assembly assembly)
     {
       if (assembly == null)
-        throw new ArgumentNullException(nameof(assembly), $"Entring {nameof(InstallLicense)} with null argument.");
+        throw new ArgumentNullException(nameof(assembly), $"Entering {nameof(InstallLicense)} with null argument.");
       LicenseTraceSource.TraceVerbose(39, $"Entering InstallLicense {user}, {company}, {email}");
       ManifestManagement.WriteDeployManifest(assembly, alternativeProductName);
       LicenseFile.Install(user, company, email, FileNames.LicenseFilePath, loadLicenseFromDefaultContainer, licenseUnlockCode);
     }
+
     /// <summary>
     /// Installs the license fro the <see cref="Stream"/>.
     /// </summary>
@@ -100,23 +94,26 @@ namespace CAS.Lib.CodeProtect
     {
       LicenseFile.Install(license);
     }
-    #endregion
 
-    #region Installer inmplementation
+    #endregion public static
+
+    #region Installer implementation
+
     /// <summary>
-    /// Perform the installation. 
+    /// Perform the installation.
     /// </summary>
     /// <param name="savedState">
-    /// An IDictionary used to save information needed to perform a commit, rollback, or uninstall operation. 
+    /// An IDictionary used to save information needed to perform a commit, rollback, or uninstall operation.
     /// </param>
     public override void Install(IDictionary savedState)
     {
       base.Install(savedState);
     }
+
     /// <summary>
     /// It completes the install transaction.
     /// </summary>
-    /// <param name="savedState">An <see cref="T:System.Collections.IDictionary"/> that contains the state 
+    /// <param name="savedState">An <see cref="T:System.Collections.IDictionary"/> that contains the state
     /// of the computer after all the installers in the collection have run.
     /// </param>
     /// <exception cref="T:System.ArgumentException">
@@ -125,8 +122,8 @@ namespace CAS.Lib.CodeProtect
     /// The saved-state <see cref="T:System.Collections.IDictionary"/> might have been corrupted.
     /// </exception>
     /// <exception cref="T:System.Configuration.Install.InstallException">
-    /// An exception occurred during the <see cref="M:System.Configuration.Install.Installer.Commit(System.Collections.IDictionary)"/> phase 
-    /// of the installation. This exception is ignored and the installation continues. 
+    /// An exception occurred during the <see cref="M:System.Configuration.Install.Installer.Commit(System.Collections.IDictionary)"/> phase
+    /// of the installation. This exception is ignored and the installation continues.
     /// However, the application might not function correctly after the installation is complete.
     /// </exception>
     public override void Commit(IDictionary savedState)
@@ -143,6 +140,7 @@ namespace CAS.Lib.CodeProtect
         throw new InstallException("Installation Error", ex);
       }
     }
+
     /// <summary>
     /// When overridden in a derived class, restores the pre-installation state of the computer.
     /// </summary>
@@ -153,8 +151,8 @@ namespace CAS.Lib.CodeProtect
     /// The saved-state <see cref="T:System.Collections.IDictionary"/> might have been corrupted.
     /// </exception>
     /// <exception cref="T:System.Configuration.Install.InstallException">
-    /// An exception occurred during the <see cref="M:System.Configuration.Install.Installer.Rollback(System.Collections.IDictionary)"/> phase 
-    /// of the installation. This exception is ignored and the rollback continues. 
+    /// An exception occurred during the <see cref="M:System.Configuration.Install.Installer.Rollback(System.Collections.IDictionary)"/> phase
+    /// of the installation. This exception is ignored and the rollback continues.
     /// However, the computer might not be fully reverted to its initial state after the rollback completes.
     /// </exception>
     public override void Rollback(IDictionary savedState)
@@ -164,11 +162,12 @@ namespace CAS.Lib.CodeProtect
       ManifestManagement.DeleteDeployManifest();
       base.Rollback(savedState);
     }
+
     /// <summary>
-    /// Removes an installation. 
+    /// Removes an installation.
     /// </summary>
     /// <param name="savedState">
-    /// An IDictionary used to save information needed to perform a commit, rollback, or uninstall operation. 
+    /// An IDictionary used to save information needed to perform a commit, rollback, or uninstall operation.
     /// </param>
     public override void Uninstall(System.Collections.IDictionary savedState)
     {
@@ -177,7 +176,7 @@ namespace CAS.Lib.CodeProtect
       ManifestManagement.DeleteDeployManifest();
       base.Uninstall(savedState);
     }
-    #endregion
 
+    #endregion Installer implementation
   }
 }

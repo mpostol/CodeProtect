@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Globalization;
 using System.Text;
 using System.Xml;
-namespace CAS.Lib.CodeProtect.LicenseDsc.Constraints
+namespace UAOOI.CodeProtect.LicenseDsc.Constraints
 {
   /// <summary>
   /// <p>This <see cref='BetaConstraint'/> constrains the user

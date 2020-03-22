@@ -9,7 +9,7 @@
 using System;
 using System.Diagnostics;
 
-namespace CAS.Lib.CodeProtect.EnvironmentAccess
+namespace UAOOI.CodeProtect.EnvironmentAccess
 {
   /// <summary>
   /// Local trace source to provide all problems with obtaining the license.

@@ -1,4 +1,4 @@
-namespace CAS.Lib.CodeProtect
+namespace UAOOI.CodeProtect
 {
   public partial class LibInstaller
   {

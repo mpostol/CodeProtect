@@ -5,13 +5,13 @@
 //  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
 //___________________________________________________________________________________
 
-using CAS.Lib.CodeProtect.Properties;
+using UAOOI.CodeProtect.Properties;
 using System;
 using System.ComponentModel;
 using System.Text;
 using System.Xml;
 
-namespace CAS.Lib.CodeProtect.LicenseDsc.Constraints
+namespace UAOOI.CodeProtect.LicenseDsc.Constraints
 {
   /// <summary>
   /// <p>This <see cref='FunctionConstraint'/> constrains use of selected function.

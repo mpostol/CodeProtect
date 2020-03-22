@@ -11,12 +11,12 @@
 //
 //  Copyright (C)2006, CAS LODZ POLAND.
 //  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.eu
-//  http://www.cas.eu
+//  mailto:techsupp@UAOOI.eu
+//  http://www.UAOOI.eu
 //</summary>
 
-using CAS.Lib.CodeProtect.EnvironmentAccess;
-using CAS.Lib.CodeProtect.Properties;
+using UAOOI.CodeProtect.EnvironmentAccess;
+using UAOOI.CodeProtect.Properties;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -30,7 +30,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Xml;
 
-namespace CAS.Lib.CodeProtect.LicenseDsc
+namespace UAOOI.CodeProtect.LicenseDsc
 {
   /// <summary>
   /// This is the .LIC file object.  This file contains all the fields

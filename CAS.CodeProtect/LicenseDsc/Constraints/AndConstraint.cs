@@ -1,5 +1,5 @@
 using System;
-namespace CAS.Lib.CodeProtect.LicenseDsc.Constraints
+namespace UAOOI.CodeProtect.LicenseDsc.Constraints
 {
   /// <summary>
   /// <p>This <see cref='AndConstraint'/> contains a collection of constraints that 

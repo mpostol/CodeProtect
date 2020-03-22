@@ -12,8 +12,8 @@
 //
 //  Copyright (C)2006, CAS LODZ POLAND.
 //  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.eu
-//  http://www.cas.eu
+//  mailto:techsupp@UAOOI.eu
+//  http://www.UAOOI.eu
 //</summary>
 
 using System;
@@ -25,12 +25,12 @@ using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
 using System.Web;
-using CAS.Lib.CodeProtect.EnvironmentAccess;
-using CAS.Lib.CodeProtect.LicenseDsc;
-using CAS.Lib.CodeProtect.Properties;
+using UAOOI.CodeProtect.EnvironmentAccess;
+using UAOOI.CodeProtect.LicenseDsc;
+using UAOOI.CodeProtect.Properties;
 using Microsoft.Build.Tasks.Deployment.ManifestUtilities;
 
-namespace CAS.Lib.CodeProtect
+namespace UAOOI.CodeProtect
 {
   /// <summary>
   /// This is the core piece to CodeProtect.  It is the piece that the <c>LicenseManager</c>

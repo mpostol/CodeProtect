@@ -11,13 +11,13 @@
 //
 //  Copyright (C)2006, CAS LODZ POLAND.
 //  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.eu
-//  http://www.cas.eu
+//  mailto:techsupp@UAOOI.eu
+//  http://www.UAOOI.eu
 //</summary>
 
 using System.Xml;
 
-namespace CAS.Lib.CodeProtect.LicenseDsc
+namespace UAOOI.CodeProtect.LicenseDsc
 {
   /// <summary>
   /// 	<p><c>IConstraint</c> is an interface class which all Constraints must inherit.  The

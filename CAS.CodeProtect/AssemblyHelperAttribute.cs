@@ -1,5 +1,5 @@
 //<summary>
-//  Title   :CAS.Lib.CodeProtect.AssemblyHelperAttribute: to be used to defined the product.
+//  Title   :UAOOI.CodeProtect.AssemblyHelperAttribute: to be used to defined the product.
 //  System  : Microsoft Visual C# .NET 2008
 //  $LastChangedDate$
 //  $Rev$
@@ -9,15 +9,15 @@
 //
 //  Copyright (C)2009, CAS LODZ POLAND.
 //  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
+//  mailto://techsupp@UAOOI.eu
+//  http://www.UAOOI.eu
 //</summary>
 
 using System;
 using System.ComponentModel;
-using CAS.Lib.CodeProtect.Properties;
+using UAOOI.CodeProtect.Properties;
 
-namespace CAS.Lib.CodeProtect
+namespace UAOOI.CodeProtect
 {
   /// <summary>
   /// This is an assembly attribute to be used to defined the product and 
@@ -29,11 +29,11 @@ namespace CAS.Lib.CodeProtect
   /// <example>
   /// c#
   /// <code>
-  /// &#91;assembly: CAS.Lib.CodeProtectAssemblyOpenLicenseHelper("Open License", "SP extreme")&#93;
+  /// &#91;assembly: UAOOI.CodeProtectAssemblyOpenLicenseHelper("Open License", "SP extreme")&#93;
   /// </code>
   /// vb#
   /// <code>
-  /// &lt;assembly: CAS.Lib.CodeProtectAssemblyOpenLicenseHelper("Open License", "SP extreme")&gt;
+  /// &lt;assembly: UAOOI.CodeProtectAssemblyOpenLicenseHelper("Open License", "SP extreme")&gt;
   /// </code>
   /// </example>
   [
